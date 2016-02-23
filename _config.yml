@@ -1,0 +1,30 @@
+gems:
+  - jekyll-sitemap
+
+# Site settings
+title: Poppy Project
+
+description:
+  en: >-
+    Poppy Project website.
+    You will love it
+  fr: >-
+    Site du Projet Poppy.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+email: poppy-project@inria.fr
+twitter_username: poppy_project
+github_username: poppy-project
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+include: [ "_pages" ]
+permalink: /:categories/:title
+default_lang: en
+languages:
+  - name: English
+    key: en
+  - name: Français
+    key: fr
