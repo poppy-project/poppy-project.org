@@ -1,5 +1,7 @@
 <footer class="site-footer">
 
+  {% include defs-svg.html %}
+
   <ul class="contact-list">
     <li>{{ site.title }}</li>
     <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
@@ -7,11 +9,34 @@
 
   <ul class="social-media-list">
     <li>
-      {{ site.github_username }}
+      {% include social-icon.html
+        service="github"
+        service_title="GitHub"
+        link="https://github.com/poppy-project" %}
     </li>
-
     <li>
-      {{ site.twitter_username }}
+      {% include social-icon.html
+        service="twitter"
+        service_title="Twitter"
+        link="https://twitter.com/poppy_project" %}
+    </li>
+    <li>
+      {% include social-icon.html
+        service="facebook"
+        service_title="Facebook"
+        link="https://facebook.com/poppycommunity" %}
+    </li>
+    <li>
+      {% include social-icon.html
+        service="flickr"
+        service_title="Flickr"
+        link="https://www.flickr.com/photos/poppy-project" %}
+    </li>
+    <li>
+      {% include social-icon.html
+        service="vimeo"
+        service_title="Vimeo"
+        link="https://vimeo.com/poppyproject" %}
     </li>
   </ul>
 

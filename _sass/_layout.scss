@@ -51,3 +51,9 @@
     max-height: 16px;
   }
 }
+
+.icon {
+  @include size(1em);
+  display: inline-block;
+  fill: currentColor;
+}

@@ -4,19 +4,15 @@ gems:
 # Site settings
 title: Poppy Project
 github:
-  url: localhost
+  url: http://localhost:4000
 
 description:
   en: >-
     Poppy Project website.
-    You will love it
+    You will love it.
   fr: >-
     Site du Projet Poppy.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
 email: poppy-project@inria.fr
-twitter_username: poppy_project
-github_username: poppy-project
 
 # Build settings
 markdown: kramdown
