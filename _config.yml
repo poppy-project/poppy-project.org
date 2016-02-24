@@ -3,8 +3,6 @@ gems:
 
 # Site settings
 title: Poppy Project
-github:
-  url: http://localhost:4000
 
 description:
   en: >-
