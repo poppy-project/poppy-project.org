@@ -22,11 +22,17 @@ $grey-color-dark: darken($grey-color, 25%);
 
 $title-color: #41816D;
 
-// Width of the content area
-$content-width:    800px;
+// Colors
+$invert-text-color: #FFF;
+$tangaroa-color: #1C2F3A;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+// Misc sizes
+$header-size: 60px;
+
+// Width of the content area
+$content-width: 800px;
+$on-palm: 600px;
+$on-laptop: 800px;
 
 
 // Use media queries like this:
@@ -42,10 +48,41 @@ $on-laptop:        800px;
   }
 }
 
+%inverted {
+  color: $invert-text-color;
+  background-color: $tangaroa-color;
 
+  a {
+    color: $invert-text-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $invert-text-color;
+      text-decoration: underline;
+    }
+  }
+}
+
+$gutter: 16px;
+$flexbox: true;
+
+@import "lost";
 @import "bourbon/bourbon";
 @import "normalize";
 @import "base";
 
 @import "layout";
-// @import "syntax-highlighting";
+
+@import "lang-switch";
+
+@import "site/header";
+@import "site/cover";
+@import "site/footer";
+
+.oh {
+  @include flex-container;
+
+  div {
+    @include waffle('1/3', $cycle: 3, $gut: 16px);
+  }
+}

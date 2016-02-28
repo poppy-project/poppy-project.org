@@ -1,9 +1,8 @@
+{% include defs-svg.html %}
+
 <footer class="site-footer">
 
-  {% include defs-svg.html %}
-
   <ul class="contact-list">
-    <li>{{ site.title }}</li>
     <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
   </ul>
 
@@ -40,4 +39,25 @@
     </li>
   </ul>
 
+  <nav class="lang-switch">
+    {% for language in site.languages %}
+      {% if page.date %}
+        {% for post in site.posts %}
+          {% if page.date == post.date and post.lang == language.key %}
+    <a class="lang-link" href="{{ site.baseurl }}{{ post.url }}"{% if page.lang == language.key %} class="active"{% endif %}>
+      <img class="lang-flag" src="{{ site.baseurl }}/assets/flags/{{ language.key }}.png" alt="{{ language.name }}">
+    </a>
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% for post in site.pages %}
+          {% if page.role == post.role and post.lang == language.key %}
+    <a class="lang-link" href="{{ site.baseurl }}{{ post.url }}"{% if page.lang == language.key %} class="active"{% endif %}>
+      <img class="lang-flag" src="{{ site.baseurl }}/assets/flags/{{ language.key }}.png" alt="{{ language.name }}">
+    </a>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </nav>
 </footer>

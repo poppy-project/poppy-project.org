@@ -1,37 +1,19 @@
-<header class="site-header">
-  <a class="site-title" href="{{ site.baseurl }}/">
-    <img src="{{ site.baseurl }}/assets/logo-poppy.png" alt="{{ site.title }}">
-  </a>
+<header class="site-header{% if include.transparent %} transparent{% endif %}">
+  <span class="site-title">
+    <a href="{{ site.github.url }}/">
+      <img src="{{ site.github.url }}/assets/logo-poppy.png" alt="{{ site.title }}">
+    </a>
+  </span>
 
-  <div class="site-header--links">
-    <nav class="site-pages">
-      {% for site_page in site.pages %}
-        {% if site_page.lang == page.lang and site_page.in_nav %}
-      <a href="{{ site.baseurl }}{{ site_page.url }}"{% if site_page.date.nil? and page.role == site_page.role %} class="active"{% endif %}>{{site_page.title}}</a>
-        {% endif %}
-      {% endfor %}
-    </nav>
+  <nav class="site-pages">
+    {% for outlink in site.outlinks[page.lang] %}
+    <a href="{{ outlink.url }}">{{ outlink.title }}</a>
+    {% endfor %}
 
-    <nav class="lang-switch">
-      {% for language in site.languages %}
-        {% if page.date %}
-          {% for post in site.posts %}
-            {% if page.date == post.date and post.lang == language.key %}
-      <a href="{{ site.baseurl }}{{ post.url }}"{% if page.lang == language.key %} class="active"{% endif %}>
-        <img class="lang-flag" src="{{ site.baseurl }}/assets/flags/{{ language.key }}.png" alt="{{ language.name }}">
-      </a>
-            {% endif %}
-          {% endfor %}
-        {% else %}
-          {% for post in site.pages %}
-            {% if page.role == post.role and post.lang == language.key %}
-      <a href="{{ site.baseurl }}{{ post.url }}"{% if page.lang == language.key %} class="active"{% endif %}>
-        <img class="lang-flag" src="{{ site.baseurl }}/assets/flags/{{ language.key }}.png" alt="{{ language.name }}">
-      </a>
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
-    </nav>
-  </div>
+    {% for site_page in site.pages %}
+      {% if site_page.lang == page.lang and site_page.in_nav %}
+    <a href="{{ site.github.url }}{{ site_page.url }}"{% if site_page.date.nil? and page.role == site_page.role %} class="active"{% endif %}>{{ site_page.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </nav>
 </header>

@@ -1,0 +1,16 @@
+.lang-switch {
+  $flag-size: 16px;
+
+  @include flex-container;
+  @include align(middle);
+  @include justify-content(space-around);
+
+  .lang-link {
+    height: $flag-size;
+  }
+
+  .lang-flag {
+    display: block;
+    max-height: $flag-size;
+  }
+}

@@ -10,13 +10,28 @@ description:
     You will love it.
   fr: >-
     Site du Projet Poppy.
-email: poppy-project@inria.fr
+
+outlinks:
+  en:
+    - url: https://forum.poppy-project.org
+      title: Forum
+    - url: https://poppy-project.gitbooks.io/poppy-docs/content/en/
+      title: Documentation
+  fr:
+    - url: https://forum.poppy-project.org
+      title: Forum
+    - url: https://poppy-project.gitbooks.io/poppy-docs/content/fr/
+      title: Documentation
+
 
 # Build settings
 markdown: kramdown
-sass:
-  style: compressed
+
+# sass:
+#   style: compressed
+
 include: [ "_pages" ]
+
 permalink: /:categories/:title
 default_lang: en
 languages:
