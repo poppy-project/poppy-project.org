@@ -1,12 +1,18 @@
 .site-header {
-  @extend %inverted;
+
+  &:not(.inverted) {
+    @extend %inverted;
+
+    a {
+      color: $invert-text-color;
+    }
+  }
 
   @include flex-container;
 
   line-height: $header-size;
 
   a {
-    color: $invert-text-color;
     text-decoration: none;
 
     &:hover {

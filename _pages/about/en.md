@@ -5,6 +5,7 @@ title: About
 permalink: /en/about/
 role: about
 in_nav: true
+invert_header: true
 ---
 
 # About

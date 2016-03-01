@@ -10,9 +10,9 @@ in_nav: true
 # À propos
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et <strong>dolore magna aliqua</strong>. Ut enim ad minim veniam,
+tempor incididunt ut labore et __dolore magna aliqua__. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. <em>Duis aute irure dolor</em> in reprehenderit in voluptate velit esse
+consequat. _Duis aute irure dolor_ in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
