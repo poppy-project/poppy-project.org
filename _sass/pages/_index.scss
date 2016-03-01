@@ -1,7 +1,7 @@
 .motto {
   @extend %inverted;
 
-  margin: 32px 0;
+  margin: $spacing-unit 0;
   padding: 72px;
 
   background-image: url(../assets/ingredients.jpg);
@@ -16,7 +16,7 @@
   @include row;
 
   .section-title {
-    margin-bottom: 32px;
+    margin-bottom: $spacing-unit;
 
     font-size: rem(32);
     font-weight: 300;

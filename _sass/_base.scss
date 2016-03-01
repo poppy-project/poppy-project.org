@@ -3,7 +3,6 @@
 }
 
 
-
 /**
 * Basic styling
 */
@@ -25,6 +24,7 @@ pre, form, p, blockquote, th, td {
   direction: ltr;
 }
 
+
 /**
 * Images
 */
@@ -38,8 +38,13 @@ img {
 /**
 * Figures
 */
-figure > img {
-  display: block;
+figure {
+
+  margin: 0;
+
+  > img {
+    display: block;
+  }
 }
 
 figcaption {

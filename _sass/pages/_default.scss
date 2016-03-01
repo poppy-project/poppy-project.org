@@ -1,0 +1,6 @@
+.page {
+  @extend .container;
+  @extend %default_typo;
+
+  margin-bottom: 16px;
+}

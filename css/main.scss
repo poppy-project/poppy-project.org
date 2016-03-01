@@ -2,6 +2,10 @@
 ---
 @charset "utf-8";
 
+@import "lost";
+@import "normalize";
+@import "bourbon/bourbon";
+
 // Our variables
 $base-font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size: 16px;
@@ -9,7 +13,7 @@ $base-font-weight: 400;
 $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit: 30px;
+$spacing-unit: 32px;
 
 $text-color: #333;
 $background-color: #fdfdfd;
@@ -70,13 +74,12 @@ $on-laptop: 800px;
 $gutter: 16px;
 $flexbox: true;
 
-@import "lost";
-@import "bourbon/bourbon";
-@import "normalize";
 @import "base";
 
 @import "layout";
 @import "common";
+
+@import "syntax-highlighting";
 
 @import "lang-switch";
 

@@ -1,7 +1,7 @@
 .sponsors {
   @include padding(16px null 16px null);
 
-  margin-bottom: 32px;
+  margin-bottom: $spacing-unit;
 
   ul, li {
     margin: 0;
