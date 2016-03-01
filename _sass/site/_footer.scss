@@ -1,3 +1,30 @@
 .site-footer {
   @extend %inverted;
+
+  .container {
+    @include flex-container;
+    @include align(right);
+  }
+
+  .social-media {
+    @include column('3/12');
+    @include flex-container;
+    @include justify-content(space-around);
+
+    padding: 16px 0;
+
+    a {
+      padding: 8px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .icon {
+      display: block;
+    }
+  }
+
+  .lang-switch {
+    @include column('1/12');
+  }
 }

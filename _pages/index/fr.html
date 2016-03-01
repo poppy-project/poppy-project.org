@@ -1,0 +1,119 @@
+---
+lang: fr
+layout: default
+permalink: /fr/
+role: index
+title: La page d'accueil
+transparent_header: true
+description: >-
+  Cette page d'accueil est plutôt cool.
+  Et en multiline.
+---
+
+<div{% if page.transparent_header %} class="site-cover"{% endif %}{% if page.cover_image %} style="background-image: url({{ site.github.url }}{{ page.cover_image }});"{% endif %}>
+  <h1 class="page-title">
+    Poppy est une plate-forme robotique open-source basée sur l’impression 3D.
+  </h1>
+</div>
+
+<div class="container">
+  <div class="narrow">
+    <p class="lead">
+      Nous sommes une communauté interdisciplinaire de débutants et d’experts, de scientifiques, éducateurs, dévelopeurs et artistes, partageant une même vision :<br>
+      <strong>les robots sont de puissants outils pour apprendre et être créatif</strong>.
+    </p>
+  </div>
+</div>
+
+<hr>
+
+<section class="container targetted-audiences">
+  <h2 class="section-title text-center">À qui s'adresse Poppy ?</h2>
+  <div class="audiences">
+    <a href="#" class="audience education">
+      <figure>
+        <svg class="icon">
+          <title>Learning book</title>
+          <use xlink:href="#icon-education"></use>
+        </svg>
+      </figure>
+      <h3 class="title">Enseignement</h3>
+      <p>Open-source robots and activities for teaching Digital Science</p>
+    </a>
+    <a href="#" class="audience art">
+      <figure>
+        <svg class="icon">
+          <title>Puppet</title>
+          <use xlink:href="#icon-puppet"></use>
+        </svg>
+      </figure>
+      <h3 class="title">Artistes</h3>
+      <p>New avenues for creation</p>
+    </a>
+    <a href="#" class="audience science">
+      <figure>
+        <svg class="icon">
+          <title>Puppet</title>
+          <use xlink:href="#icon-science"></use>
+        </svg>
+      </figure>
+      <h3 class="title">Scientifiques, hackers</h3>
+      <p>Experimental Platform for Science</p>
+    </a>
+  </div>
+</section>
+
+<div class="motto grid">
+  <div class="narrow text-center">
+    <p class="lead">
+      La communauté Poppy développe des robots<br><strong>faciles à construire, à personnaliser et à partager</strong>.
+    </p>
+    <p class="lead">
+      Nous encourageons l’open-source en partageant les ressources matérielles,
+      logicielles, ainsi que les outils web.
+    </p>
+  </div>
+</div>
+
+<section class="container poppy-creatures">
+  <h2 class="section-title text-center">Poppy Creatures</h2>
+  <div class="creatures">
+    <a href="#" class="creature">
+      <figure>
+        <img src="{{ site.github.url }}/assets/creatures/thumbnails/humanoid.jpg" alt="A sitting Poppy Humanoid robot">
+      </figure>
+      <h3 class="title">Poppy Humanoid</h3>
+      <p>
+        Poppy Humanoid is our leading creature. It is aesthetic, modular,
+        and parametric. From a single arm to the complete humanoid, this
+        platform is actively used in labs, engineering schools, FabLabs, and
+        artistic projects.
+      </p>
+    </a>
+    <a href="#" class="creature">
+      <figure>
+        <img src="{{ site.github.url }}/assets/creatures/thumbnails/torso.jpg" alt="Facing Poppy Torso">
+      </figure>
+      <h3 class="title">Poppy Torso</h3>
+      <p>
+        Poppy Torso is an humanoid robot torso you can install easily on your
+        desktop, to be used in contexts such as education, FabLabs or research
+        projects.
+      </p>
+    </a>
+    <a href="#" class="creature">
+      <figure>
+        <img src="{{ site.github.url }}/assets/creatures/thumbnails/ergo.jpg" alt="Ergo close-up">
+      </figure>
+      <h3 class="title">Poppy Ergo Jr</h3>
+      <p>
+        Poppy Ergo Jr was first developed for an exhibition mixing art and
+        science. With only 6 motors it is the perfect project to start.
+      </p>
+    </a>
+  </div>
+</section>
+
+<hr>
+
+{% include sponsors.html %}

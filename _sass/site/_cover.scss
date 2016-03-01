@@ -5,6 +5,7 @@
 
   padding: ($el_padding + 100px) 10px ($el_padding + 30px);
   margin-top: -$header-size;
+  margin-bottom: 64px;
 
   text-align: center;
 
@@ -12,11 +13,4 @@
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  .page-title {
-    max-width: 1000px;
-    margin: 0 auto;
-    font-size: 40px;
-    font-weight: 300;
-  }
 }

@@ -4,17 +4,21 @@
 
 // Our variables
 $base-font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size: 16px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit: 30px;
 
-$text-color: #111;
+$text-color: #333;
 $background-color: #fdfdfd;
 $brand-color: #2a7ae2;
 $link-color: #165F58;
+
+$art-color: #ffdc85;
+$education-color: #f08a7f;
+$science-color: #5f7fbf;
 
 $grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -72,17 +76,16 @@ $flexbox: true;
 @import "base";
 
 @import "layout";
+@import "common";
 
 @import "lang-switch";
 
+@import "page/index";
+
 @import "site/header";
 @import "site/cover";
+@import "site/sponsors";
+@import "site/social-media";
 @import "site/footer";
 
-.oh {
-  @include flex-container;
-
-  div {
-    @include waffle('1/3', $cycle: 3, $gut: 16px);
-  }
-}
+@import "pages/all";

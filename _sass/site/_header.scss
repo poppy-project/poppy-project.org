@@ -5,10 +5,6 @@
 
   line-height: $header-size;
 
-  &.transparent {
-    background-color: transparent;
-  }
-
   a {
     color: $invert-text-color;
     text-decoration: none;
@@ -35,9 +31,10 @@
 
     a {
       padding: 0 16px;
+      font-size: 14px;
 
-      // text-transform: uppercase;
-      // font-weight: bold;
+      text-transform: uppercase;
+      font-weight: bold;
     }
   }
 }
