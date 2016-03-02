@@ -46,7 +46,7 @@ Poppy robots are easy to program. Different options are possible based on studen
 
 **Directly from a web browser**, using Ipython notebooks (an interactive terminal, in a web interface for the Python Programming Language).
 
-#### Snap_!_
+#### Snap*!*
 
 **The visual programming system Snap_!_**, which is a variant of Scratch. Its features allow **a thorough introduction of IT**.
 
