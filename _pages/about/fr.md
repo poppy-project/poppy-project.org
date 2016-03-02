@@ -2,10 +2,12 @@
 layout: page
 lang: fr
 title: À propos
-permalink: /fr/a-propos/
+permalink: "/fr/a-propos/"
 role: about
 in_nav: true
+published: true
 ---
+
 
 # À propos
 
@@ -39,6 +41,10 @@ Exemple de liste non ordonnée :
 * Premier élément
 * Quatrième élément
 * Troisième élément
+
+![Poppy Humanoid]({{site.baseurl}}/assets/posts/humanoid.jpg)
+
+
 
 Depuis un terminal, essayez de taper la commande `ls` pour voir les répertoires.
 
