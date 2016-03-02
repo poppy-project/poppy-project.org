@@ -9,8 +9,14 @@ transparent_header: true
 cover_image: "/assets/poppy-cover-blurred.jpg"
 ---
 
-
-# Open-source robots and activities for teaching Digital Science
+---
+lang: en
+permalink: /en/education
+role: education
+layout: page
+description: "Poppy, an open-source robotics platform based on 3D printing, is used as a tool for teaching"
+---
+# Open-source robots and activities for teaching Digital Science dede
 
 ## Poppy, an open-source robotics platform based on 3D printing, is used as a tool for teaching.
 
