@@ -48,7 +48,7 @@ Poppy robots are easy to program. Different options are possible based on studen
 
 #### Snap*!*
 
-**The visual programming system Snap_!_**, which is a variant of Scratch. Its features allow **a thorough introduction of IT**.
+**The visual programming system Snap*!***, which is a variant of Scratch. Its features allow **a thorough introduction of IT**.
 
 #### Your favorite programming language
 
