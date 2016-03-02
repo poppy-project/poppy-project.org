@@ -4,12 +4,12 @@ layout: default
 permalink: /en/
 role: index
 title: The Homepage
-description: >-
-  This homepage is rather cool.
-  And description can be multiline.
+description: This homepage is rather cool. And description can be multiline.
 transparent_header: true
 cover_image: "/assets/poppy-cover-blurred.jpg"
+published: true
 ---
+
 
 <div{% if page.transparent_header %} class="site-cover"{% endif %}{% if page.cover_image %} style="background-image: url({{ site.url }}{{ page.cover_image }});"{% endif %}>
   <h1 class="page-title">
@@ -20,8 +20,7 @@ cover_image: "/assets/poppy-cover-blurred.jpg"
 <div class="container">
   <div class="narrow">
     <p class="lead">
-      We are an interdisciplinary community of beginners and experts,
-      scientists, educators, developers and artists, who all share a vision:
+      We are an interdisciplinary community of beginners and experts, scientists, educators, developers and artists, who all share a vision:
       <br>
       <strong>robots are powerful tools to learn and be creative</strong>.
     </p>
@@ -33,7 +32,7 @@ cover_image: "/assets/poppy-cover-blurred.jpg"
 <section class="container targetted-audiences">
   <h2 class="section-title text-center">Who is Poppy for?</h2>
   <div class="audiences">
-    <a href="#" class="audience education">
+    <a href="{{ site.url }}/en/education" class="audience education">
       <figure>
         <svg class="icon">
           <title>Learning book</title>
