@@ -5,8 +5,6 @@ role: education
 published: true
 layout: page
 description: "Poppy, an open-source robotics platform based on 3D printing, is used as a tool for teaching"
-transparent_header: true
-cover_image: "/assets/poppy-cover-blurred.jpg"
 ---
 
 # Open-source robots and activities for teaching Digital Science
