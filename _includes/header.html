@@ -1,7 +1,7 @@
 <header class="site-header{% if page.invert_header %} inverted{% endif %}">
   <span class="site-title">
-    <a href="{{ site.github.url }}/">
-      <img src="{{ site.github.url }}/assets/logo-poppy.png" alt="{{ site.title }}">
+    <a href="{{ site.url }}/">
+      <img src="{{ site.url }}/assets/logo-poppy.png" alt="{{ site.title }}">
     </a>
   </span>
 
@@ -12,7 +12,7 @@
 
     {% for site_page in site.pages %}
       {% if site_page.lang == page.lang and site_page.in_nav %}
-    <a href="{{ site.github.url }}{{ site_page.url }}"{% if site_page.date.nil? and page.role == site_page.role %} class="active"{% endif %}>{{ site_page.title }}</a>
+    <a href="{{ site.url }}{{ site_page.url }}"{% if site_page.date.nil? and page.role == site_page.role %} class="active"{% endif %}>{{ site_page.title }}</a>
       {% endif %}
     {% endfor %}
   </nav>

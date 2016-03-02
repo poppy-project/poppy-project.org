@@ -11,7 +11,7 @@ transparent_header: true
 cover_image: "/assets/poppy-cover-blurred.jpg"
 ---
 
-<div{% if page.transparent_header %} class="site-cover"{% endif %}{% if page.cover_image %} style="background-image: url({{ site.github.url }}{{ page.cover_image }});"{% endif %}>
+<div{% if page.transparent_header %} class="site-cover"{% endif %}{% if page.cover_image %} style="background-image: url({{ site.url }}{{ page.cover_image }});"{% endif %}>
   <h1 class="page-title">
     Poppy is an open-source platform for the creation, use and sharing of interactive 3D printed robots.
   </h1>
@@ -82,7 +82,7 @@ cover_image: "/assets/poppy-cover-blurred.jpg"
   <div class="creatures">
     <a href="#" class="creature">
       <figure>
-        <img src="{{ site.github.url }}/assets/creatures/thumbnails/humanoid.jpg" alt="A sitting Poppy Humanoid robot">
+        <img src="{{ site.url }}/assets/creatures/thumbnails/humanoid.jpg" alt="A sitting Poppy Humanoid robot">
       </figure>
       <h3 class="title">Poppy Humanoid</h3>
       <p>
@@ -94,7 +94,7 @@ cover_image: "/assets/poppy-cover-blurred.jpg"
     </a>
     <a href="#" class="creature">
       <figure>
-        <img src="{{ site.github.url }}/assets/creatures/thumbnails/torso.jpg" alt="Facing Poppy Torso">
+        <img src="{{ site.url }}/assets/creatures/thumbnails/torso.jpg" alt="Facing Poppy Torso">
       </figure>
       <h3 class="title">Poppy Torso</h3>
       <p>
@@ -105,7 +105,7 @@ cover_image: "/assets/poppy-cover-blurred.jpg"
     </a>
     <a href="#" class="creature">
       <figure>
-        <img src="{{ site.github.url }}/assets/creatures/thumbnails/ergo.jpg" alt="Ergo close-up">
+        <img src="{{ site.url }}/assets/creatures/thumbnails/ergo.jpg" alt="Ergo close-up">
       </figure>
       <h3 class="title">Poppy Ergo Jr</h3>
       <p>

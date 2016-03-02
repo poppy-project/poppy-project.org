@@ -10,7 +10,7 @@ description: >-
   Et en multiline.
 ---
 
-<div{% if page.transparent_header %} class="site-cover"{% endif %}{% if page.cover_image %} style="background-image: url({{ site.github.url }}{{ page.cover_image }});"{% endif %}>
+<div{% if page.transparent_header %} class="site-cover"{% endif %}{% if page.cover_image %} style="background-image: url({{ site.url }}{{ page.cover_image }});"{% endif %}>
   <h1 class="page-title">
     Poppy est une plate-forme robotique open-source basée sur l’impression 3D.
   </h1>
@@ -80,7 +80,7 @@ description: >-
   <div class="creatures">
     <a href="#" class="creature">
       <figure>
-        <img src="{{ site.github.url }}/assets/creatures/thumbnails/humanoid.jpg" alt="A sitting Poppy Humanoid robot">
+        <img src="{{ site.url }}/assets/creatures/thumbnails/humanoid.jpg" alt="A sitting Poppy Humanoid robot">
       </figure>
       <h3 class="title">Poppy Humanoid</h3>
       <p>
@@ -92,7 +92,7 @@ description: >-
     </a>
     <a href="#" class="creature">
       <figure>
-        <img src="{{ site.github.url }}/assets/creatures/thumbnails/torso.jpg" alt="Facing Poppy Torso">
+        <img src="{{ site.url }}/assets/creatures/thumbnails/torso.jpg" alt="Facing Poppy Torso">
       </figure>
       <h3 class="title">Poppy Torso</h3>
       <p>
@@ -103,7 +103,7 @@ description: >-
     </a>
     <a href="#" class="creature">
       <figure>
-        <img src="{{ site.github.url }}/assets/creatures/thumbnails/ergo.jpg" alt="Ergo close-up">
+        <img src="{{ site.url }}/assets/creatures/thumbnails/ergo.jpg" alt="Ergo close-up">
       </figure>
       <h3 class="title">Poppy Ergo Jr</h3>
       <p>
