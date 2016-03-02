@@ -2,7 +2,13 @@
 lang: en
 permalink: /en/education
 role: education
+published: true
+layout: page
+description: "Poppy, an open-source robotics platform based on 3D printing, is used as a tool for teaching"
+transparent_header: true
+cover_image: "/assets/poppy-cover-blurred.jpg"
 ---
+
 
 # Open-source robots and activities for teaching Digital Science
 
@@ -14,18 +20,18 @@ With Poppy you can program robotics objects without needing to build the complet
 
 The platform accessibility enables teachers to create and to share educational and collaborative projects that meet two key characteristics:
 
-* Integration of various technologies and methodologies: 3D printing, programming, electronics, machine learning algorithms.
-* Connections and collaborations between different disciplines: engineering, science, design, humanities, art.
+* Integration of **various technologies and methodologies**: 3D printing, programming, electronics, machine learning algorithms.
+* Connections and **collaborations between different disciplines**: engineering, science, design, humanities, art.
 
 Poppy Education aims to create, evaluate and disseminate pedagogical kits “turnkey solutions” complete, open-source and low cost, for teaching computer science and robotics.
 
 ### Why?
 
-To help young people to take ownership with concepts and technologies of the digital world, and provide the tools they need to allow them to become actors of this world, with a considerable socio-economic potential.
+To help young people **to take ownership with concepts and technologies of the digital world**, and provide the tools they need **to allow them to become actors of this world, with a considerable socio-economic potential**.
 
 ### How?
 
-In collaboration with teachers. Users and their needs are placed at the center of this project. The pedagogical tools Poppy will be created directly with them and evaluated in real life by experiments.
+**In collaboration** with teachers. Users and their needs are placed at the center of this project. The pedagogical tools Poppy will be **created directly with them and evaluated in real life** by experiments.
 
 Poppy Education is based on the robotic platform poppy, from which it is possible to construct different robots, including:
 
@@ -39,11 +45,11 @@ Poppy robots are easy to program. Different options are possible based on studen
 
 #### Python
 
-Directly from a web browser, using Ipython notebooks (an interactive terminal, in a web interface for the Python Programming Language).
+**Directly from a web browser**, using Ipython notebooks (an interactive terminal, in a web interface for the Python Programming Language).
 
 #### Snap_!_
 
-The visual programming system Snap_!_, which is a variant of Scratch. Its features allow a thorough introduction of IT.
+**The visual programming system Snap_!_**, which is a variant of Scratch. Its features allow **a thorough introduction of IT**.
 
 #### Your favorite programming language
 
