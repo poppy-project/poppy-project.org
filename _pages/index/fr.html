@@ -3,12 +3,12 @@ lang: fr
 layout: default
 permalink: /fr/
 role: index
-title: La page d'accueil
+title: "La page d'accueil"
 transparent_header: true
-description: >-
-  Cette page d'accueil est plutôt cool.
-  Et en multiline.
+description: "Cette page d'accueil est plutôt cool. Et en multiline."
+published: true
 ---
+
 
 <div{% if page.transparent_header %} class="site-cover"{% endif %}{% if page.cover_image %} style="background-image: url({{ site.url }}{{ page.cover_image }});"{% endif %}>
   <h1 class="page-title">
@@ -30,7 +30,7 @@ description: >-
 <section class="container targetted-audiences">
   <h2 class="section-title text-center">À qui s'adresse Poppy ?</h2>
   <div class="audiences">
-    <a href="#" class="audience education">
+    <a href="{{ site.url }}/en/education" class="audience education">
       <figure>
         <svg class="icon">
           <title>Learning book</title>
