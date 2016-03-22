@@ -1,3 +1,6 @@
-div {
+.wrap {
+  max-width: map-get($breakpoints, xlarge);
+  width: 100%;
+
   margin: 0 auto;
 }
