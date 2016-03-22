@@ -1,6 +1,6 @@
 # Site settings
 title: Poppy Project
-url: http://sandbox.dcsl.li
+# url: http://sandbox.dcsl.li
 
 description:
   en: >-
@@ -30,6 +30,7 @@ highlighter: rouge
 #   style: compressed
 
 include: [ "_pages" ]
+exclude: [ "vendor" ]
 
 permalink: /:categories/:title
 default_lang: en
