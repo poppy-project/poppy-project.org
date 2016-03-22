@@ -1,6 +1,3 @@
-gems:
-  - jekyll-sitemap
-
 # Site settings
 title: Poppy Project
 url: http://sandbox.dcsl.li
@@ -16,12 +13,12 @@ outlinks:
   en:
     - url: https://forum.poppy-project.org
       title: Forum
-    - url: https://poppy-project.gitbooks.io/poppy-docs/content/en/
+    - url: http://docs.poppy-project.org/en/
       title: Documentation
   fr:
     - url: https://forum.poppy-project.org
-      title: Forum
-    - url: https://poppy-project.gitbooks.io/poppy-docs/content/fr/
+      title: Forums
+    - url: http://docs.poppy-project.org/fr/
       title: Documentation
 
 
