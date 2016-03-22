@@ -42,7 +42,7 @@ Exemple de liste non ordonnée :
 * Quatrième élément
 * Troisième élément
 
-![Poppy Humanoid]({{site.baseurl}}/assets/posts/humanoid.jpg)
+![Poppy Humanoid]({{site.baseurl}}/assets/img/posts/humanoid.jpg)
 
 
 

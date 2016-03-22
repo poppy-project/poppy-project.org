@@ -30,7 +30,12 @@ highlighter: rouge
 #   style: compressed
 
 include: [ "_pages" ]
-exclude: [ "vendor" ]
+
+exclude: [
+  "vendor",
+  "Gemfile",
+  "Gemfile.lock"
+]
 
 permalink: /:categories/:title
 default_lang: en

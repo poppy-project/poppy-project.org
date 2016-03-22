@@ -2,8 +2,31 @@
 ---
 @charset "utf-8";
 
+@font-face {
+  font-family: 'Edmond sans';
+  src: url('/assets/fonts/Edmondsans-Regular.otf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Edmond sans';
+  src: url('/assets/fonts/Edmondsans-Medium.otf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Edmond sans';
+  src: url('/assets/fonts/Edmondsans-Bold.otf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
 @import "settings";
 @import "foundation";
+
+@include foundation-everything;
 
 @import "syntax-highlighting";
 @import "layout";
