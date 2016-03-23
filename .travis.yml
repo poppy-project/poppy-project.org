@@ -9,12 +9,12 @@ env:
   - GH_REPO: garbage-rejector
   - secure: ALqNPXRocIPOjnSyJETMfyIRZNrKjyhi6sLVyzUzA4SlC1g0d+Y6pyyiXpvWkukWicz6x0rfnRNyXBKJluuTU6Llpj0N4wcGARz10A7X3rE74pyruyBxFkcFarAoXNLaBkZpNJ0QBh/UiKSDMf//ne4/1zfNnpvmng3MxzfWRMbvYgpMab788zAue/COW7ziMWVWgW5trMbK018wqoNMrCAf3a9PolPF0402GMdtvFZOXJUloV0+sLeBcimoC8vYoH5JMo3oWss9YdGyIhX7dD+P540pOqQSG17ME6plPHIN53zv3dXo4uSqQXrjoMMlQhXfdz2nZDo+rzVgvjqj9HMCLLuIXwsACAOMrs3vBn/SMgvit2GrXPnmHOgSjlyNvtxmx/PWadrUHXWrIkx+La0HboUZuLI1In+RyJv3QB8EiSf0luEZEoniBTjamJFnCEZARxywi+/XDAnWL4ILlHU3QB8G+caXryib26PeKuGQvQlX34XaX76BQA4Dp6E6i/i7P4aW9WQDJLsMKZ3R9OnRBKMtEc2oMzm2qaM5JH92jIPIBA50WwZBwYDpcPeS5fFNvLGJ5I+aH7dsEc6RXyRHQucqZg4vcfjzepa3BMzruVQhF54nXeI5ASXVTSdigsD8s7iT8siyoGoocLncl0CXK1gYvz2aIlvIZgMBj4Y=
 before_script:
-- chmod +x ./script/cibuild.sh
-script: "./script/cibuild.sh"
+- chmod +x ./_script/cibuild.sh
+script: "./_script/cibuild.sh"
 before_deploy:
-- chmod +x ./script/cideploy.sh
+- chmod +x ./_script/cideploy.sh
 deploy:
   skip_cleanup: true
   provider: script
-  script: script/cideploy.sh
+  script: _script/cideploy.sh
 sudo: false
