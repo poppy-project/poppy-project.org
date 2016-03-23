@@ -1,64 +1,69 @@
 <footer class="site-footer">
-  <div class="container">
-    <ul class="social-media">
-      <li>
-        {% include social-icon.html
-          service="github"
-          service_title="GitHub"
-          link="https://github.com/poppy-project" %}
-      </li>
-      <li>
-        {% include social-icon.html
-          service="twitter"
-          service_title="Twitter"
-          link="https://twitter.com/poppy_project" %}
-      </li>
-      <li>
-        {% include social-icon.html
-          service="facebook"
-          service_title="Facebook"
-          link="https://facebook.com/poppycommunity" %}
-      </li>
-      <li>
-        {% include social-icon.html
-          service="flickr"
-          service_title="Flickr"
-          link="https://www.flickr.com/photos/poppy-project" %}
-      </li>
-      <li>
-        {% include social-icon.html
-          service="youtube"
-          service_title="YouTube"
-          link="https://www.youtube.com/c/PoppyProjectOrgVideos" %}
-      </li>
-      <li>
-        {% include social-icon.html
-          service="vimeo"
-          service_title="Vimeo"
-          link="https://vimeo.com/poppyproject" %}
-      </li>
-    </ul>
+  <div class="wrap">
+    <div class="row">
+      <ul class="social-medias large-3 columns">
+        <li class="social-media">
+          {% include social-icon.html
+            service="github"
+            service_title="GitHub"
+            link="https://github.com/poppy-project" %}
+        </li>
+        <li class="social-media">
+          {% include social-icon.html
+            service="twitter"
+            service_title="Twitter"
+            link="https://twitter.com/poppy_project" %}
+        </li>
+        <li class="social-media">
+          {% include social-icon.html
+            service="facebook"
+            service_title="Facebook"
+            link="https://facebook.com/poppycommunity" %}
+        </li>
+        <li class="social-media">
+          {% include social-icon.html
+            service="flickr"
+            service_title="Flickr"
+            link="https://www.flickr.com/photos/poppy-project" %}
+        </li>
+        <li class="social-media">
+          {% include social-icon.html
+            service="youtube"
+            service_title="YouTube"
+            link="https://www.youtube.com/c/PoppyProjectOrgVideos" %}
+        </li>
+      </ul>
 
-    <nav class="lang-switch">
-      {% for language in site.languages %}
-        {% if page.date %}
-          {% for post in site.posts %}
-            {% if page.date == post.date and post.lang == language.key %}
-      <a class="lang-link" href="{{ site.baseurl }}{{ post.url }}"{% if page.lang == language.key %} class="active"{% endif %}>
-        <img class="lang-flag" src="{{ site.baseurl }}/assets/img/flags/{{ language.key }}.png" alt="{{ language.name }}">
-      </a>
-            {% endif %}
-          {% endfor %}
-        {% else %}
-          {% for post in site.pages %}
-            {% if page.role == post.role and post.lang == language.key %}
-      <a class="lang-link" href="{{ site.baseurl }}{{ post.url }}"{% if page.lang == language.key %} class="active"{% endif %}>
-        <img class="lang-flag" src="{{ site.baseurl }}/assets/img/flags/{{ language.key }}.png" alt="{{ language.name }}">
-      </a>
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
-    </nav>
+      <nav class="lang-switch large-2 columns">
+        {% for language in site.languages %}
+          {% if page.date %}
+            {% for post in site.posts %}
+              {% if page.date == post.date and post.lang == language.key %}
+              {{ page.lang }} -- {{ language.key }}
+        <a class="lang-link{% if page.lang == language.key %} active{% endif %}" href="{{ site.baseurl }}{{ post.url }}">
+          <img width="35" height="24" src="{{ site.baseurl }}/assets/img/flags/{{ language.key }}.png" alt="{{ language.name }}">
+        </a>
+              {% endif %}
+            {% endfor %}
+          {% else %}
+            {% for post in site.pages %}
+              {% if page.role == post.role and post.lang == language.key %}
+        <a class="lang-link{% if page.lang == language.key %} active{% endif %}" href="{{ site.baseurl }}{{ post.url }}">
+          <img width="35" height="24" src="{{ site.baseurl }}/assets/img/flags/{{ language.key }}.png" alt="{{ language.name }}">
+        </a>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </nav>
+    </div>
+    <div class="row copyright">
+      <div class="large-12 columns">
+        <p>Copyright &copy; 2016 Inria</p>
+        <ul>
+          <li><a href="#">Mentions légales</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
 </footer>
