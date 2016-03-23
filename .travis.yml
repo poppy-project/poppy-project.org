@@ -16,5 +16,5 @@ before_deploy:
 deploy:
   skip_cleanup: true
   provider: script
-  script: scripts/cideploy.sh
+  script: script/cideploy.sh
 sudo: false
