@@ -26,11 +26,11 @@
   }
 }
 
-.nom {
-  @include nopadding;
+.m0 {
+  @include nomargin;
 }
 
-.nopm {
+.p0m0 {
   @include nopadding;
   @include nomargin;
 }
