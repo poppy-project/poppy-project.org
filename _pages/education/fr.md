@@ -1,13 +1,14 @@
 ---
-layout: page
+layout: single-column-cover
 lang: fr
-permalink: /fr/education
+permalink: /fr/education/
 role: education
-description: "Des robots et des activités open-source pour l’enseignement des Sciences du Numérique"
+title: --missing--
+description: --missing--
+cover_image: "/assets/img/covers/ergo-grid.jpg"
+cover_title: "Des robots et des activités open-source pour l’enseignement des Sciences du Numérique"
 published: true
 ---
-
-# Des robots et des activités open-source pour l’enseignement des Sciences du Numérique
 
 Poppy, la plate-forme robotique open-source basée sur l’impression 3D, est utilisée comme un outil pour l’enseignement.
 

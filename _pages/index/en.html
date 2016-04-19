@@ -3,41 +3,30 @@ lang: en
 layout: default
 permalink: /en/
 role: index
-title: The Homepage
-description: This homepage is rather cool. And description can be multiline.
-transparent_header: true
-cover_image: "/assets/img/poppy-cover-blurred.jpg"
+title: "--missing--"
+description: "--missing--"
+cover_image: "/assets/img/covers/parts-grid.jpg"
 published: true
 ---
 
+<div class="row expanded cover" {% if page.cover_image %}style="background-image: url({{ site.url }}{{ page.cover_image }});"{% endif %}>
+  <header class="main-header tc small-centered medium-9 columns">
+    <h1>
+      Open-source platform for the creation, use and sharing of interactive 3D printed robots.
+    </h1>
 
-<div class="site-cover">
-
-  {% if page.cover_image %}
-  <div class="cover-wrapper">
-    <div class="cover" style="background-image: url({{ site.url }}{{ page.cover_image }});"></div>
-  </div>
-  {% endif %}
-
-  <div class="row expanded">
-    <header class="main-header tc small-centered medium-9 columns">
-      <h1>
-        Open-source platform for the creation, use and sharing of interactive 3D printed robots.
-      </h1>
-
-      <p class="lead">
-        We are an interdisciplinary community of beginners and experts, scientists, educators, developers and artists, who all share a vision:
-        <br>
-        <strong>robots are powerful tools to learn and be creative</strong>.
-      </p>
-    </header>
-  </div>
+    <p class="lead">
+      We are an interdisciplinary community of beginners and experts, scientists, educators, developers and artists, who all share a vision:
+      <br>
+      <strong>robots are powerful tools to learn and be creative</strong>.
+    </p>
+  </header>
 </div>
 
-<section class="row audiences tc">
-  <h2 class="large-12 columns">Who is Poppy for?</h2>
+<section class="audiences tc">
+  <h2>Who is Poppy for?</h2>
 
-  <div class="row" data-equalizer data-equalize-on="large">
+  <div class="row columns" data-equalizer data-equalize-on="large">
     <div class="large-4 columns education">
       <a href="{{ site.url }}/en/education" class="callout" data-equalizer-watch>
         <figure>
@@ -51,7 +40,7 @@ published: true
       </a>
     </div>
     <div class="large-4 columns art">
-      <a href="#" class="callout" data-equalizer-watch>
+      <a href="{{ site.url }}/en/for-artists" class="callout" data-equalizer-watch>
         <figure>
           <svg class="icon">
             <title>Puppet</title>
@@ -63,7 +52,7 @@ published: true
       </a>
     </div>
     <div class="large-4 columns science">
-      <a href="#" class="callout" data-equalizer-watch>
+      <a href="{{ site.url }}/en/for-science" class="callout" data-equalizer-watch>
         <figure>
           <svg class="icon">
             <title>Puppet</title>
@@ -88,10 +77,10 @@ published: true
   </div>
 </div>
 
-<section class="row expanded creatures tc">
-  <h2 class="large-9 columns small-centered">Poppy Creatures</h2>
+<section class="creatures tc">
+  <h2 class="small-centered">Poppy Creatures</h2>
 
-  <div class="row" data-equalizer data-equalize-on="large">
+  <div class="row columns" data-equalizer data-equalize-on="large">
 
     <a href="#" class="large-4 columns creature" data-equalizer-watch>
       <figure>

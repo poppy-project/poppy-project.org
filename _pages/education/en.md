@@ -1,13 +1,14 @@
 ---
+layout: single-column-cover
 lang: en
-permalink: /en/education
+permalink: /en/education/
 role: education
-published: true
-layout: page
+title: --missing--
 description: "Poppy, an open-source robotics platform based on 3D printing, is used as a tool for teaching"
+cover_image:
+cover_title: "Open-source robots and activities for teaching Digital Science"
+published: true
 ---
-
-# Open-source robots and activities for teaching Digital Science
 
 ## Poppy, an open-source robotics platform based on 3D printing, is used as a tool for teaching.
 

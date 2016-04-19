@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: single-column
 lang: fr
 title: À propos
-permalink: "/fr/a-propos/"
+description: --missing--
+permalink: /fr/about/
 role: about
 in_nav: true
 published: true
 ---
-
 
 # À propos
 

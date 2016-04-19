@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: single-column
 lang: en
 title: About
+description: --missing--
 permalink: /en/about/
 role: about
 in_nav: true
-invert_header: true
+published: true
 ---
 
 # About

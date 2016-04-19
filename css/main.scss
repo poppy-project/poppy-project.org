@@ -3,23 +3,26 @@
 @charset "utf-8";
 
 @font-face {
-  font-family: 'Edmond sans';
-  src: url('/assets/fonts/Edmondsans-Regular.otf') format('truetype');
-  font-weight: 300;
+  font-family: 'SofiaPro';
+  src: url('/assets/fonts/sofiapro/SofiaProRegular-webfont.eot');
+  src: url('/assets/fonts/sofiapro/SofiaProRegular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/sofiapro/SofiaProRegular-webfont.woff2') format('woff2'),
+       url('/assets/fonts/sofiapro/SofiaProRegular-webfont.woff') format('woff'),
+       url('/assets/fonts/sofiapro/SofiaProRegular-webfont.ttf') format('truetype'),
+       url('/assets/fonts/sofiapro/SofiaProRegular-webfont.svg#sofia_pro_regularregular') format('svg');
+  font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Edmond sans';
-  src: url('/assets/fonts/Edmondsans-Medium.otf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Edmond sans';
-  src: url('/assets/fonts/Edmondsans-Bold.otf') format('truetype');
-  font-weight: 700;
+  font-family: 'SofiaPro';
+  src: url('/assets/fonts/sofiapro/SofiaProBold-webfont.eot');
+  src: url('/assets/fonts/sofiapro/SofiaProBold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/sofiapro/SofiaProBold-webfont.woff2') format('woff2'),
+       url('/assets/fonts/sofiapro/SofiaProBold-webfont.woff') format('woff'),
+       url('/assets/fonts/sofiapro/SofiaProBold-webfont.ttf') format('truetype'),
+       url('/assets/fonts/sofiapro/SofiaProBold-webfont.svg#sofia_probold') format('svg');
+  font-weight: bold;
   font-style: normal;
 }
 

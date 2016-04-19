@@ -1,0 +1,47 @@
+$cover-height: 600px;
+
+.cover {
+  height: $cover-height;
+
+  position: relative;
+
+  color: $white;
+
+  background-color: $primary-color;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .main-header {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.main-header {
+
+  @each $breakpoint, $value in $grid-column-gutter {
+    @include breakpoint($breakpoint) {
+      padding: rem-calc(1.5 * $value) (rem-calc($value) / 2);
+    }
+  }
+
+  h1 {
+    line-height: 1.2;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    @include breakpoint(medium only) {
+      font-size: 36px;
+    }
+  }
+
+  h1 + .lead {
+    margin-top: 20px;
+  }
+}

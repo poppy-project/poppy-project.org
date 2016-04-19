@@ -145,68 +145,16 @@
   padding-bottom: 2rem;
 
   text-align: center;
-}
 
-$cover-height: 500px;
-
-.site-cover {
-  height: $cover-height;
-  margin-bottom: 2rem;
-
-  background-color: $black;
-  color: $white;
-
-  .main-header {
-    position: relative;
-
-    z-index: 2;
-  }
-
-  .cover-wrapper {
-    position: relative;
-    z-index: 1;
-
-    .cover {
-      width: 100%;
-      height: $cover-height;
-
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-
-      background-repeat: no-repeat;
-      background-position: bottom center;
-      background-size: cover;
-    }
+  img:before {
+    display: block;
+    content: "ee";
   }
 }
 
-.main-header {
-
-  margin-bottom: 2rem;
-
-  @each $breakpoint, $value in $grid-column-gutter {
-    @include breakpoint($breakpoint) {
-      padding: rem-calc(2 * $value) (rem-calc($value) / 2);
-    }
-  }
-
-  h1 {
-    line-height: 1.2;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-
-  h1 + .lead {
-    margin-top: 20px;
-  }
-}
+@import "poppy/cover";
 
 .audiences {
-
-  margin-bottom: 2rem;
 
   h2 {
     @each $breakpoint, $value in $grid-column-gutter {
@@ -215,6 +163,10 @@ $cover-height: 500px;
         padding-bottom: rem-calc($value / 2);
       }
     }
+  }
+
+  h3 {
+    line-height: 1.1;
   }
 
   a {
@@ -242,7 +194,6 @@ $cover-height: 500px;
 
 .creatures {
 
-  margin-top: 2rem;
   padding-top: 20px;
   padding-bottom: 20px;
 
