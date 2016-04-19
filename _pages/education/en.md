@@ -12,8 +12,6 @@ published: true
 
 ## Poppy, an open-source robotics platform based on 3D printing, is used as a tool for teaching.
 
-Poppy, an open-source robotics platform based on 3D printing, is used as a tool for teaching.
-
 With Poppy you can program robotics objects without needing to build the complete robot design beforehand. A wide range of possible educational activities including secondary school, higher education, various options and subjects can benefit from this tool.
 
 The platform accessibility enables teachers to create and to share educational and collaborative projects that meet two key characteristics:

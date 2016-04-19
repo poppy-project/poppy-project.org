@@ -8,6 +8,4 @@ description: --missing--
 published: true
 ---
 
-<div class="row columns">
-  # Poppy for science
-</div>
+# Poppy for science

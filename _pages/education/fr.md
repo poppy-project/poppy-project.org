@@ -10,7 +10,7 @@ cover_title: "Des robots et des activités open-source pour l’enseignement des
 published: true
 ---
 
-Poppy, la plate-forme robotique open-source basée sur l’impression 3D, est utilisée comme un outil pour l’enseignement.
+## Poppy, la plate-forme robotique open-source basée sur l’impression 3D, est utilisée comme un outil pour l’enseignement.
 
 Avec Poppy, vous avez le choix de programmer des objets robotiques prêts à l’emploi ou que vous avez construits.
 
