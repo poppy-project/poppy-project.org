@@ -3,8 +3,8 @@
     <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
       <span class="menu-icon dark" data-toggle></span>
     </span>
-    <a href="{{ site.url }}/">
-      <img src="{{ site.url }}/assets/img/logo.png" width="100" height="38" data-interchange="[{{ site.url }}/assets/img/logo-large.png, retina]" alt="{{ site.title }}">
+    <a href="{{site.baseurl | prepend: site.url }}/">
+      <img src="{{ site.baseurl }}/assets/img/logo.png" width="100" height="38" data-interchange="[{{ site.baseurl }}/assets/img/logo-large.png, retina]" alt="{{ site.title }}">
     </a>
   </div>
   <div id="responsive-menu">
@@ -16,7 +16,7 @@
 
         {% for site_page in site.pages %}
           {% if site_page.lang == page.lang and site_page.in_nav %}
-        <li><a href="{{ site.url }}{{ site_page.url }}"{% if site_page.date.nil? and page.role == site_page.role %} class="active"{% endif %}>{{ site_page.title }}</a></li>
+        <li><a href="{{ site_page.url | prepend: site.baseurl }}"{% if site_page.date.nil? and page.role == site_page.role %} class="active"{% endif %}>{{ site_page.title }}</a></li>
           {% endif %}
         {% endfor %}
       </ul>

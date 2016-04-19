@@ -5,38 +5,30 @@ permalink: /fr/
 role: index
 title: "--missing--"
 description: "--missing--"
-cover_image: "/assets/img/poppy-cover-blurred.jpg"
+cover_image: "/assets/img/covers/parts-grid.jpg"
 published: true
 ---
 
-<div class="site-cover">
+<div class="row expanded cover" {% if page.cover_image %}style="background-image: url({{ site.baseurl }}{{ page.cover_image }});"{% endif %}>
+  <header class="main-header tc small-centered medium-9 columns">
+    <h1>
+      Poppy est une plate-forme robotique open-source basée sur l’impression 3D.
+    </h1>
 
-  {% if page.cover_image %}
-  <div class="cover" style="background-image: url({{ site.url }}{{ page.cover_image }});"></div>
-  {% endif %}
-
-  <div class="row expanded">
-    <header class="main-header tc small-centered medium-9 columns">
-      <h1>
-        Poppy est une plate-forme robotique open-source basée sur l’impression 3D.
-      </h1>
-
-      <p class="lead">
-        Nous sommes une communauté interdisciplinaire de débutants et d’experts, de scientifiques, éducateurs, dévelopeurs et artistes, partageant une même vision :
-        <br>
-        <strong>les robots sont de puissants outils pour apprendre et être créatif</strong>.
-      </p>
-    </header>
-  </div>
+    <p class="lead">
+      Nous sommes une communauté interdisciplinaire de débutants et d’experts, de scientifiques, éducateurs, dévelopeurs et artistes, partageant une même vision :
+      <br>
+      <strong>les robots sont de puissants outils pour apprendre et être créatif</strong>.
+    </p>
+  </header>
 </div>
 
+<section class="audiences tc">
+  <h2>À qui s'adresse Poppy ?</h2>
 
-<section class="row audiences tc">
-  <h2 class="large-12 columns">À qui s'adresse Poppy ?</h2>
-
-  <div class="row" data-equalizer data-equalize-on="large">
+  <div class="row columns" data-equalizer data-equalize-on="large">
     <div class="large-4 columns education">
-      <a href="{{ site.url }}/fr/education" class="callout" data-equalizer-watch>
+      <a href="{{ site.baseurl }}/fr/education" class="callout" data-equalizer-watch>
         <figure>
           <svg class="icon">
             <title>Learning book</title>
@@ -48,7 +40,7 @@ published: true
       </a>
     </div>
     <div class="large-4 columns art">
-      <a href="{{ site.url }}/fr/for-artists" class="callout" data-equalizer-watch>
+      <a href="{{ site.baseurl }}/fr/for-artists" class="callout" data-equalizer-watch>
         <figure>
           <svg class="icon">
             <title>Puppet</title>
@@ -60,7 +52,7 @@ published: true
       </a>
     </div>
     <div class="large-4 columns science">
-      <a href="{{ site.url }}/fr/for-science" class="callout" data-equalizer-watch>
+      <a href="{{ site.baseurl }}/fr/for-science" class="callout" data-equalizer-watch>
         <figure>
           <svg class="icon">
             <title>Puppet</title>
@@ -86,14 +78,14 @@ published: true
   </div>
 </div>
 
-<section class="row expanded creatures tc">
-  <h2 class="large-9 columns small-centered">Poppy Creatures</h2>
+<section class="creatures tc">
+  <h2 class="small-centered">Poppy Creatures</h2>
 
-  <div class="row" data-equalizer data-equalize-on="large">
+  <div class="row columns" data-equalizer data-equalize-on="large">
 
     <a href="#" class="large-4 columns creature" data-equalizer-watch>
       <figure>
-        <img width="188" height="188" src="{{ site.url }}/assets/img/creatures/small/humanoid.jpg" data-interchange="[{{ site.url }}/assets/img/creatures/large/humanoid.jpg, retina]" alt="A sitting Poppy Humanoid robot">
+        <img width="188" height="188" src="{{ site.baseurl }}/assets/img/creatures/small/humanoid.jpg" data-interchange="[{{ site.baseurl }}/assets/img/creatures/large/humanoid.jpg, retina]" alt="A sitting Poppy Humanoid robot">
       </figure>
       <h3>Poppy Humanoid</h3>
       <p>
@@ -103,7 +95,7 @@ published: true
 
     <a href="#" class="large-4 columns creature" data-equalizer-watch>
       <figure>
-        <img width="188" height="188" src="{{ site.url }}/assets/img/creatures/small/torso.jpg" data-interchange="[{{ site.url }}/assets/img/creatures/large/torso.jpg, retina]" alt="Facing Poppy Torso">
+        <img width="188" height="188" src="{{ site.baseurl }}/assets/img/creatures/small/torso.jpg" data-interchange="[{{ site.baseurl }}/assets/img/creatures/large/torso.jpg, retina]" alt="Facing Poppy Torso">
       </figure>
       <h3>Poppy Torso</h3>
       <p>
@@ -113,7 +105,7 @@ published: true
 
     <a href="#" class="large-4 columns creature" data-equalizer-watch>
       <figure>
-        <img width="188" height="188" src="{{ site.url }}/assets/img/creatures/small/ergo.jpg" data-interchange="[{{ site.url }}/assets/img/creatures/large/ergo.jpg, retina]" alt="Ergo close-up">
+        <img width="188" height="188" src="{{ site.baseurl }}/assets/img/creatures/small/ergo.jpg" data-interchange="[{{ site.baseurl }}/assets/img/creatures/large/ergo.jpg, retina]" alt="Ergo close-up">
       </figure>
       <h3>Poppy Ergo Jr</h3>
       <p>
