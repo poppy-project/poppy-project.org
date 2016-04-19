@@ -33,6 +33,7 @@ include: [ "_pages" ]
 
 exclude: [
   "vendor",
+  "README.md",
   "Gemfile",
   "Gemfile.lock"
 ]
