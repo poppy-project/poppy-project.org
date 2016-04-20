@@ -78,6 +78,14 @@
   margin-right: 1rem;
 }
 
+.top-bar-right {
+  @include breakpoint(small only) {
+    margin-top: 1rem;
+
+    padding: 0 calc(20px + 1rem - 0.7rem);
+  }
+}
+
 .site-footer {
   background-color: $medium-gray;
 
