@@ -1,11 +1,7 @@
 language: ruby
 rvm:
 - 2.2.4
-before_script:
-- chmod +x ./_script/cibuild.sh
 script: "./_script/cibuild.sh"
-before_deploy:
-- chmod +x ./_script/cideploy.sh
 deploy:
   skip_cleanup: true
   provider: script

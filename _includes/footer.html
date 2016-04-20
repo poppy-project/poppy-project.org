@@ -39,7 +39,6 @@
           {% if page.date %}
             {% for post in site.posts %}
               {% if page.date == post.date and post.lang == language.key %}
-              {{ page.lang }} -- {{ language.key }}
         <a class="lang-link{% if page.lang == language.key %} active{% endif %}" href="{{ site.baseurl }}{{ post.url }}">
           <img width="35" height="24" src="{{ site.baseurl }}/assets/img/flags/{{ language.key }}.png" alt="{{ language.name }}">
         </a>
