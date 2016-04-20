@@ -33,6 +33,7 @@ highlighter: rouge
 include: [ "_pages" ]
 
 exclude: [
+  "bower_components",
   "vendor",
   "README.md",
   "Gemfile",
