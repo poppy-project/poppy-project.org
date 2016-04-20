@@ -27,6 +27,8 @@ outlinks:
 markdown: kramdown
 highlighter: rouge
 
+timezone: Europe/Paris
+
 # sass:
 #   style: compressed
 
