@@ -1,4 +1,4 @@
-cd _site
+cd _site/poppy-project.org
 git config --global user.email $GIT_EMAIL
 git config --global user.name $GIT_NAME
 git init
