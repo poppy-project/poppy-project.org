@@ -1,7 +1,7 @@
 # Site settings
 title: Poppy Project
 # url: http://poppy-project.github.io
-# baseurl: /poppy-project.org
+baseurl: /poppy-project.org
 
 description:
   en: >-
