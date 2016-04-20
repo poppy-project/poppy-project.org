@@ -7,3 +7,6 @@ deploy:
   provider: script
   script: _script/cideploy.sh
 sudo: false
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
