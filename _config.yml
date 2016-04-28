@@ -29,8 +29,8 @@ highlighter: rouge
 
 timezone: Europe/Paris
 
-# sass:
-#   style: compressed
+sass:
+  style: compressed
 
 include: [ "_pages" ]
 
@@ -44,6 +44,7 @@ exclude: [
 
 permalink: /:categories/:title
 default_lang: en
+
 languages:
   - name: English
     key: en
