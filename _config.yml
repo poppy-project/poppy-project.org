@@ -49,3 +49,7 @@ languages:
     key: en
   - name: Français
     key: fr
+
+# Will be overridden by github
+github:
+  repository_url: https://github.com/poppy-project/poppy-project.org
