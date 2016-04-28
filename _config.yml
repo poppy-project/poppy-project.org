@@ -54,3 +54,8 @@ languages:
 # Will be overridden by github
 github:
   repository_url: https://github.com/poppy-project/poppy-project.org
+
+# HTML compression
+compress_html:
+  clippings: all
+  comments: all
