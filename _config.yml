@@ -57,5 +57,5 @@ github:
 
 # HTML compression
 compress_html:
-  clippings: all
-  comments: all
+  endings: []
+  startings: []

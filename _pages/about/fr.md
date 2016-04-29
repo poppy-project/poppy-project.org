@@ -50,7 +50,7 @@ Depuis un terminal, essayez de taper la commande `ls` pour voir les répertoires
 
 Un peu de code _JavaScript_ :
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 /**
  * Says hello
  *
@@ -67,7 +67,7 @@ hello();
 
 Un peu de code __Python__ :
 
-{% highlight python linenos %}
+{% highlight python %}
 from numpy import sum
 from functools import partial
 
