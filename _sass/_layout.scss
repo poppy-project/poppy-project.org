@@ -127,15 +127,15 @@
 /*
   Copyright
  */
-.copyright {
-
-  margin-top: 20px;
+.copyright, .edit {
 
   font-size: rem-calc(14px);
   font-weight: lighter;
 
   @include high-contrast-links;
+}
 
+.copyright {
   p + ul {
     margin-left: 20px;
   }

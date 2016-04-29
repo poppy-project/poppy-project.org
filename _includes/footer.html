@@ -34,7 +34,7 @@
         </li>
       </ul>
 
-      <nav class="lang-switch large-2 columns">
+      <nav class="lang-switch large-2 columns text-right">
         {% for language in site.languages %}
           {% if page.date %}
             {% for post in site.posts %}
@@ -56,16 +56,18 @@
         {% endfor %}
       </nav>
     </div>
-    <div class="row copyright">
-      <div class="large-6 columns">
-        <p>Copyright &copy; 2016 Inria</p>
+
+    <div class="row">
+      <div class="large-6 columns copyright">
+        <p class="text-right">Copyright &copy; 2016 Inria</p>
         <ul>
           <li><a href="#">Mentions légales</a></li>
         </ul>
       </div>
-      <div class="large-6 columns">
-        <p>{% include edit-page-link.html %}</p>
+      <div class="large-6 columns edit">
+        <p class="text-right">{% include edit-page-link.html %}</p>
       </div>
     </div>
   </div>
+
 </footer>
