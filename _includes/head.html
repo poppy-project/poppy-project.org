@@ -3,9 +3,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title != "" %}{{ page.title | append: " - " | append: site.title | escape }}{% else %}{{ site.default_title[page.lang] | escape }}{% endif %}</title>
+  <title>{% if page.title and page.title != "" %}{{ page.title | append: " - " | append: site.title | escape }}{% else %}{{ site.default_title[page.lang] | escape }}{% endif %}</title>
 
-  <meta name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
+  <meta name="description" content="{% if page.description and page.description != "" %}{{ page.description | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
 
   {% include favicon.html %}
 

@@ -8,11 +8,8 @@ default_title:
   fr: "Poppy Project : écosystème collaboratif pour la robotique"
 
 description:
-  en: >-
-    Poppy Project website.
-    You will love it.
-  fr: >-
-    Site du Projet Poppy.
+  en: "Poppy Project description."
+  fr: "Description du Projet Poppy."
 
 outlinks:
   en:
