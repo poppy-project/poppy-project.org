@@ -3,6 +3,10 @@ title: Poppy Project
 # url: http://poppy-project.github.io
 baseurl: /poppy-project.org
 
+default_title:
+  en: "Poppy Project: collaborative ecosystem for robotics"
+  fr: "Poppy Project : écosystème collaboratif pour la robotique"
+
 description:
   en: >-
     Poppy Project website.
