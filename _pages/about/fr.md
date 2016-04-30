@@ -1,8 +1,8 @@
 ---
 layout: single-column
 lang: fr
-title: À propos
-description: --missing--
+title: "À propos"
+description: "L'histoire du projet Poppy"
 permalink: /fr/about/
 role: about
 in_nav: true
@@ -11,119 +11,43 @@ published: true
 
 # À propos
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et __dolore magna aliqua__. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. _Duis aute irure dolor_ in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## History
 
-## Exemple h2
+The Poppy project was born in 2012 in the [Flowers laboratory](https://flowers.inria.fr/) at [Inria Bordeaux Sud-Ouest](https://www.inria.fr/centre/bordeaux).  
+It was initiated during [Matthieu Lapeyre](https://github.com/matthieu-lapeyre)'s PhD Thesis surpervised by [Pierre-Yves Oudeyer](http://www.pyoudeyer.com/). At the beginning, the development team was composed by [Matthieu Lapeyre](https://github.com/matthieu-lapeyre) (mechanics & design), [Pierre Rouanet](https://github.com/pierre-rouanet) (software) and [Jonathan Grizou](http://jgrizou.com/) (electronics).
 
-### Exemple h3
+This project is initially a fundamental research project financed by [ERC Grant Explorer](http://erc.europa.eu/) to explore the role of embodiement and morphology properties on cognition and especially on the learning of sensori-motor tasks.
 
-#### Exemple h4
+## Philosophy
 
-##### Exemple h5
+The Poppy project is a **community-centered** robotic project. It targets the needs of a multidisciplinary community where researchers, teachers, artists, and robotic enthusiasts can share their work and ideas.
 
-###### Exemple h6
+Poppy tools are designed to be modular, easy to use, and easy to integrate – providing a set of building blocks that can be easily assembled and reconfigured.
 
-Exemple de liste ordonnée :
+Poppy places the people creativity and bottom-up project emergence at the heart of the robotic development.
 
-1. Premier élément
-1. Deuxième élément
-1. Troisième élément
-1. Quatrième élément
-
-Exemple de liste non ordonnée :
-
-* Deuxième élément
-* Premier élément
-* Quatrième élément
-* Troisième élément
-
-![Poppy Humanoid]({{site.baseurl}}/assets/img/posts/humanoid.jpg)
+Through its accessibility and its openess, the Poppy project contributes to make the futur technologies more democratic and transparent.
 
 
+## Contribution
 
-Depuis un terminal, essayez de taper la commande `ls` pour voir les répertoires.
+If you want to take part of this project, maybe the first step is to become a member of the community on the [poppy forum](https://forum.poppy-project.org).  The forum is the very central place to exchange with users and contributors. You can freely come and talk about your project or ideas with your prefered language.
 
-Un peu de code _JavaScript_ :
+There are many ways to contribute to this project as the Poppy project involves a very large scope of disciplines:
 
-{% highlight javascript %}
-/**
- * Says hello
- *
- * @return {Boolean}
- */
-function hello() {
-  alert('Une fonction JavaScript');
+ - Engineering fields such as AI, computer science, mechanics, electronics, machine learning...
+ - Humanities such as cognitive science, psychology...
+ - Life science such as biology, biomechanics,...
+ - Community management, scientific mediation, communication...
+ - Design such as web design, object design, UX,...
+ - Art with the need of animator to create [the illusion of life](http://en.wikipedia.org/wiki/Disney_Animation:_The_Illusion_of_Life) and emotions.
 
-  return true;
-}
+If you have no idea how you could help but you would want to, you are very welcome and you can **take a look at open issues on our [GitHub](https://github.com/poppy-project/) and [call for contributions](https://forum.poppy-project.org/tags/call-for-contributions)**.
 
-hello();
-{% endhighlight %}
+For github ninja, you can of course create issues to notify a problem or develop new amazing features and open pull requests to integrate your idea.
 
-Un peu de code __Python__ :
+## Usage rights
 
-{% highlight python %}
-from numpy import sum
-from functools import partial
+All the technological development work made in the Poppy project is freely available under open source licenses. Only the name usage *"Poppy"* is restricted and protected as an international trademark to protect its identity.
 
-from poppy.creatures import AbstractPoppyCreature
-from poppy.creatures.ik import IKChain
-
-from .primitives.jump import Jump
-from .primitives.dance import Dance
-from .primitives.face_tracking import FaceTracking
-from .primitives.tracking_feedback import TrackingFeedback
-from .primitives.postures import (BasePosture, RestPosture,
-                                  CuriousPosture, TetrisPosture,
-                                  SafePowerUp)
-
-
-class PoppyErgoJr(AbstractPoppyCreature):
-    @classmethod
-    def setup(cls, robot):
-        robot._primitive_manager._filter = partial(sum, axis=0)
-
-        c = IKChain.from_poppy_creature(robot,
-                                        motors=robot.motors,
-                                        passiv=[],
-                                        tip=[0, 0, -0.07])
-
-        robot.chain = c
-
-        robot.attach_primitive(SafePowerUp(robot), 'safe_power_up')
-
-        robot.attach_primitive(Dance(robot), 'dance')
-        robot.attach_primitive(Jump(robot), 'jump')
-
-        robot.attach_primitive(BasePosture(robot, 2.), 'base_posture')
-        robot.attach_primitive(RestPosture(robot, 2.), 'rest_posture')
-        robot.attach_primitive(CuriousPosture(robot, 2.), 'curious_posture')
-        robot.attach_primitive(TetrisPosture(robot, 2.), 'tetris_posture')
-
-        if not robot.simulated and hasattr(robot, 'marker_detector'):
-            robot.attach_primitive(TrackingFeedback(robot, 25.),
-                                   'tracking_feedback')
-            robot.tracking_feedback.start()
-
-        for m in robot.motors:
-            m.pid = (4, 2, 0)
-            m.torque_limit = 70.
-            m.led = 'off'
-
-        if not robot.simulated and hasattr(robot, 'face_tracking'):
-            robot.attach_primitive(FaceTracking(robot, 10,
-                                                robot.face_detector),
-                                   'face_tracking')
-{% endhighlight %}
-
-Comme l'a dit quelqu'un :
-
-> There is one kind of robber whom the law does not strike at,
-> and who steals what is most precious to men: time.
-> 
-> This was mean.
+Please [contact us]({{ site.baseurl }}/{{ page.lang }}/contact) if you want to use it or have more information.

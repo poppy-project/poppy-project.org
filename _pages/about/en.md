@@ -1,8 +1,8 @@
 ---
 layout: single-column
 lang: en
-title: About
-description: --missing--
+title: "About"
+description: "The history of the Poppy project"
 permalink: /en/about/
 role: about
 in_nav: true
@@ -13,8 +13,8 @@ published: true
 
 ## History
 
-The Poppy project is born in 2012 in the [Flowers laboratory](https://flowers.inria.fr/) at [Inria Bordeaux Sud-Ouest](http://www.inria.fr/en/centre/bordeaux).
-It was initiated during [Matthieu Lapeyre](https://github.com/matthieu-lapeyre)'s PhD Thesis surpervised by [Pierre Yves Oudeyer](http://www.pyoudeyer.com/). At the beginning, the development team was composed by [Matthieu Lapeyre](https://github.com/matthieu-lapeyre) (mechanics & design), [Pierre Rouanet](https://github.com/pierre-rouanet) (software) and [Jonathan Grizou](http://jgrizou.com/) (electronics).
+The Poppy project was born in 2012 in the [Flowers laboratory](https://flowers.inria.fr/) at [Inria Bordeaux Sud-Ouest](https://www.inria.fr/en/centre/bordeaux).  
+It was initiated during [Matthieu Lapeyre](https://github.com/matthieu-lapeyre)'s PhD Thesis surpervised by [Pierre-Yves Oudeyer](http://www.pyoudeyer.com/). At the beginning, the development team was composed by [Matthieu Lapeyre](https://github.com/matthieu-lapeyre) (mechanics & design), [Pierre Rouanet](https://github.com/pierre-rouanet) (software) and [Jonathan Grizou](http://jgrizou.com/) (electronics).
 
 This project is initially a fundamental research project financed by [ERC Grant Explorer](http://erc.europa.eu/) to explore the role of embodiement and morphology properties on cognition and especially on the learning of sensori-motor tasks.
 
@@ -50,4 +50,4 @@ For github ninja, you can of course create issues to notify a problem or develop
 
 All the technological development work made in the Poppy project is freely available under open source licenses. Only the name usage *"Poppy"* is restricted and protected as an international trademark to protect its identity.
 
-Please [contact us](/contact) if you want to use it or have more information.
+Please [contact us]({{ site.baseurl }}/{{ page.lang }}/contact) if you want to use it or have more information.
