@@ -140,15 +140,16 @@
 }
 
 .copyright {
-  p + ul {
-    margin-left: 20px;
+  .menu-text {
+    font-weight: normal;
   }
 
-  p, ul, li {
-    @include nopadding;
-    @include nomargin;
-
-    display: inline;
+  .menu li {
+    &,
+    & > a {
+      padding-right: 0;
+      padding-left: 0;
+    }
   }
 }
 

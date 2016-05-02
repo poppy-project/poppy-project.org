@@ -13,6 +13,10 @@ $cover-height: 600px;
   background-size: cover;
   background-attachment: fixed;
 
+  > .row {
+    height: 100%;
+  }
+
   .main-header {
     height: 100%;
 

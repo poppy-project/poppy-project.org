@@ -1,7 +1,7 @@
-<div class="row expanded cover" {% if page.cover_image %}style="background-image: url({{ page.cover_image | prepend: site.baseurl }});"{% endif %}>
-  <header class="main-header tc small-centered medium-9 columns">
-    <h1>
-      {{ include.title }}
-    </h1>
-  </header>
+<div class="cover" {% if page.cover_image %}style="background-image: url({{ page.cover_image | prepend: site.baseurl }});"{% endif %}>
+  <div class="row">
+    <header class="main-header tc small-centered medium-9 columns">
+      <h1>{{ include.title }}</h1>
+    </header>
+  </div>
 </div>
