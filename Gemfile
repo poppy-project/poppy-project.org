@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '~>3.1'
 
 group :jekyll_plugins do
-  gem 'jekyll-assets'
+  gem 'jekyll-assets', '2.2.2'
   gem 'autoprefixer-rails'
   gem 'jekyll-sitemap'
   gem 'html-proofer'
