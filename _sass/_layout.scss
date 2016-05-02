@@ -166,16 +166,16 @@
 
 @import "poppy/cover";
 
-.audiences {
-
-  h2 {
-    @each $breakpoint, $value in $grid-column-gutter {
-      @include breakpoint($breakpoint) {
-        padding-top: rem-calc($value / 2);
-        padding-bottom: rem-calc($value / 2);
-      }
+.clish {
+  @each $breakpoint, $value in $grid-column-gutter {
+    @include breakpoint($breakpoint) {
+      padding-top: rem-calc($value / 2);
+      padding-bottom: rem-calc($value / 2);
     }
   }
+}
+
+.audiences {
 
   h3 {
     line-height: 1.1;
@@ -213,15 +213,6 @@
   background-color: #162B38;
 
   @include reverse-links;
-
-  h2 {
-    @each $breakpoint, $value in $grid-column-gutter {
-      @include breakpoint($breakpoint) {
-        padding-top: rem-calc($value / 2);
-        padding-bottom: rem-calc($value / 2);
-      }
-    }
-  }
 
   figure {
     margin: 0 0 20px 0;

@@ -9,24 +9,26 @@ cover_image: "/assets/img/covers/parts-grid.jpg"
 published: true
 ---
 
-<div class="row expanded cover" {% if page.cover_image %}style="background-image: url({{ site.baseurl }}{{ page.cover_image }});"{% endif %}>
-  <header class="main-header tc small-centered medium-9 columns">
-    <h1>
-      Open-source platform for the creation, use and sharing of interactive 3D printed robots.
-    </h1>
+<div class="cover" {% if page.cover_image %}style="background-image: url({{ site.baseurl }}{{ page.cover_image }});"{% endif %}>
+  <div class="row">
+    <header class="main-header tc small-centered medium-9 columns">
+      <h1>
+        Open-source platform for the creation, use and sharing of interactive 3D printed robots.
+      </h1>
 
-    <p class="lead">
-      We are an interdisciplinary community of beginners and experts, scientists, educators, developers and artists, who all share a vision:
-      <br>
-      <strong>robots are powerful tools to learn and be creative</strong>.
-    </p>
-  </header>
+      <p class="lead">
+        We are an interdisciplinary community of beginners and experts, scientists, educators, developers and artists, who all share a vision:
+        <br>
+        <strong>robots are powerful tools to learn and be creative</strong>.
+      </p>
+    </header>
+  </div>
 </div>
 
 <section class="audiences tc">
-  <h2>Who is Poppy for?</h2>
+  <h2 class="clish">Who is Poppy for?</h2>
 
-  <div class="row columns" data-equalizer data-equalize-on="large">
+  <div class="row" data-equalizer data-equalize-on="large">
     <div class="large-4 columns education">
       <a href="{{ site.baseurl }}/{{ page.lang }}/education" class="callout" data-equalizer-watch>
         <figure>
@@ -77,16 +79,16 @@ published: true
 </div>
 
 <div class="row large-9 columns small-centered tc">
-  <p class="lead">
-    The Poppy community develops robotic creations that are<br><strong>easy to build, customize, deploy, and share</strong>.
-  </p>
+  <h2 class="clish">
+    The Poppy community develops robotic creations that are<br>easy to build, customize, deploy, and share</strong>.
+  </h2>
   <p class="lead">
     We promote open-source by sharing hardware, software, and web tools.
   </p>
 </div>
 
 <section class="creatures tc">
-  <h2 class="small-centered">Poppy Robots</h2>
+  <h2 class="small-centered clish">Poppy Robots</h2>
 
   <div class="row" data-equalizer data-equalize-on="large">
 
