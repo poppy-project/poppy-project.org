@@ -19,6 +19,25 @@
         <li><a href="{{ site_page.url | prepend: site.baseurl }}"{% if site_page.date.nil? and page.role == site_page.role %} class="active"{% endif %}>{{ site_page.title }}</a></li>
           {% endif %}
         {% endfor %}
+        {% for language in site.languages %}
+          {% if page.date %}
+            {% for post in site.posts %}
+              {% if page.date == post.date and post.lang == language.key %}
+        <li><a class="lang-link{% if page.lang == language.key %} active{% endif %}" href="{{ site.baseurl }}{{ post.url }}">
+          <img width="35" height="24" src="{{ site.baseurl }}/assets/img/flags/{{ language.key }}.png" alt="{{ language.name }}">
+        </a></li>
+              {% endif %}
+            {% endfor %}
+          {% else %}
+            {% for post in site.pages %}
+              {% if page.role == post.role and post.lang == language.key %}
+        <li><a class="lang-link{% if page.lang == language.key %} active{% endif %}" href="{{ site.baseurl }}{{ post.url }}">
+          <img width="35" height="24" src="{{ site.baseurl }}/assets/img/flags/{{ language.key }}.png" alt="{{ language.name }}">
+        </a></li>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
       </ul>
     </div>
   </div>
