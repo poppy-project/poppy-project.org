@@ -166,6 +166,7 @@
 }
 
 @import "poppy/cover";
+@import "poppy/lang-switcher";
 
 .clish {
   @each $breakpoint, $value in $grid-column-gutter {

@@ -1,0 +1,35 @@
+<ul class="dropdown menu lang-switcher" data-dropdown-menu>
+  <li class="is-dropdown-submenu-parent">
+    <a>
+      <svg class="icon icon-translate">
+        <title>Translate</title>
+        <use xlink:href="{{ site.baseurl }}/assets/img/symbol-defs.svg#icon-translate"></use>
+      </svg>
+    </a>
+    <ul class="menu vertical">
+      {% for language in site.languages %}
+        {% if page.date %}
+          {% for post in site.posts %}
+            {% if page.date == post.date and post.lang == language.key %}
+        <li>
+          <a class="lang-link{% if page.lang == language.key %} active{% endif %}" href="{{ site.baseurl }}{{ post.url }}">
+            {{ language.name }}
+          </a>
+        </li>
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {% for post in site.pages %}
+            {% if page.role == post.role and post.lang == language.key %}
+        <li>
+          <a class="lang-link{% if page.lang == language.key %} active{% endif %}" href="{{ site.baseurl }}{{ post.url }}">
+            {{ language.name }}
+          </a>
+        </li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </li>
+</ul>
