@@ -1,9 +1,9 @@
 ---
-layout: single-column-cover
 lang: en
-permalink: /en/technologies/robots/poppy-humanoid
+layout: single-column-cover
+permalink: /en/robots/poppy-humanoid
 role: poppy-humanoid
-title: Poppy Humanoid
+title: "Poppy Humanoid"
 description: ""
 cover_image: "/assets/img/covers/poppy_humanoid_ergo_playground.jpg"
 cover_title: "Advanced and easy to use open source humanoid robot for creative people"
@@ -44,3 +44,4 @@ Options:
 The Poppy Humanoid Kit is distributed by Génération Robots.
 
 Alternatively, you can agregate all components needed by your own, using the last [bill of material](#).
+
