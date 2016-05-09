@@ -125,6 +125,12 @@
 
 .video-showcase {
   background-color: $black;
+
+  .description {
+    color: $white;
+    text-align: center;
+    font-style: italic;
+  }
 }
 
 
