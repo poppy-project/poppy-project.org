@@ -7,6 +7,10 @@
 
   <meta name="description" content="{% if page.description and page.description != "" %}{{ page.description | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
 
+  {% if hide_from_robots == true %}
+  <meta name="robots" content="noindex, nofollow">
+  {% endif %}
+
   {% include favicon.html %}
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
