@@ -3,8 +3,8 @@ layout: single-column
 lang: fr
 permalink: /fr/for-science/
 role: for-science
-title: --missing--
-description: --missing--
+title: ""
+description: ""
 published: true
 ---
 

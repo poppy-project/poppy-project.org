@@ -3,8 +3,8 @@ layout: single-column-cover
 lang: fr
 permalink: /fr/education/
 role: education
-title: --missing--
-description: --missing--
+title: "Poppy pour l'éducation"
+description: "Poppy, une plate-forme de robotique open-source, peut être utilisée à des fins éducatives : workshops, collèges et lycées, fablabs..."
 cover_image: "/assets/img/covers/ergo-grid.jpg"
 cover_title: "Des robots et des activités open-source pour l’enseignement des Sciences du Numérique"
 published: true

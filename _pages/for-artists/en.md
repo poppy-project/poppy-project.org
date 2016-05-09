@@ -3,8 +3,8 @@ layout: single-column
 lang: en
 permalink: /en/for-artists/
 role: for-artists
-title: --missing--
-description: --missing--
+title: ""
+description: ""
 published: true
 ---
 

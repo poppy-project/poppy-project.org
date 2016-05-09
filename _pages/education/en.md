@@ -3,9 +3,9 @@ layout: single-column-cover
 lang: en
 permalink: /en/education/
 role: education
-title: --missing--
-description: "Poppy, an open-source robotics platform based on 3D printing, is used as a tool for teaching"
-cover_image:
+title: "Poppy project for education"
+description: "Poppy, an open-source robotics platform based on 3D printing, is used as a tool for teaching in middle and high schools, fablabs, workshops..."
+cover_image: "/assets/img/covers/ergo-grid.jpg"
 cover_title: "Open-source robots and activities for teaching Digital Science"
 published: true
 ---
