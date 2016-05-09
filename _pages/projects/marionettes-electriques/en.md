@@ -1,28 +1,28 @@
 ---
 layout: single-column-cover
-lang: fr
-permalink: /fr/projects/marionettes-electriques
+lang: en
+permalink: /en/projects/marionettes-electriques
 role: marionettes-electriques-project
-title: "Projet Marionettes Electriques avec Poppy"
+title: "Marionettes Electriques Projet made with Poppy"
 description: ""
 cover_image: "/assets/img/projects/shonen-school-of-the-moon.jpg"
 cover_title: ""
 published: true
 ---
 
-<img src="https://forum.poppy-project.org/uploads/default/original/2X/0/065c47a240611f39243d5dfb20a1d4a7b3b79179.png" alt="Logo Marionettes électriques" width="180" height="200">
+<img src="https://forum.poppy-project.org/uploads/default/original/2X/0/065c47a240611f39243d5dfb20a1d4a7b3b79179.png" alt="Marionettes électriques logo" width="180" height="200">
 
 
 Projet avec la participation de :
 La compagnie de danse contemporaine Shonen et
 
-<img src="https://forum.poppy-project.org/uploads/default/original/2X/d/d25edcc4900ac45173dee00286bf7732d0ad8463.JPG" alt="Logo Toulous'up" width="150" height="75">
+<img src="https://forum.poppy-project.org/uploads/default/original/2X/d/d25edcc4900ac45173dee00286bf7732d0ad8463.JPG" alt="Toulous'up logo" width="150" height="75">
 
-<img src="https://forum.poppy-project.org/uploads/default/original/2X/f/f1f45e71e519e6dc9eca4726a632b8bf1479ef42.png" alt="Logo Inria" width="150" height="50">
+<img src="https://forum.poppy-project.org/uploads/default/original/2X/f/f1f45e71e519e6dc9eca4726a632b8bf1479ef42.png" alt="Inria logo" width="150" height="50">
 
-<img src="https://forum.poppy-project.org/uploads/default/original/2X/3/3d6622085f70a01ed4d8b3d37a704512c2a0086e.png" alt="Logo RoboCare lab" width="150" height="60">
+<img src="https://forum.poppy-project.org/uploads/default/original/2X/3/3d6622085f70a01ed4d8b3d37a704512c2a0086e.png" alt="RoboCare lab logo" width="150" height="60">
 
-<img src="https://forum.poppy-project.org/uploads/default/original/2X/9/957c9cd23b6339e1ab12c453fe0ab6b3676f2c51.jpg" alt="Logo Artilect fablab" width="100" height="150">
+<img src="https://forum.poppy-project.org/uploads/default/original/2X/9/957c9cd23b6339e1ab12c453fe0ab6b3676f2c51.jpg" alt="Artilect fablab logo" width="100" height="150">
 
 ## Le projet
 
@@ -39,7 +39,7 @@ Le projet "Marionnettes électriques" est une création de Thomas Peyruse comme 
 Utiliser des robots pour la santé des personnes pose souvent des questions éthiques. La question que je me pose tout le temps est "en quoi le robot que je développe est indispensable ?". Il se trouve que dans les sciences de la psychomotricité, pour l'étude de l'autisme et de la maladie d'Alzheimer, les traitements peuvent être améliorés par l'utilisation de robots humanoïdes. En effet, cela ajoute un aspect ludique et désinhibe la majorité des patients. L'utilisation de robots pour le traitement ne doit pas être exclusif, il ne doit être qu'un moyen, certes efficace, sous le contrôle total du personnel soignant. Et c'est le point le plus important à développer : un partenariat fort, une écoute du personnel médical et un suivi des des systèmes informatiques de santé.
 Pour ce projet, j'accompagne la société [RoboCARE Lab][7] dans ce défi du point de vue de la technique et de la mise en scène des applications.
 
-<img src="https://forum.poppy-project.org/uploads/default/original/2X/b/b47d8a49d4bfb882e856ab192acabfeb0e48148e.jpg" alt="Robot Milo">
+<img src="https://forum.poppy-project.org/uploads/default/original/2X/b/b47d8a49d4bfb882e856ab192acabfeb0e48148e.jpg" alt="Milo robot">
 
 ### La robotique pour le spectacle
 
@@ -100,7 +100,7 @@ L’illusion de la silhouette humanoïde passe aussi par le design de la marionn
 Comme le robot devra revetir différents rôles, la tête devra changer très souvent. C’est pour cela qu’il a été décidé d’utiliser une tête amovible connectée par des aimants. L’électronique qui est normalement dans la tête sera mise dans un sac à dos en cours de design.  
 De même, dans l’optique d’un spectacle, le robot devra saisir des objets avec une certaine force. Des mains/pinces sont donc en cours de design.
 
-<img src="https://forum.poppy-project.org/uploads/default/1027/542650e4b53be813.jpg" alt="Robot sur une scène" width="370" height="500">
+<img src="https://forum.poppy-project.org/uploads/default/1027/542650e4b53be813.jpg" alt="Robot on stage" width="370" height="500">
 
 ## Événements passés:
 

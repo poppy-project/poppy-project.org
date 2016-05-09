@@ -2,8 +2,8 @@
 layout: single-column-cover
 lang: en
 permalink: /en/projects/cherry
-role: projet-cherry
-title: Cherry project with Poppy torso
+role: cherry-project
+title: "Cherry project with Poppy Torso"
 description: ""
 cover_image: "/assets/img/projects/cherry-illustration.jpg"
 cover_title: "Assistive robotic companion for hospitalized children"
@@ -11,7 +11,7 @@ published: true
 ---
 
 
-<p align="center"><img src="https://forum.poppy-project.org/uploads/default/original/2X/3/33984972217cd45f473246b130f0001df33ffcfc.png" width="400"></p>
+<p align="center"><img src="https://forum.poppy-project.org/uploads/default/original/2X/3/33984972217cd45f473246b130f0001df33ffcfc.png" alt="Logo Cherry project" width="400"></p>
 
 ## Project
 
@@ -47,4 +47,4 @@ Do not hesitate to contact us for more information, or to bring us your help!
 
 ## Partners:
 
-<p align="center"><img src="https://forum.poppy-project.org/uploads/default/original/2X/8/823785d5178763ddffb46d078c32b8d05d902be8.png" width="600"></p>
+<p align="center"><img src="https://forum.poppy-project.org/uploads/default/original/2X/8/823785d5178763ddffb46d078c32b8d05d902be8.png" alt="Cherry project sponsors" width="600"></p>
