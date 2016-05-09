@@ -1,0 +1,11 @@
+---
+layout: page
+---
+
+{% if page.cover_title or page.cover_image %}
+  {% include cover.html
+    title=page.cover_title
+  %}
+{% endif %}
+
+{{ content }}

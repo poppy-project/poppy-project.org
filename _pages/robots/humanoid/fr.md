@@ -10,11 +10,13 @@ cover_title: "Advanced and easy to use open source humanoid robot for creative p
 published: true
 ---
 
-Poppy Humanoid integrate advanced robotic features in a modular and easy-to-use open source platform.
+<p class="lead">
+  Poppy Humanoid integrates advanced robotic features in a modular and easy-to-use open source platform.
+</p>
 
 Based on advanced Robotis actuator and neat 3D printed parts, it allows for anyone (artists, educators, developpers or scientists) to freely use it and hack it in their very own way.
 
-## What the community does with it ...
+## What the community does with it...
 
 More than 50 Poppy Humanoid are currently used around the world. They are
 
