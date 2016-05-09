@@ -17,11 +17,8 @@ Projet avec la participation de :
 La compagnie de danse contemporaine Shonen et
 
 <img src="https://forum.poppy-project.org/uploads/default/original/2X/d/d25edcc4900ac45173dee00286bf7732d0ad8463.JPG" alt="Logo Toulous'up" width="150" height="75">
-
 <img src="https://forum.poppy-project.org/uploads/default/original/2X/f/f1f45e71e519e6dc9eca4726a632b8bf1479ef42.png" alt="Logo Inria" width="150" height="50">
-
 <img src="https://forum.poppy-project.org/uploads/default/original/2X/3/3d6622085f70a01ed4d8b3d37a704512c2a0086e.png" alt="Logo RoboCare lab" width="150" height="60">
-
 <img src="https://forum.poppy-project.org/uploads/default/original/2X/9/957c9cd23b6339e1ab12c453fe0ab6b3676f2c51.jpg" alt="Logo Artilect fablab" width="100" height="150">
 
 ## Le projet
