@@ -1,5 +1,5 @@
 ---
-layout: single-column
+layout: single-column-cover
 lang: en
 title: "Contact"
 description: "Get in touch with us for more information"
@@ -7,7 +7,25 @@ permalink: /en/contact/
 role: contact
 in_nav: false
 published: true
+cover_title: "You have a question about the Poppy project or Poppy robots ?"
 ---
+
+
+## First ...
+
+You can check the [FAQ (aka Getting started)](https://forum.poppy-project.org/t/getting-started-with-poppy-project/362) or search on the [Poppy Forum](https://forum.poppy-project.org/), it’s Super Effective!
+
+Still did not find the answer ? Please, start a new topic! It’s free !
+
+<div class="text-center">
+<a href="https://forum.poppy-project.org/" class="button success large ">Start a new topic !</a>
+</div>
+
+<hr />
+
+## Contact
+
+Or contact us directly via e-mail…
 
 <div class="row">
   <form action="https://formspree.io/{{ site.data.social.email }}" method="post" class="columns">

@@ -1,5 +1,5 @@
 ---
-layout: single-column
+layout: single-column-cover
 lang: fr
 title: "Contact"
 description: "Contactez-nous pour obtenir de plus amples informations"
@@ -7,7 +7,25 @@ permalink: /fr/contact/
 role: contact
 in_nav: false
 published: true
+cover_title: "Vous avez une question à propos du projet Poppy ou des robots Poppy ?"
 ---
+
+
+## Premièrement ...
+
+Vous pouvez jeter un oeil à la [FAQ (aka Getting started)](https://forum.poppy-project.org/t/getting-started-with-poppy-project/362) ou chercher sur le [forum Poppy](https://forum.poppy-project.org/).
+
+Vous n'avez toujours pas trouvé de réponse ? N'hesitez pas et lancez une nouvelle discussion! en plus c'est gratuit !
+
+<div class="text-center">
+<a href="https://forum.poppy-project.org/" class="button success large ">Ouvrir un nouvelle discussion !</a>
+</div>
+
+<hr />
+
+## Contact
+
+Sinon vous pouvez toujours nous contacter directement par mail...
 
 <div class="row">
   <form action="https://formspree.io/{{ site.data.social.email }}" method="post" class="columns">
@@ -22,7 +40,7 @@ published: true
       <input type="text" name="name">
     </label>
     <label>
-      E-mail
+      Email
       <input type="email" name="email">
     </label>
     <label>
@@ -30,6 +48,6 @@ published: true
       <textarea name="message" rows="5"></textarea>
     </label>
 
-    <button type="submit" class="button">Envoyer</button>
+    <button type="submit" class="button">Send</button>
   </form>
 </div>
