@@ -10,18 +10,17 @@ published: true
 cover_title: "Vous avez une question à propos du projet Poppy ou des robots Poppy ?"
 ---
 
+## Premièrement...
 
-## Premièrement ...
+Vous pouvez jeter un œil à la section [Getting started](http://docs.poppy-project.org/en/getting-started/) de la documentation ou chercher sur les [forums de discussion](https://forum.poppy-project.org/).
 
-Vous pouvez jeter un oeil à la [FAQ (aka Getting started)](https://forum.poppy-project.org/t/getting-started-with-poppy-project/362) ou chercher sur le [forum Poppy](https://forum.poppy-project.org/).
+Vous n'avez toujours pas trouvé de réponse ? N'hesitez pas à lancer une nouvelle discussion !
 
-Vous n'avez toujours pas trouvé de réponse ? N'hesitez pas et lancez une nouvelle discussion! en plus c'est gratuit !
-
-<div class="text-center">
-<a href="https://forum.poppy-project.org/" class="button success large ">Ouvrir un nouvelle discussion !</a>
+<div class="text-center clish">
+  <a href="https://forum.poppy-project.org/" class="button success large">Lancer une nouvelle discussion</a>
 </div>
 
-<hr />
+<hr>
 
 ## Contact
 
