@@ -43,7 +43,10 @@
         </ul>
       </div>
       <div class="large-6 columns edit large-text-right">
-        <p>{% include edit-page-link.html %}</p>
+        <ul class="menu vertical">
+          <li>{% include edit-page-link.html %}</li>
+          <li><a href="{{ site.baseurl }}/{{ page.lang }}/contact">Contact us</a></li>
+        </ul>
       </div>
     </div>
   </div>
