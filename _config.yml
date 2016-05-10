@@ -25,6 +25,7 @@ outlinks:
 
 
 # Build settings
+# analytics: true
 markdown: kramdown
 highlighter: rouge
 
