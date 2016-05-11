@@ -1,13 +1,20 @@
 #!/usr/bin/env bash
+
 set -e # halt script on error
 
-# uncomment url in jekyll config
-sed 's/# url:/url:/g' '_config.yml' > _config.yml.new
-mv _config.yml.new _config.yml
-sed 's/# analytics:/analytics:/g' '_config.yml' > _config.yml.new
-mv _config.yml.new _config.yml
+config='_config.yml'
+config_backup="$config.bak"
+
+cp $config $config_backup
+
+# Set specific build settings in jekyll config
+cat >> $config <<EOF
+analytics: true
+url: http://poppy-project.github.io
+sass:
+  style: compressed
+EOF
 
 bundle exec jekyll build --destination _site/poppy-project.org
-bundle exec htmlproofer ./_site --assume-extension --allow-hash-href --check-html --url-ignore "/flowers.inria.fr/"
 
-rm -rf .git
+mv $config_backup $config
