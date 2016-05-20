@@ -40,6 +40,7 @@ exclude: [
   "bower_components",
   "vendor",
   "README.md",
+  "LICENSE.md",
   "Gemfile",
   "Gemfile.lock"
 ]
