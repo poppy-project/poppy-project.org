@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -e # halt script on error
+set -e
 
 config='_config.yml'
 config_backup="$config.bak"
