@@ -11,3 +11,6 @@ gem install bundler
 bundle install
 jekyll serve
 ```
+## License
+
+See [LICENSE](LICENSE.md) file.
