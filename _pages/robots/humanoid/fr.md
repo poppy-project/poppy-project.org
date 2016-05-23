@@ -39,11 +39,10 @@ Options:
 - IMU 9DOF
 - 4.5 inch screen
 
-[Check out what is comming next !](#)
+[Check out what is coming next !](#)
 
 ## Get your Poppy Humanoid
 
-The Poppy Humanoid Kit is distributed by Génération Robots.
+The Poppy Humanoid kit is distributed by Génération Robots.
 
 Alternatively, you can agregate all components needed by your own, using the last [bill of material](#).
-
