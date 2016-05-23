@@ -1,0 +1,18 @@
+bom:
+  humanoid: https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/BOM.md
+
+documentation:
+  en:
+    url: http://docs.poppy-project.org/en/
+    title: Documentation
+  fr:
+    url: http://docs.poppy-project.org/fr/
+    title: Documentation
+
+forum:
+  en:
+    url: https://forum.poppy-project.org
+    title: Forum
+  fr:
+    url: https://forum.poppy-project.org
+    title: Forums

@@ -11,19 +11,6 @@ description:
   en: "Poppy Project description."
   fr: "Description du Projet Poppy."
 
-outlinks:
-  en:
-    - url: https://forum.poppy-project.org
-      title: Forum
-    - url: http://docs.poppy-project.org/en/
-      title: Documentation
-  fr:
-    - url: https://forum.poppy-project.org
-      title: Forums
-    - url: http://docs.poppy-project.org/fr/
-      title: Documentation
-
-
 # Build settings
 # analytics: true
 markdown: kramdown

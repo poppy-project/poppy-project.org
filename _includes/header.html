@@ -4,7 +4,7 @@
     <span data-responsive-toggle="responsive-menu" data-hide-for="large">
       <span class="menu-icon dark" data-toggle></span>
     </span>
-    <a href="{{ site.baseurl }}/">
+    <a href="{{ site.baseurl }}/{{ page.lang }}/">
       <img src="{{ site.baseurl }}/assets/img/logo.png" width="100" height="38" data-interchange="[{{ site.baseurl }}/assets/img/logo-large.png, retina]" alt="{{ site.title }}">
     </a>
   </div>
@@ -12,9 +12,9 @@
   <div id="responsive-menu">
     <div class="top-bar-right">
       <ul class="menu vertical medium-horizontal">
-        {% for outlink in site.outlinks[page.lang] %}
-        <li><a href="{{ outlink.url }}">{{ outlink.title }}</a></li>
-        {% endfor %}
+        <li><a href="{{ site.data.links.forum[page.lang].url }}">{{ site.data.links.forum[page.lang].title }}</a></li>
+
+        <li><a href="{{ site.data.links.documentation[page.lang].url }}">{{ site.data.links.documentation[page.lang].title }}</a></li>
 
         {% for site_page in site.pages %}
           {% if site_page.lang == page.lang and site_page.in_nav %}

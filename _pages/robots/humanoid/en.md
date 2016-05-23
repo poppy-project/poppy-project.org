@@ -4,9 +4,10 @@ layout: single-column-cover
 permalink: /en/robots/poppy-humanoid
 role: poppy-humanoid
 title: "Poppy Humanoid"
-description: ""
+description: "Poppy Humanoid is a complete humanoid robot designed to be robust to real world experimentations and highly hackable so it can be adapted to the user needs"
 cover_image: "/assets/img/covers/poppy_humanoid_ergo_playground.jpg"
-cover_title: "Advanced and easy to use open source humanoid robot for creative people"
+cover_title: "Poppy Humanoid: advanced and easy to use open source humanoid robot"
+cover_gradient: true
 published: true
 ---
 
@@ -14,21 +15,15 @@ published: true
   Poppy Humanoid integrates advanced robotic features in a modular and easy-to-use open source platform.
 </p>
 
-Based on advanced Robotis actuator and neat 3D printed parts, it allows for anyone (artists, educators, developpers or scientists) to freely use it and hack it in their very own way.
-
-## What the community does with it...
-
-More than 50 Poppy Humanoid are currently used around the world. They are
-
+Based on advanced Robotis actuators and neat 3D printed parts, it allows for anyone (artists, educators, developpers or scientists) to freely use it and hack it in their very own way.
 
 ## Features
 
-The robot is design so it can be fully hacked, therefore the following specifications are the standard ones and can be easily modified/upgraded to fit specific needs.
-
+The robot is designed to be fully hacked, therefore the following specifications are the standard ones and can be easily modified or upgraded to fit specific needs.
 
 **Poppy Humanoid v1.0.2:**
 
-- Size: 83 cm
+- Size: 83cm
 - Mass: 3.5kg
 - Embedded system: Odroid XU4 with Ubuntu 14.04
 - 25 actuators
@@ -37,12 +32,12 @@ The robot is design so it can be fully hacked, therefore the following specifica
 Options:
 
 - IMU 9DOF
-- 4.5 inch screen
-
-[Check out what is coming next !](#)
+- 4.5 inches screen
 
 ## Get your Poppy Humanoid
 
-The Poppy Humanoid Kit is distributed by Génération Robots.
+The Poppy Humanoid kit is distributed by Génération Robots.
 
-Alternatively, you can agregate all components needed by your own, using the last [bill of material](#).
+<a href="http://www.generationrobots.com/en/312-poppy-humanoid-robot" class="button success">Order your own Poppy Humanoid</a>
+
+Alternatively, you can aggregate all components needed by your own, using the latest [bill of material]({{ site.data.links.bom.humanoid }}).
