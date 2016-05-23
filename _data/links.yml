@@ -1,5 +1,8 @@
+cherry_project: https://projetcherry.wordpress.com/
+
 bom:
   humanoid: https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/BOM.md
+  torso: https://github.com/poppy-project/poppy-torso/blob/master/hardware/doc/BOM.md
 
 documentation:
   en:

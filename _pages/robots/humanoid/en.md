@@ -38,6 +38,6 @@ Options:
 
 The Poppy Humanoid kit is distributed by Génération Robots.
 
-<a href="http://www.generationrobots.com/en/312-poppy-humanoid-robot" class="button success">Order your own Poppy Humanoid</a>
+<a href="http://www.generationrobots.com/en/312-poppy-humanoid-robot" class="button success">Order your Poppy Humanoid</a>
 
 Alternatively, you can aggregate all components needed by your own, using the latest [bill of material]({{ site.data.links.bom.humanoid }}).
