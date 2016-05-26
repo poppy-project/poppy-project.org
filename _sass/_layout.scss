@@ -146,15 +146,27 @@
 }
 
 .copyright {
-  .menu-text {
-    font-weight: normal;
+  background-color: $black;
+
+  a {
+    &:hover,
+    &:focus {
+      color: scale-color($white, $lightness: -15%);
+    }
   }
 
-  .menu li {
-    &,
-    & > a {
-      padding-right: 0;
-      padding-left: 0;
+  > * {
+    color: $white;
+
+    padding-right: .5em;
+    display: inline-block;
+
+    line-height: 1;
+
+    & ~ * {
+      padding-left: .5em;
+
+      border-left: 1px solid currentColor;
     }
   }
 }

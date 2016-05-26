@@ -33,21 +33,19 @@
             link="https://www.youtube.com/c/PoppyProjectOrgVideos" %}
         </li>
       </ul>
-    </div>
-
-    <div class="row">
-      <div class="large-6 columns copyright">
-        <ul class="menu vertical">
-          <li class="menu-text">Copyright &copy; 2016 Inria</li>
-        </ul>
-      </div>
       <div class="large-6 columns edit large-text-right">
         <ul class="menu vertical">
           <li>{% include edit-page-link.html %}</li>
-          <li><a href="{{ site.baseurl }}/{{ page.lang }}/contact">Contact us</a></li>
+          <li><a href="{{ site.baseurl }}/{{ page.lang }}/contact">{{ site.data.i18n.contact_us[page.lang] }}</a></li>
         </ul>
       </div>
     </div>
+
+  </div>
+
+  <div class="row expanded columns copyright text-center">
+    <span>Copyright &copy; 2016 Inria</span>
+    <a href="{{ site.baseurl }}/{{ page.lang }}/legal-notice">{{ site.data.i18n.legal[page.lang] }}</a>
   </div>
 
 </footer>
