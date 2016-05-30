@@ -2,11 +2,18 @@ language: ruby
 rvm:
 - 2.2.4
 script: "./_script/cibuild.sh && ./_script/test.sh"
-deploy:
-  skip_cleanup: true
-  provider: script
-  script: _script/cideploy.sh
 sudo: false
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+before_deploy: "tar -zcvf htdocs.tar.gz _site"
+deploy:
+  provider: releases
+  skip_cleanup: true
+  api_key:
+    secure: JItOKaUSOAc5tiUoKa7eyUqaPJSIPxGTD3l/xwCAqzPhdIf6VZgwIFzHndoh8CpnDNHZ7vXL4VCHGe9RKRroMH2DuJUlW/NSNg70F9r4QbP6zkSNLxw3Ncloah3a+oMZqYIYLGPWq3pJOeS5GBBgEd/rlC8Oq6P0iFV1PGn2g6Po2hzRhVjG/34e9yX8d6owS9Ewi5Jami5sqLVxjSXRr5LZbA50qkb5dAAwPKgNXD3hJXJzfoLTQ7WpyMMgY8H23pDPrAMXbwgATSdKxl40mLSUFmKBtCgOlEwljbs3O7yFeyQV/qLvoUUzsPOUoT9ko2NPfhgxNbnjGImpfgeISzspPXk/Uv4GWTaqOaLHK6uKb3em6RiY4PuE0iknPZWe+xCZL0jnK4quH0Mt28CW4R8IqGafzVtaCkSw3aB6mEdrWmC6EcJn8oyNrCOblwmio2XZbHvWPJdZoCldDl+FCLEbWATvydpL+cgPrix+sUK67mg2Icx3szXRFhps98d6qn8MVtz31fSQPIeWtx3dTc+SgmJp/FI0IZQxmeyRX0c2AYr2+yf5RIf4Ap5KgKZlGBnDwfkEfvFQpMn5Y5nwtWT9dPxFYol3+lYUbXr6LQZb9d8DiQyZd5pHMvmouT/VKKim8SdRi9VTdEOT/TgfanaGigElPt1kbTNZ5ikZev0=
+  file_glob: true
+  file: htdocs.tar.gz
+  on:
+    repo: poppy-project/poppy-project.org
+    tags: true

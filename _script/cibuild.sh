@@ -10,11 +10,11 @@ cp $config $config_backup
 # Set specific build settings in jekyll config
 cat >> $config <<EOF
 analytics: true
-url: http://poppy-project.github.io
+url: http://www.poppy-project.org
 sass:
   style: compressed
 EOF
 
-bundle exec jekyll build --destination _site/poppy-project.org
+bundle exec jekyll build
 
 mv $config_backup $config
