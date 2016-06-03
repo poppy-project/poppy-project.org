@@ -50,8 +50,8 @@ La plate-forme est constituée de [briques technologiques]({{ site.baseurl }}/{{
     <a href="{{ site.baseurl }}/{{ page.lang }}/projects/cherry" class="large-4 columns">
       <h3>Projet Cherry</h3>
     </a>
-    <a href="{{ site.baseurl }}/{{ page.lang }}/projects/marionettes-electriques" class="large-4 columns">
-      <h3>Marionettes électriques</h3>
+    <a href="{{ site.baseurl }}/{{ page.lang }}/projects/marionnettes-electriques" class="large-4 columns">
+      <h3>Marionnettes électriques</h3>
     </a>
   </div>
 </div>
