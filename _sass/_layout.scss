@@ -123,6 +123,13 @@
   }
 }
 
+.follow-incentive {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  @extend .text-center;
+}
+
 .video-showcase {
   background-color: $black;
 
