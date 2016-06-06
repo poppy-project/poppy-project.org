@@ -7,12 +7,12 @@ permalink: /en/contact/
 role: contact
 in_nav: false
 published: true
-cover_title: "You have a question about the Poppy project or Poppy robots ?"
+cover_title: "You have a question about the Poppy project or Poppy robots?"
 ---
 
 ## First...
 
-You can check the [Getting started)](http://docs.poppy-project.org/en/getting-started/) section of the documentation or search the [forum](https://forum.poppy-project.org/).
+You can check the [Getting started](http://docs.poppy-project.org/en/getting-started/) section of the documentation or search the [forum](https://forum.poppy-project.org/).
 
 Still did not find the answer? Start a new topic!
 

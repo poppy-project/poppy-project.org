@@ -15,11 +15,11 @@ published: true
 
 ## Le projet
 
-Le projet "Marionnettes électriques" est une création de Thomas Peyruse comme auto-entrepreneur labellisée [“Toulous’up”][1] par la mairie de Toulouse. Le but de ce projet est de questionner et utiliser les dernières innovations en robotique à travers des créations artistiques. Ces recherches auront pour but final de créer un prototype de robot pour fin 2018.
+Le projet _Marionnettes électriques_ est une création de Thomas Peyruse comme auto-entrepreneur labellisée [_Toulous'up_][1] par la mairie de Toulouse. Le but de ce projet est de questionner et utiliser les dernières innovations en robotique à travers des créations artistiques. Ces recherches auront pour but final de créer un prototype de robot pour fin 2018.
 
-## Événements à venir:
+## Événements à venir :
 
-- les 22 et 23 juin au [colloque robotique et éducation](http://dm1r.fr/colloque-robotique-education/) à l'INRIA Bordeaux
+- les 22 et 23 juin au [colloque robotique et éducation](http://dm1r.fr/colloque-robotique-education/) au Centre de Recherche Inria Bordeaux - Sud-Ouest.
 - du 8 au 11 août de 15h à 18h : Atelier manipulation de robots au [Festival d'astronomie de Fleurance.](http://www.festival-astronomie.com/)
 
 ## Thomas Peyruse
