@@ -1,6 +1,6 @@
 ---
 lang: fr
-layout: default
+layout: single-column
 permalink: /fr/legal-notice
 role: legal-notice
 title: "Mentions légales"

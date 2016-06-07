@@ -1,6 +1,6 @@
 ---
 lang: en
-layout: default
+layout: single-column
 permalink: /en/legal-notice
 role: legal-notice
 title: "Legal notice"
