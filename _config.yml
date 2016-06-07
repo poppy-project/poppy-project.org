@@ -16,9 +16,6 @@ highlighter: rouge
 
 timezone: Europe/Paris
 
-sass:
-  style: compressed
-
 include: [ "_pages" ]
 
 exclude: [

@@ -1,0 +1,62 @@
+.audiences {
+
+  h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+    line-height: 1.1;
+  }
+
+  .audience-tag {
+
+    $audience-icon-size: 60px;
+    $audience-icon-padding: 10px;
+
+    padding: (1px + $audience-icon-padding + $audience-icon-size / 2) 1rem 1rem 1rem;
+
+    background: $white;
+
+    > :first-child {
+      padding: 2rem;
+      border: 1px solid $medium-gray;
+
+      position: relative;
+
+      display: block;
+    }
+
+    figure {
+      margin: 0;
+      padding: $audience-icon-padding;
+
+      position: absolute;
+      top: - $audience-icon-size / 2 - $audience-icon-padding;
+      left: calc(50% - #{$audience-icon-size / 2} - #{$audience-icon-padding});
+
+      background: $white;
+      border-radius: 50%;
+      border: 1px solid $medium-gray;
+
+      > span {
+        display: block;
+
+        text-align: center;
+      }
+
+      .icon {
+        height: $audience-icon-size;
+        width: $audience-icon-size;
+
+        display: block;
+      }
+    }
+
+    .cta {
+      margin-top: 1rem;
+
+      a {
+        @include button($expand: true);
+      }
+    }
+  }
+}

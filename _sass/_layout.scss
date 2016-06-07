@@ -190,43 +190,11 @@
   }
 }
 
-@import "poppy/cover";
-@import "poppy/lang-switcher";
-
 .clish {
   @each $breakpoint, $value in $grid-column-gutter {
     @include breakpoint($breakpoint) {
       padding-top: rem-calc($value / 2);
       padding-bottom: rem-calc($value / 2);
-    }
-  }
-}
-
-.audiences {
-
-  h3 {
-    line-height: 1.1;
-  }
-
-  a {
-    padding: 2rem;
-
-    display: block;
-
-    &:hover,
-    &:focus {
-      svg {
-        fill: $anchor-color-hover;
-      }
-    }
-  }
-
-  figure {
-    margin: 0 0 20px 0;
-
-    .icon {
-      height: 80px;
-      width: 80px;
     }
   }
 }
@@ -253,3 +221,8 @@
 .nodisp {
   display: none;
 }
+
+@import "poppy/cover";
+@import "poppy/lang-switcher";
+
+@import "poppy/audiences";
