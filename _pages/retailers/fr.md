@@ -14,6 +14,6 @@ Malheureusement, obtenir le matériel gratuitement est impossible... Par conséq
 
 Ici, vous trouverez les distributeurs officiels qui comprennent les valeurs ouvertes du projet Poppy, et qui s'efforcent d'aider les membres de la communauté en fournissant des produits de haute qualité à des prix raisonnables.
 
-## Distributors
+## Distributeurs
 
 - [Génération robots](http://www.generationrobots.com/fr/279-poppy)
