@@ -7,11 +7,12 @@
 }
 
 @mixin call-to-action($button-color: primary, $button-style: solid, $button-expand: true) {
+
   margin-top: 1rem;
 
   @if $button-style == solid {
     a {
-      @include button($expand: $button-expand);
+      @include button($expand: $button-expand, $background: map-get($foundation-palette, $button-color), $background-hover: auto);
     }
   }
   @else if $button-style == hollow {
@@ -217,6 +218,8 @@
 .nodisp {
   display: none;
 }
+
+@import "poppy/page";
 
 @import "poppy/cover";
 @import "poppy/lang-switcher";

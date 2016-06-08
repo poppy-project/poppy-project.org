@@ -1,0 +1,28 @@
+.page {
+
+  .cover {
+    margin-bottom: 3rem;
+  }
+
+  hr {
+    margin: 3rem auto;
+
+    border-bottom-style: dashed;
+  }
+
+  .hl-image {
+    @include breakpoint(large) {
+      img {
+        min-width: 120%;
+      }
+    }
+  }
+
+  .order-cta {
+    margin: 3rem auto;
+
+    a {
+      margin-bottom: 0;
+    }
+  }
+}
