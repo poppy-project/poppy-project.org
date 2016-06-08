@@ -6,6 +6,21 @@
   }
 }
 
+@mixin call-to-action($button-color: primary, $button-style: solid, $button-expand: true) {
+  margin-top: 1rem;
+
+  @if $button-style == solid {
+    a {
+      @include button($expand: $button-expand);
+    }
+  }
+  @else if $button-style == hollow {
+    a {
+      @include button($expand: $button-expand, $background: map-get($foundation-palette, $button-color), $style: $button-style);
+    }
+  }
+}
+
 .clear {
   @include clearfix;
 }
@@ -199,25 +214,6 @@
   }
 }
 
-.creatures {
-
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-  color: $white;
-  background-color: #162B38;
-
-  @include reverse-links;
-
-  figure {
-    margin: 0 0 20px 0;
-
-    img {
-      border-radius: 50%;
-    }
-  }
-}
-
 .nodisp {
   display: none;
 }
@@ -225,4 +221,5 @@
 @import "poppy/cover";
 @import "poppy/lang-switcher";
 
-@import "poppy/audiences";
+@import "poppy/index/audiences";
+@import "poppy/index/robots";

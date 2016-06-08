@@ -102,46 +102,6 @@ published: true
   </p>
 </div>
 
-<section class="creatures tc">
-  <h2 class="small-centered clish">Poppy Robots</h2>
-
-  <div class="row" data-equalizer data-equalize-on="large">
-
-    <a href="{{ site.baseurl }}/{{ page.lang }}/robots/poppy-humanoid" class="large-4 columns creature" data-equalizer-watch>
-      <figure>
-        <img width="188" height="188" src="{{ site.baseurl }}/assets/img/creatures/small/humanoid.jpg" data-interchange="[{{ site.baseurl }}/assets/img/creatures/large/humanoid.jpg, retina]" alt="A sitting Poppy Humanoid robot">
-      </figure>
-      <h3>Poppy Humanoid</h3>
-      <p>
-        Poppy Humanoid is the flagship creature. It is aesthetic, modular,
-        and parametric. From a single arm to the complete humanoid, this
-        platform is actively used in labs, engineering schools, FabLabs, and
-        artistic projects.
-      </p>
-    </a>
-
-    <a href="{{ site.baseurl }}/{{ page.lang }}/robots/poppy-torso" class="large-4 columns creature" data-equalizer-watch>
-      <figure>
-        <img width="188" height="188" src="{{ site.baseurl }}/assets/img/creatures/small/torso.jpg" data-interchange="[{{ site.baseurl }}/assets/img/creatures/large/torso.jpg, retina]" alt="Facing Poppy Torso">
-      </figure>
-      <h3>Poppy Torso</h3>
-      <p>
-        Poppy Torso is an humanoid robot torso meant to be used in contexts
-        such as education, FabLabs or research projects.
-      </p>
-    </a>
-
-    <a href="{{ site.baseurl }}/{{ page.lang }}/robots/poppy-ergo-jr" class="large-4 columns creature" data-equalizer-watch>
-      <figure>
-        <img width="188" height="188" src="{{ site.baseurl }}/assets/img/creatures/small/ergo.jpg" data-interchange="[{{ site.baseurl }}/assets/img/creatures/large/ergo.jpg, retina]" alt="Ergo close-up">
-      </figure>
-      <h3>Poppy Ergo Jr</h3>
-      <p>
-        Poppy Ergo Jr was first developed for an exhibition mixing art and
-        science. With only 6 motors it is the perfect project to start.
-      </p>
-    </a>
-  </div>
-</section>
+{% include index/creatures.html %}
 
 {% include sponsors.html %}

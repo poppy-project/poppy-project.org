@@ -52,11 +52,7 @@
     }
 
     .cta {
-      margin-top: 1rem;
-
-      a {
-        @include button($expand: true);
-      }
+      @include call-to-action(primary, solid);
     }
   }
 }
