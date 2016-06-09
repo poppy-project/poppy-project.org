@@ -1,15 +1,17 @@
 ---
-layout: single-column
+layout: 9-columns-cover
 lang: fr
 title: "À propos"
 description: "L'histoire du projet Poppy"
 permalink: /fr/about/
 role: about
 in_nav: true
+cover_title: "L'histoire du projet Poppy"
+cover_image: "/assets/img/covers/poppy-matthieu-lapeyre.jpg"
+cover_gradient: true
+cover_size: small
 published: true
 ---
-
-# À propos
 
 ## Histoire
 
@@ -17,8 +19,9 @@ Le projet Poppy est né en 2012 dans le [laboratoire Flowers](https://flowers.in
 
 C'était à l'origine un projet de recherche fondamentale financé par [ERC Grant Explorer](http://erc.europa.eu/) ayant pour but d'explorer le rôle de l'incarnation et des propriétés morphologiques sur la cognition et en particulier l'apprentissage de tâches sensori-motrices.
 
-L'équipe de développement d'origine était composée de [Matthieu Lapeyre](https://github.com/matthieu-lapeyre) (conception &amp; design), [Pierre Rouanet](https://github.com/pierre-rouanet) (logiciel) et [Jonathan Grizou](http://jgrizou.com/) (électronique).
+L'équipe de développement d'origine était composée de Matthieu Lapeyre (conception &amp; design), [Pierre Rouanet](https://github.com/pierre-rouanet) (logiciel) et [Jonathan Grizou](http://jgrizou.com/) (électronique).
 
+{% include separator.html %}
 
 ## Philosophie
 
@@ -29,6 +32,8 @@ Le projet Poppy met la créativité et l'émergence spontanée de projets au cœ
 Les outils Poppy sont conçus pour être modulaires, simples à utiliser et à intégrer, et fournissent un ensemble de briques technologiques qui peuvent être facilement assemblées et reconfigurées.
 
 Grâce à son accessibilité et à son ouverture, le projet Poppy contribue à rendre les nouvelles technologies plus démocratiques et transparentes.
+
+{% include separator.html %}
 
 ## Contribution
 
@@ -45,6 +50,8 @@ Il y a également de nombreuses manières d'être impliqué dans le projet car i
 Si vous cherchez des idées, vous pouvez **jeter un œil sur les issues [GitHub](https://github.com/poppy-project/) et les [appels à contribution](https://forum.poppy-project.org/tags/call-for-contributions)**.
 
 Si vous êtes un utilisateur avancé, vous pouvez bien entendu nous soumettre de nouvelles requêtes ou développer de nouvelles fonctionnalités puis ouvrir une pull request pour qu'elles soient intégrées.
+
+{% include separator.html %}
 
 ## Propriété intellectuelle
 

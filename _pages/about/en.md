@@ -1,22 +1,27 @@
 ---
-layout: single-column
+layout: 9-columns-cover
 lang: en
 title: "About"
 description: "The history of the Poppy project"
 permalink: /en/about/
 role: about
 in_nav: true
+cover_title: "The story behind the Poppy project"
+cover_image: "/assets/img/covers/poppy-matthieu-lapeyre.jpg"
+cover_gradient: true
+cover_size: small
 published: true
 ---
 
-# About
-
 ## History
 
-The Poppy project was born in 2012 in the [Flowers laboratory](https://flowers.inria.fr/) at [Inria Bordeaux Sud-Ouest](https://www.inria.fr/en/centre/bordeaux).
-It was initiated during [Matthieu Lapeyre](https://github.com/matthieu-lapeyre)'s PhD Thesis surpervised by [Pierre-Yves Oudeyer](http://www.pyoudeyer.com/). At the beginning, the development team was composed by [Matthieu Lapeyre](https://github.com/matthieu-lapeyre) (mechanics & design), [Pierre Rouanet](https://github.com/pierre-rouanet) (software) and [Jonathan Grizou](http://jgrizou.com/) (electronics).
+The Poppy project was born in 2012 in the [Flowers laboratory](https://flowers.inria.fr/) at [Inria Bordeaux Sud-Ouest](https://www.inria.fr/en/centre/bordeaux). It was initiated during [Matthieu Lapeyre](https://github.com/matthieu-lapeyre)'s PhD Thesis surpervised by [Pierre-Yves Oudeyer](http://www.pyoudeyer.com/).
+
+At the beginning, the development team was composed by Matthieu Lapeyre (mechanics &amp; design), [Pierre Rouanet](https://github.com/pierre-rouanet) (software) and [Jonathan Grizou](http://jgrizou.com/) (electronics).
 
 This project is initially a fundamental research project financed by [ERC Grant Explorer](http://erc.europa.eu/) to explore the role of embodiment and morphology properties on cognition and especially on the learning of sensori-motor tasks.
+
+{% include separator.html %}
 
 ## Philosophy
 
@@ -28,6 +33,7 @@ Poppy places the people creativity and bottom-up project emergence at the heart 
 
 Through its accessibility and its openness, the Poppy project contributes to make future technologies more democratic and transparent.
 
+{% include separator.html %}
 
 ## Contribution
 
@@ -45,6 +51,8 @@ There are many ways to contribute as the Poppy project involves a very large sco
 If you would like to contribute, you are very much welcome. Apart from sharing your own project, you can **have a look at open issues on our [GitHub](https://github.com/poppy-project/) and [call for contributions](https://forum.poppy-project.org/tags/call-for-contributions)**.
 
 For github ninja, you can of course create issues to notify a problem or develop new amazing features and open pull requests to integrate your idea.
+
+{% include separator.html %}
 
 ## Usage rights
 
