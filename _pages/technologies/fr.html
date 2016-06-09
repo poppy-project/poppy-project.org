@@ -7,81 +7,105 @@ title: "Technologies"
 description: "Le projet Poppy développe des outils open source pour le prototypage rapide et l'expérimentation flexible de robots. Il aborde les aspects mécaniques, électroniques et logiciels"
 cover_image: "/assets/img/covers/poppy_humanoid_ergo_playground.jpg"
 cover_gradient: true
-cover_title: "Des technologies open source construire des robots"
+cover_title: "Des technologies open-source pour créer des robots"
 published: true
 in_nav: true
 ---
 
-<div class="row large-7 columns">
-  <h2>Des technologies modulaires</h2>
-
-  <p class="lead">
-    Le projet Poppy développe des outils open source pour le prototypage rapide et l'expérimentation flexible de robots. Il aborde les aspects mécaniques, électroniques et logiciels.
-  </p>
+<div class="row">
+  <div class="large-9 columns large-centered">
+    <h2 class="tc">Des technologies modulaires</h2>
+    <p class="lead tc">
+      Le projet Poppy développe des outils open source pour le prototypage rapide et l'expérimentation flexible de robots. Il aborde les aspects mécaniques, électroniques et logiciels.
+    </p>
+  </div>
 </div>
 
-<div class="row large-7 columns">
+{% include separator.html %}
 
-  <h3>Matériel</h3>
+<div class="row">
+  <div class="large-9 columns large-centered">
+    <h3 class="tc">Matériel</h3>
+    <p class="tc">
+      La principale préoccupation du projet Poppy est de fournir des technologies robotiques qui soit modulaires et financièrement abordables.<br>
+      Nous voulons que la robotique devienne <em>click-and-play</em>, en changeant les morphologies des robots au fur et à mesure de l'évolution des projets. Le projet Poppy utilise autant que possible des technologies standards et populaires.
+    </p>
+    <p class="tc">
+      Tout l'aspect matériel du projet Poppy est open-source et distribué sous la licence Creative Commons BY-SA.
+    </p>
+  </div>
+</div>
 
-  <p>
-    La principale préoccupation du projet Poppy est de fournir des technologies robotiques qui soit modulaires et financièrement abordables.<br>
-    Nous voulons que la robotique devienne <em>click-and-play</em>, en changeant les morphologies des robots au fur et à mesure de l'évolution des projets. Le projet Poppy utilise autant que possible des technologies standards et populaires.
-  </p>
-  <p>
-    Tout l'aspect matériel du projet Poppy est open-source et distribué sous la licence Creative Commons BY-SA.
-  </p>
+<div class="row">
+  <div class="large-6 columns">
+    <h4>Pièces imprimées en 3D</h4>
+    <p>
+      Les robots issus du projet Poppy sont imprimés en 3D, un procédé de production économique et reproductible. Cela permet à quiconque de produire facilement et sur mesure ses propres pièces.<br>
+      Il permet également une plus grande liberté de conception en supprimant les contraintes liées aux méthodes de production de masse.
+    </p>
+  </div>
+  <div>
+    IMAGE
+  </div>
+</div>
 
-  <h4>Pièces imprimées en 3D</h4>
+<div class="row">
+  <div class="large-6 columns">
+    <h4>Actionneurs modulaires</h4>
+    <p>
+      Les robots issus du projet Poppy sont basés sur les actionneurs intelligents modulaires de la marque Robotis Dynamixel. De taille compacte, très précis et réactifs, ces moteurs ont l'avantage d'être connectables en série sur un bus distribuant à la fois puissance et communication.<br>
+      Ils sont couramment utilisés en robotique et existent dans des versions de différente puissance. Ces moteurs étant relativement chers, nous recherchons constamment des alternatives, et toute contribution est la bienvenue.
+    </p>
+  </div>
+  <div>
+    IMAGE
+  </div>
+</div>
 
-  <p>
-    Les robots issus du projet Poppy sont imprimés en 3D, un procédé de production économique et reproductible. Cela permet à quiconque de produire facilement et sur mesure ses propres pièces.<br>
-    Il permet également une plus grande liberté de conception en supprimant les contraintes liées aux méthodes de production de masse.
-  </p>
+{% include separator.html %}
 
-  <h4>Actionneurs modulaires</h4>
+<div class="row">
+  <div class="large-9 columns large-centered">
+    <h3 class="tc">Présentation des outils logiciels</h3>
+    <p class="tc">
+      Simples à utiliser, multi-plateformes et modulaires, nos outils Python sont pensés pour un contrôle rapide de robots complexes. Nos outils logiciels s'intègrent de façon transparente avec les versions réelles et simulées de nos robots.
+    </p>
+    <p class="tc">
+      Tous nos outils logiciels sont open-source et distribués sous licence GPLv3.
+    </p>
+  </div>
+</div>
 
-  <p>
-    Les robots issus du projet Poppy sont basés sur les actionneurs intelligents modulaires de la marque Robotis Dynamixel. De taille compacte, très précis et réactifs, ces moteurs ont l'avantage d'être connectables en série sur un bus distribuant à la fois puissance et communication.<br>
-    Ils sont couramment utilisés en robotique et existent dans des versions de différente puissance. Ces moteurs étant relativement chers, nous recherchons constamment des alternatives, et toute contribution est la bienvenue.
-  </p>
+<div class="row">
+  <div class="large-6 columns">
+    <h4>La bibliothèque <em>pypot</em></h4>
+    <p>
+      C'est une bibliothèque python permettant de contrôler les robots utilisant les outils Poppy :
+    </p>
+    <ul>
+      <li>Elle fournit un accès de bas niveau aux moteurs et capteurs, mais reste néanmoins facilement extensible à de nouveaux types d'appareils.</li>
+      <li>Elle permet la création de comportements complexes par combinaison de primitives indépendantes.</li>
+    </ul>
+  </div>
+  <div class="large-6 columns">
+    <h4>Des dépôts spécifiques à chaque robot</h4>
+    <p>
+      Chaque robot Poppy possède son dépôt logiciel spécifique comprenant des fichiers de configuration de base ainsi que des comportements de haut niveau. Tout le monde peut contribuer ou créer son propre robot à partir de ces dépôts.
+    </p>
+  </div>
+</div>
 
-  <h3>Présentation des outils logiciels</h3>
-
-  <p>
-    Simples à utiliser, multi-plateformes et modulaires, nos outils Python sont pensés pour un contrôle rapide de robots complexes. Nos outils logiciels s'intègrent de façon transparente avec les versions réelles et simulées de nos robots.
-  </p>
-
-  <p>
-    Tous nos outils logiciels sont open-source et distribués sous licence GPLv3.
-  </p>
-
-  <h4>La bibliothèque <em>pypot</em></h4>
-
-  <p>
-    C'est une bibliothèque python permettant de contrôler les robots utilisant les outils Poppy :
-  </p>
-
-  <ul>
-    <li>Elle fournit un accès de bas niveau aux moteurs et capteurs, mais reste néanmoins facilement extensible à de nouveaux types d'appareils.</li>
-    <li>Permet la création de comportements complexes par combinaison de primitives indépendantes.</li>
-  </ul>
-
-  <h4>Simulateurs</h4>
-
-  <p>
-    Les robots Poppy sont intégrés dans le simulateur V-rep et permettent, grâce à <em>pypot</em>, un passage transparent des robots simulés aux réels.
-  </p>
-
-  <h4>Des dépôts spécifiques à chaque robot</h4>
-
-  <p>
-    Chaque robot Poppy possède son dépôt logiciel spécifique comprenant des fichiers de configuration de base ainsi que des comportements de haut niveau. Tout le monde peut contribuer ou créer son propre robot à partir de ces dépôts.
-  </p>
-
-  <h4>Interface web de visualisation</h4>
-
-  <p>
-    Une interface de contrôle <em>web</em> est embarquée sur chaque robot Poppy pour exécuter des comportements, sans installation supplémentaire.
-  </p>
+<div class="row">
+  <div class="large-6 columns">
+    <h4>Simulateurs</h4>
+    <p>
+      Les robots Poppy sont intégrés dans le simulateur V-rep et permettent, grâce à <em>pypot</em>, un passage transparent des robots simulés aux réels.
+    </p>
+  </div>
+  <div class="large-6 columns">
+    <h4>Interface web de visualisation</h4>
+    <p>
+      Une interface de contrôle <em>web</em> est embarquée sur chaque robot Poppy pour exécuter des comportements, sans installation supplémentaire.
+    </p>
+  </div>
 </div>

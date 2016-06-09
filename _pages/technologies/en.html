@@ -12,75 +12,99 @@ published: true
 in_nav: true
 ---
 
-<div class="row large-7 columns">
-  <h2>Modular technologies</h2>
-
-  <p class="lead">
-    The Poppy project develops open-source tools for rapid prototyping and flexible experimentation of robots. It addresses mechanics, electronics, and software.
-  </p>
+<div class="row">
+  <div class="large-9 columns large-centered">
+    <h2 class="tc">Modular technologies</h2>
+    <p class="lead tc">
+      The Poppy project develops open-source tools for rapid prototyping and flexible experimentation of robots. It addresses mechanics, electronics, and software.
+    </p>
+  </div>
 </div>
 
-<div class="row large-7 columns">
+{% include separator.html %}
 
-  <h3>Hardware</h3>
+<div class="row">
+  <div class="large-9 columns large-centered">
+    <h3 class="tc">Hardware</h3>
+    <p class="tc">
+      Our main concern is to provide robotic technologies that are cheap and modular.<br>
+      We want robotics to become <em>click-and-play</em>, changing robots' morphologies as projects evolve. As much as possible, we aim at using off-the-shelf and popular technologies.
+    </p>
+    <p class="tc">
+      All Poppy project hardware is open source and distributed under Creative Commons BY-SA license.
+    </p>
+  </div>
+</div>
 
-  <p>
-    Our main concern is to provide robotic technologies that are cheap and modular.<br>
-    We want robotics to become click-and-play, changing robots' morphologies as projects evolve. As much as possible, we aim at using off-the-shelf and popular technologies.
-  </p>
-  <p>
-    All Poppy project hardware is open source and distributed under Creative Commons BY-SA license.
-  </p>
+<div class="row">
+  <div class="large-6 columns">
+    <h4>3D printed parts</h4>
+    <p>
+      Poppy robots are 3D printed – it is a reproducible and cheap production technique that allows anyone to produce locally its own and customized parts. It also allows for a wider range of possible design by removing manufacturing constraints from mass production methods.
+    </p>
+  </div>
+  <div>
+    IMAGE
+  </div>
+</div>
 
-  <h4>3D printed parts</h4>
+<div class="row">
+  <div class="large-6 columns">
+    <h4>Modular actuation</h4>
+    <p>
+      Poppy robots are based on modular smart-actuators branded Robotis Dynamixel. Within a small form factor, these motors embed high-precision monitoring and control and are synchronized on a shared communication and power line.<br>
+      They are commonly used in robotics and come in multiple actuation power. Them being quite expensive motors, we are constantly looking for alternatives and contributions are very much welcomed.
+    </p>
+  </div>
+  <div>
+    IMAGE
+  </div>
+</div>
 
-  <p>
-    Poppy robots are 3D printed – it is a reproducible and cheap production technique that allows anyone to produce locally its own and customized parts. It also allows for a wider range of possible design by removing manufacturing constraints from mass production methods.
-  </p>
+{% include separator.html %}
 
-  <h4>Modular actuation</h4>
+<div class="row">
+  <div class="large-9 columns large-centered">
+    <h3 class="tc">Software overview</h3>
+    <p class="tc">
+      Easy-to-use, cross-platform, and modular, our python tools are thought for quick control of complex robots. Our software seemlessly integrate with simulated and real version of our robots.
+    </p>
+    <p class="tc">
+      All our software packages are open source and distributed under GPLv3 license.
+    </p>
+  </div>
+</div>
 
-  <p>
-    Poppy robots are based on modular smart-actuators branded Robotis Dynamixel. Within a small form factor, these motors embed high-precision monitoring and control and are synchronized on a shared communication and power line.<br>
-    They are commonly used in robotics and come in multiple actuation power. Them being quite expensive motors, we are constantly looking for alternatives and contributions are very much welcomed.
-  </p>
+<div class="row">
+  <div class="large-6 columns">
+    <h4><em>Pypot</em> library</h4>
+    <p>
+      A python library to control Poppy robots and provides:
+    </p>
+    <ul>
+      <li>Low-level access to motors and sensors - yet easily extendable to new types of devices.</li>
+      <li>Creation of complex behaviors by combination of independent primitives.</li>
+    </ul>
+  </div>
+  <div class="large-6 columns">
+    <h4>Robot specific repositories</h4>
+    <p>
+      Each robot has a specific software repository with basic configuration files and high-level behaviors. Anyone can contribute or create its own robot using our templated repositories.
+    </p>
+  </div>
+</div>
 
-  <h3>Software overview</h3>
-
-  <p>
-    Easy-to-use, cross-platform, and modular, our python tools are thought for quick control of complex robots. Our software seemlessly integrate with simulated and real version of our robots.
-  </p>
-
-  <p>
-    All our software packages are open source and distributed under GPLv3 license.
-  </p>
-
-  <h4><em>Pypot</em> library</h4>
-
-  <p>
-    A python library to control Poppy robots:
-  </p>
-
-  <ul>
-    <li>Low-level access to motors and sensors - yet easily extendable to new types of devices.</li>
-    <li>Creation of complex behaviors by combination of independent primitives.</li>
-  </ul>
-
-  <h4>Robot simulator</h4>
-
-  <p>
-    Poppy robots are integrated in the v-rep simulator with a transparent switch from simulated to physical robots through pypot.
-  </p>
-
-  <h4>Robot specific repositories</h4>
-
-  <p>
-    Each robot has a specific software repository with basic configuration files and high-level behaviors. Anyone can contribute or create its own robot using our templated repositories.
-  </p>
-
-  <h4>Web control interface</h4>
-
-  <p>
-    We provide a web control interface to remotely launch behaviors on Poppy robots without needing to install anything on your computer.
-  </p>
+<div class="row">
+  <div class="large-6 columns">
+    <h4>Robot simulator</h4>
+    <p>
+      Poppy robots are integrated in the v-rep simulator with a transparent switch from simulated to physical robots through pypot.
+    </p>
+  </div>
+  <div class="large-6 columns">
+    <h4>Web control interface</h4>
+    <p>
+      We provide a web control interface to remotely launch behaviors on Poppy robots without needing to install anything on your computer.
+    </p>
+  </div>
 </div>
