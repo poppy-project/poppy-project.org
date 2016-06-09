@@ -1,0 +1,63 @@
+---
+layout: cover
+lang: fr
+title: "Contact"
+description: "Contactez-nous pour obtenir de plus amples informations"
+permalink: /fr/contact/
+role: contact
+in_nav: false
+published: true
+cover_title: "Vous avez une question à propos du projet Poppy ou des robots Poppy ?"
+cover_size: small
+---
+
+<div class="row">
+  <div class="large-9 columns large-centered">
+    <h2 class="tc">Où trouver des réponses ?</h2>
+    <p class="tc">
+      Vous pouvez jeter un œil à la section <a href="http://docs.poppy-project.org/en/getting-started/"><em>Getting started</em></a> de la documentation ou chercher sur les <a href="https://forum.poppy-project.org/">forums de discussion</a>.
+    </p>
+    <p class="tc">
+      Si vous n'avez toujours pas trouvé de réponse, n'hésitez pas à créer une nouvelle discussion !
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="large-9 columns large-centered tc">
+    <a href="https://forum.poppy-project.org/" class="button success large">Lancer une nouvelle discussion</a>
+  </div>
+</div>
+
+{% include separator.html %}
+
+<div class="row">
+  <div class="large-9 columns large-centered">
+    <h2 class="tc">Contact</h2>
+    <p class="tc">
+      Vous pouvez aussi contacter les membres du projet Poppy directement par e-mail.
+    </p>
+    <form action="https://formspree.io/{{ site.data.social.email }}" method="post" class="columns">
+      <input type="text" name="_gotcha" class="nodisp">
+      <input type="text" name="_format" value="plain" class="nodisp">
+
+      <input type="hidden" name="_subject" value="New message from Poppy contact form">
+      <input type="hidden" name="_next" value="{{ site.baseurl }}/{{ page.lang }}/contact/thank-you">
+
+      <label>
+        Nom
+        <input type="text" name="name">
+      </label>
+      <label>
+        E-mail
+        <input type="email" name="email">
+      </label>
+      <label>
+        Votre message
+        <textarea name="message" rows="5"></textarea>
+      </label>
+
+      <button type="submit" class="button">Envoyer un message</button>
+    </form>
+  </div>
+</div>

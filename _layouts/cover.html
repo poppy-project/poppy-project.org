@@ -1,10 +1,12 @@
 ---
 layout: page
+cover_size: normal
 ---
 
 {% if page.cover_title or page.cover_image %}
   {% include cover.html
     title=page.cover_title
+    size=page.cover_size
   %}
 {% endif %}
 

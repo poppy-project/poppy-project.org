@@ -1,4 +1,5 @@
 $cover-height: 600px;
+$cover-height-small: 300px;
 
 .cover {
   height: $cover-height;
@@ -12,6 +13,10 @@ $cover-height: 600px;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+
+  &.small {
+    height: $cover-height-small;
+  }
 
   > .row {
     height: 100%;
