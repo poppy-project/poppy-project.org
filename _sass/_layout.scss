@@ -46,6 +46,10 @@
   @include nomargin;
 }
 
+.rtl {
+  direction: rtl;
+}
+
 .p0m0 {
   @include nopadding;
   @include nomargin;
@@ -100,15 +104,12 @@
   }
 }
 
-
-
 .wrap {
   max-width: map-get($breakpoints, xlarge);
   width: 100%;
 
   margin: 0 auto;
 }
-
 
 .top-bar-title [data-responsive-toggle] {
   margin-right: 1rem;
@@ -219,11 +220,6 @@
   padding-bottom: 2rem;
 
   text-align: center;
-
-  img:before {
-    display: block;
-    content: "ee";
-  }
 }
 
 .clish {
@@ -237,6 +233,11 @@
 
 .nodisp {
   display: none;
+}
+
+[role=main] {
+  width: 100%;
+  overflow: hidden;
 }
 
 @import "poppy/page";

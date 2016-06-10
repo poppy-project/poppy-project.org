@@ -8,11 +8,13 @@ layout: compress
 
   <body>
 
-    {% include header.html %}
+    <section role="main">
+      {% include header.html %}
 
-    {{ content }}
+      {{ content }}
 
-    {% include footer.html %}
+      {% include footer.html %}
+    </section>
 
     <script src="{{ site.baseurl }}/assets/js/svgxuse.min.js"></script>
 
