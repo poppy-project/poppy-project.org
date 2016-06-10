@@ -17,7 +17,7 @@ published: true
 
 - **Faire du corps une variable expérimentale** : Les propriétés du corps (formes, l’élasticité, distribution de la masse…) ont un impact crucial sur le contrôle sensori-moteur, les aptitudes cognitives et l’interaction sociale. Par exemple, des formes adéquates de jambes peuvent considérablement simplifier l’acquisition de la locomotion. La réponse sociale et émotionnelle d’un homme face à un robot est également fortement influencée par l’apparence du corps. Ainsi, une enquête scientifique sur le rôle du corps exige de concevoir et construire rapidement une morphologie alternative pour l’expérimentation. Grâce à l’impression 3D et d’autres techniques de prototypage rapide, ceci est dorénavant possible et à déjà été mis à profit dans la conception de la plate-forme Poppy.
 
-- **Assurer des productions scientifiques qui soient ouvertes, accessibles, reproductibles et cumulatives** : les robots sont souvent des systèmes complexes et ceci a souvent abouti à des projets de recherche en robotique ayant des résultats qui ont été réalisés :
+- **Assurer des productions scientifiques qui soient ouvertes, accessibles, reproductibles et cumulatives** ; les robots sont souvent des systèmes complexes et ceci a souvent abouti à des projets de recherche en robotique ayant des résultats qui ont été réalisés :
   - Soit sur des plates-formes fermées, cachant parfois des détails cruciaux,
   - Soit sur des expériences qui ne peuvent pas être reproduites.
 Ceci est un obstacle au progrès scientifique. La plate-forme Poppy est une étape vers la résolution de cette question, étant accessible à la fois en termes de coût et de complexité. Elle permet aux chercheurs de mutualiser le matériel et les détails expérimentaux, en plus de leur code et algorithmes.
@@ -28,8 +28,8 @@ Le partage du matériel d’expérimentation grâce à la plate-forme Poppy ouvr
 ## Comment puis-je utiliser Poppy pour mon travail scientifique ?
 
 <div class="video-showcase">
-  <div class="flex-video">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/AP8i435ztwE" frameborder="0" allowfullscreen></iframe>
+  <div class="flex-video ratio-16-9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/AP8i435ztwE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
   </div>
   <p class="row columns description">
     TEDx talk sur la façon dont Poppy ouvre des possibilités scientifiques sur l’exploration des mécanismes d’apprentissage et de développement.

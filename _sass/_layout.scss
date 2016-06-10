@@ -167,13 +167,29 @@
   @extend .text-center;
 }
 
+/*
+  Video player
+ */
+
 .video-showcase {
   background-color: $black;
 
+  .flex-video {
+    margin-bottom: 0;
+  }
+
   .description {
+    margin-top: 1rem;
+
     color: $white;
     text-align: center;
     font-style: italic;
+  }
+}
+
+.flex-video {
+  &.ratio-16-9 {
+    padding-bottom: 56.18%;
   }
 }
 
