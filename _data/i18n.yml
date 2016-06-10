@@ -30,7 +30,7 @@ robots:
       fr: Un Poppy Humanoid debout
     description:
       en: Poppy Humanoid is the flagship creature. It is aesthetic, modular, and parametric. From a single arm to the complete humanoid, this platform is actively used in labs, engineering schools, FabLabs, and artistic projects.
-      fr: Le premier robot humanoide imprimé en 3D ! Du haut de ses 85cm et pour seulement 3.5kg, Poppy Humanoid est esthétique et modulaire. Ses 25 moteurs lui offre une capacité de mouvement unique, en faisant une plateforme de choix dans les laboratoires, les écoles d'ingénieurs, les FabLabs et pour les projets artistiques.
+      fr: Poppy Humanoid est le robot phare du projet, esthétique et modulaire. Ses 25 moteurs lui offrent une capacité de mouvement unique, en faisant une plate-forme de choix dans les laboratoires, les écoles d'ingénieurs, les FabLabs et pour les projets artistiques.
   torso:
     image_alt:
       en: A facing Poppy Torso
