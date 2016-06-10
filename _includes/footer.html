@@ -35,7 +35,7 @@
       </ul>
       <div class="large-6 columns edit large-text-right">
         <ul class="menu vertical">
-          <li>{% include edit-page-link.html %}</li>
+          <li><a href="{{ site.github.repository_url }}/blob/master/{{ page.path }}" data-proofer-ignore>{{ site.data.i18n.edit_page[page.lang] }}</a></li>
           <li><a href="{{ site.baseurl }}/{{ page.lang }}/contact">{{ site.data.i18n.contact_us[page.lang] }}</a></li>
         </ul>
       </div>
