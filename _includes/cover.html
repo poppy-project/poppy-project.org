@@ -1,4 +1,4 @@
-<div class="cover{% if include.size != 'normal' %} {{ include.size }}{% endif %}" {% if page.cover_image %}style="background-image: {% if page.cover_gradient %}linear-gradient(0deg, rgba(0,0,0,.35), rgba(0,0,0,.35)), {% endif %}url({{ page.cover_image | prepend: site.baseurl }});"{% endif %}>
+<div class="cover{% if include.size != 'normal' %} {{ include.size }}{% endif %}" {% if page.cover_image %}style="background-image: {% if page.cover_gradient %}linear-gradient(to right, rgba(0,0,0,.35) 0%, rgba(0,0,0,.35) 100%), {% endif %}url({{ page.cover_image | prepend: site.baseurl }});"{% endif %}>
   <div class="row">
     <header class="main-header tc small-centered medium-9 columns">
       <h1>{{ include.title }}</h1>

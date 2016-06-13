@@ -1,5 +1,5 @@
 ---
-layout: single-column-cover
+layout: 9-columns-cover
 lang: en
 permalink: /en/projects/marionnettes-electriques
 role: marionnettes-electriques-project
@@ -53,6 +53,8 @@ The scene is a representative place where the robot does not obey specificiation
 Finally, art also allows one to take a step back from technologies, occupying more and more space in our daily life, and distorting our mind and our body. This ethical work is often hampered when working on a specification. Conveying these questions to the public by making representations or organizing workshops is also a kind of public utility.
 
 With the creation of trans-humanist groups, automation of work and science fiction movies, a teaching and questioning effort is important regarding the public and citizens. Projects involving _Marionnettes électriques_ contribute to it, but working closer to the public through workshops or animation stands remains important.
+
+{% include separator.html %}
 
 ## Services
 
