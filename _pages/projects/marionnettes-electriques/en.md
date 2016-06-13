@@ -11,15 +11,23 @@ cover_gradient: true
 published: true
 ---
 
-<img src="https://forum.poppy-project.org/uploads/default/original/2X/0/065c47a240611f39243d5dfb20a1d4a7b3b79179.png" width="180" height="200" alt="Marionnettes électriques logo">
+<div class="tc">
+  <img src="https://forum.poppy-project.org/uploads/default/original/2X/0/065c47a240611f39243d5dfb20a1d4a7b3b79179.png" width="180" height="200" alt="Marionnettes électriques">
+</div>
+
+{% include separator.html %}
 
 ## The project
 
-The _Marionnettes électriques_ project was created by Thomas Peyruse and awarded the Toulous'up label by the city of Toulouse. The goal of this project is to question and use the latest innovations in robotics through artistic creations. This research has the ultimate aim to create for the end of 2018 a prototype robot taking into account several current ethical issues such as ecology, data privacy and security.
+<p class="lead tc">
+  The <em>Marionnettes électriques</em> project was created by Thomas Peyruse and awarded the <a href="http://www.cultures.toulouse.fr/-/toulous-up-2014-les-laureats"><em>Toulous'up</em></a> label by the city of Toulouse. The goal of this project is to question and use the latest innovations in robotics through artistic creations. This research has the ultimate aim to create for the end of 2018 a prototype robot taking into account several current ethical issues such as ecology, data privacy and security.
+</p>
+
+{% include separator.html %}
 
 ## Thomas Peyruse
 
-<img src="https://forum.poppy-project.org/uploads/default/original/2X/2/2979b9996f024a36938b71e7b9b281ed7e3dd985.jpg" alt="Atelier animé par Thomas Peyruse">
+<img src="https://forum.poppy-project.org/uploads/default/original/2X/2/2979b9996f024a36938b71e7b9b281ed7e3dd985.jpg" alt="Thomas Peyruse at a workshop">
 
 Thomas Peyruse is working on a dual career of artist and research engineer.  
 Automatic engineer from the École Centrale de Nantes in 2006, he was then a consultant at Altran Sud-Ouest in Toulouse, working on satellite control and the manual control of Airbus airliners for more than 8 years.
@@ -30,9 +38,11 @@ Behind all these activities, Thomas primarily performs a research on complex sys
 
 In November 2014, he decided to devote himself full time to the staging of robots and late January 2015, he led the "School of Moon" show under the direction of choreographer Eric Minh Cuong Castaing.
 
-<div class="flex-video">
+<div class="flex-video ratio-16-9">
   <iframe width="640" height="360" src="https://player.vimeo.com/video/149653064" frameborder="0" allowfullscreen></iframe>
 </div>
+
+{% include separator.html %}
 
 ## The scene as innovation catalyst
 
@@ -46,7 +56,11 @@ With the creation of trans-humanist groups, automation of work and science ficti
 
 ## Services
 
-Thomas' work takes the form of expertise in robotics and digital technologies, entertainment events around robotics, as well as conferences.
+<p class="tc lead">
+  Thomas' work takes the form of expertise in robotics and digital technologies, entertainment events around robotics, as well as conferences.
+</p>
+
+{% include separator.html %}
 
 ## Upcoming events
 
@@ -57,6 +71,5 @@ Thomas' work takes the form of expertise in robotics and digital technologies, e
   <a href="https://forum.poppy-project.org/t/marionnettes-electriques/1521" class="button large">Learn more about the <em>Marionnettes électriques</em></a>
 </div>
 
-  [1]: http://www.cultures.toulouse.fr/-/toulous-up-2014-les-laureats
   [2]: http://dm1r.fr/colloque-robotique-education/
   [3]: http://www.festival-astronomie.com/

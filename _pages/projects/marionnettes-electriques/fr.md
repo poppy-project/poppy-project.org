@@ -1,5 +1,5 @@
 ---
-layout: single-column-cover
+layout: 9-columns-cover
 lang: fr
 permalink: /fr/projects/marionnettes-electriques
 role: marionnettes-electriques-project
@@ -11,11 +11,19 @@ cover_gradient: true
 published: true
 ---
 
-<img src="https://forum.poppy-project.org/uploads/default/original/2X/0/065c47a240611f39243d5dfb20a1d4a7b3b79179.png" width="180" height="200" alt="Logo Marionnettes électriques">
+<div class="tc">
+  <img src="https://forum.poppy-project.org/uploads/default/original/2X/0/065c47a240611f39243d5dfb20a1d4a7b3b79179.png" width="180" height="200" alt="Marionnettes électriques">
+</div>
+
+{% include separator.html %}
 
 ## Le projet
 
-Le projet _Marionnettes électriques_ est une création de Thomas Peyruse labellisée [_Toulous'up_][1] par la mairie de Toulouse. Le but de ce projet est de questionner et utiliser les dernières innovations en robotique à travers des créations artistiques. Ces recherches ont pour objectif final de créer pour fin 2018 un prototype de robot prenant en compte plusieurs questions éthiques actuelles telles que l'écologie, la protection des données privées et la sécurité.
+<p class="lead tc">
+  Le projet <em>Marionnettes électriques</em> est une création de Thomas Peyruse labellisée <a href="http://www.cultures.toulouse.fr/-/toulous-up-2014-les-laureats"><em>Toulous'up</em></a> par la mairie de Toulouse. Le but de ce projet est de questionner et utiliser les dernières innovations en robotique à travers des créations artistiques. Ces recherches ont pour objectif final de créer pour fin 2018 un prototype de robot prenant en compte plusieurs questions éthiques actuelles telles que l'écologie, la protection des données privées et la sécurité.
+</p>
+
+{% include separator.html %}
 
 ## Thomas Peyruse
 
@@ -30,9 +38,11 @@ Mais derrière toutes ces activités, c'est avant tout un travail de recherche s
 
 En novembre 2014, il décide de se consacrer à temps plein à la mise en scène de robots et, fin janvier 2015, il aboutit au spectacle « School of Moon » sous la direction du chorégraphe Eric Minh Cuong Castaing.
 
-<div class="flex-video">
+<div class="flex-video ratio-16-9">
   <iframe width="640" height="360" src="https://player.vimeo.com/video/149653064" frameborder="0" allowfullscreen></iframe>
 </div>
+
+{% include separator.html %}
 
 ## La scène comme catalyseur d'innovation
 
@@ -44,9 +54,15 @@ Enfin, l'art permet aussi de travailler sur le recul face aux technologies qui p
 
 Avec les annonces de groupes trans-humanistes, l'automatisation du travail et les films de science-fiction, un travail de pédagogie et de questionnement est important vis-à-vis du public et du citoyen. Les projets auxquels participe _Marionnettes électriques_ y contribuent, mais un travail plus proche du public par des ateliers ou l'animation de stands est aussi important.
 
-## Prestations
+{% include separator.html %}
 
-Le travail de Thomas se concrétise par de l'expertise en robotique et technologies du numériques, de l'animation d'événements autour de la robotique, ainsi que des conférences.
+### Prestations
+
+<p class="tc lead">
+  Le travail de Thomas se concrétise par de l'expertise en robotique et technologies du numériques, de l'animation d'événements autour de la robotique, ainsi que des conférences.
+</p>
+
+{% include separator.html %}
 
 ## Événements à venir
 
@@ -57,6 +73,5 @@ Le travail de Thomas se concrétise par de l'expertise en robotique et technolog
   <a href="https://forum.poppy-project.org/t/marionnettes-electriques/1521" class="button large">En savoir plus sur le projet <em>Marionnettes électriques</em></a>
 </div>
 
-  [1]: http://www.cultures.toulouse.fr/-/toulous-up-2014-les-laureats
   [2]: http://dm1r.fr/colloque-robotique-education/
   [3]: http://www.festival-astronomie.com/
