@@ -39,7 +39,7 @@ Behind all these activities, Thomas primarily performs a research on complex sys
 In November 2014, he decided to devote himself full time to the staging of robots and late January 2015, he led the "School of Moon" show under the direction of choreographer Eric Minh Cuong Castaing.
 
 <div class="flex-video ratio-16-9">
-  <iframe width="640" height="360" src="https://player.vimeo.com/video/149653064" frameborder="0" allowfullscreen></iframe>
+  <iframe width="640" height="360" src="https://player.vimeo.com/video/149653064" allowfullscreen></iframe>
 </div>
 
 {% include separator.html %}

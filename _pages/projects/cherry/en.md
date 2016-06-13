@@ -27,7 +27,7 @@ It also acts on a pedagogical level, to encourage the child to interact with the
 One last prospect is to assist the hospital staff in the therapeutic education. Indeed, sometimes a message is more acceptable by the child if it is issued by the robot rather than an adult dressed as a physician.
 
 <div class="flex-video ratio-16-9">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/URB1kDDScfM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/URB1kDDScfM?rel=0&amp;showinfo=0" allowfullscreen></iframe>
 </div>
 
 {% include separator.html %}

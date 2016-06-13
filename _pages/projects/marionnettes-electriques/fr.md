@@ -39,7 +39,7 @@ Mais derrière toutes ces activités, c'est avant tout un travail de recherche s
 En novembre 2014, il décide de se consacrer à temps plein à la mise en scène de robots et, fin janvier 2015, il aboutit au spectacle « School of Moon » sous la direction du chorégraphe Eric Minh Cuong Castaing.
 
 <div class="flex-video ratio-16-9">
-  <iframe width="640" height="360" src="https://player.vimeo.com/video/149653064" frameborder="0" allowfullscreen></iframe>
+  <iframe width="640" height="360" src="https://player.vimeo.com/video/149653064" allowfullscreen></iframe>
 </div>
 
 {% include separator.html %}

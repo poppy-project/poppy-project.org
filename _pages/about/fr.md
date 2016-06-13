@@ -2,7 +2,7 @@
 layout: 9-columns-cover
 lang: fr
 title: "À propos"
-description: "L'histoire du projet Poppy"
+description: "L'histoire du projet Poppy : sa création, sa philosophie, et comment rejoindre la communauté"
 permalink: /fr/about/
 role: about
 in_nav: true

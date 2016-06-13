@@ -258,6 +258,10 @@
   overflow: hidden;
 }
 
+iframe {
+  border: 0;
+}
+
 @import "poppy/page";
 
 @import "poppy/cover";
