@@ -2,8 +2,8 @@ legal:
   en: Legal notice
   fr: Mentions légales
 contact_us:
-  en: Contact us
-  fr: Contactez-nous
+  en: Contact the community
+  fr: Contactez la communauté
 edit_page:
   en: Contribute to this page
   fr: Contribuer à cette page
@@ -36,14 +36,12 @@ robots:
       en: A facing Poppy Torso
       fr: Un Poppy Torso de face
     description:
-      en: Poppy Torso is an humanoid robot torso meant to be used in contexts
-        such as education, FabLabs or research projects.
+      en: Poppy Torso is a simplified version of Poppy Humanoid. Cheaper, layable on a desk, it is particularly suitable for classroom use, in fablabs or in all kinds of public events.
       fr: Poppy Torso est une version simplifiée de Poppy Humanoid. Moins cher, à poser sur son bureau, il est particulièrement adapté pour des usages en classe, dans les fablabs ou toutes sortes de manifestations publiques.
   ergo:
     image_alt:
       en: An Ergo Jr on a table
       fr: Un Ergo Jr sur une table
     description:
-      en: Poppy Ergo Jr was first developed for an exhibition mixing art and
-        science. With only 6 motors it is the perfect project to start.
-      fr: Du haut de ses 6 moteurs, Poppy Ergo Jr est la plus accessible de nos créations. Il est peu cher, transportable et facilement customisable. Parfaitement adapté aux débutants et aux plus jeunes, il permet de s'initier à la robotique grâce à une série d'activités clef en main.
+      en: With its six engines, Ergo Jr is the most accessible Poppy robot. It is cheap, portable and easily customizable. Perfectly suited to beginners and younger, it is a good introduction to robotics through a series of turnkey activities.
+      fr: Du haut de ses 6 moteurs, Ergo Jr est le robot Poppy le plus accessible. Il est peu cher, transportable et facilement customisable. Parfaitement adapté aux débutants et aux plus jeunes, il permet de s'initier à la robotique grâce à une série d'activités clef en main.

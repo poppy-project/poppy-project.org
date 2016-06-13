@@ -49,7 +49,7 @@ Il y a également de nombreuses manières d'être impliqué dans le projet, celu
 
 Si vous cherchez des idées, vous pouvez jeter un œil au [code source](https://github.com/poppy-project/) du projet et aux [appels à contribution](https://forum.poppy-project.org/tags/call-for-contributions) sur le forum.
 
-Si vous êtes un utilisateur avancé, vous pouvez bien entendu nous soumettre de nouvelles requêtes ou développer de nouvelles fonctionnalités afin qu'elles les intégrer au projet.
+Si vous êtes un utilisateur avancé, vous pouvez bien entendu soumettre de nouvelles requêtes ou développer de nouvelles fonctionnalités afin qu'elles les intégrer au projet.
 
 {% include separator.html %}
 
@@ -57,4 +57,4 @@ Si vous êtes un utilisateur avancé, vous pouvez bien entendu nous soumettre de
 
 L'intégralité du développement technologique fait dans le cadre du projet Poppy est distribué librement et gratuitement sous licences open source. Seul l'usage du nom *Poppy* est limité par un dépôt international de la marque, permettant de protéger son identité.
 
-N'hésitez pas à [nous contacter]({{ site.baseurl }}/{{ page.lang }}/contact) pour obtenir plus d'informations.
+N'hésitez pas à [contacter]({{ site.baseurl }}/{{ page.lang }}/contact) la communauté pour obtenir plus d'informations.
