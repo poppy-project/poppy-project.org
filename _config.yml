@@ -23,6 +23,7 @@ exclude: [
   "vendor",
   "README.md",
   "LICENSE.md",
+  "CONTRIBUTING.md",
   "Gemfile",
   "Gemfile.lock"
 ]

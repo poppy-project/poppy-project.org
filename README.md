@@ -2,15 +2,30 @@
 
 [![Build Status](https://travis-ci.org/poppy-project/poppy-project.org.svg?branch=master)](https://travis-ci.org/poppy-project/poppy-project.org)
 
-## Instructions to run locally
+Code for the [Poppy project website](https://www.poppy-project.org).
 
-[ruby](https://www.ruby-lang.org/en/) is required.
+## Installation
+
+This website is built with [Jekyll](http://jekyllrb.com/). Any question related to its usage should find an answer in the project [documentation](http://jekyllrb.com/docs/home/).
+
+Jekyll requirements are:
+
+- Ruby including development headers, v2 or above
+- RubyGems
+- Linux, Unix, or Mac OS X
+
+## Instructions to run locally
 
 ```bash
 gem install bundler
 bundle install
-jekyll serve
+bundle exec jekyll serve
 ```
+
+## Before contributing
+
+Please take a look at the [contribution guide](CONTRIBUTING.md) to see how to get your changes merged in.
+
 ## License
 
 See [LICENSE](LICENSE.md) file.
