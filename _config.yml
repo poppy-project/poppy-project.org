@@ -13,7 +13,7 @@ description:
 # analytics: true
 markdown: kramdown
 highlighter: rouge
-
+permalink: /:categories/posts/:title
 timezone: Europe/Paris
 
 include: [ "_pages" ]
@@ -28,7 +28,6 @@ exclude: [
   "Gemfile.lock"
 ]
 
-permalink: /:categories/:title
 default_lang: en
 
 languages:

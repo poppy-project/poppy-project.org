@@ -1,0 +1,46 @@
+.latest-posts {
+
+  margin-bottom: 2rem;
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  .post-date {
+    color: $dark-gray;
+    text-transform: uppercase;
+  }
+
+  .post-title {
+    font-size: rem-calc(20);
+  }
+
+  .post {
+
+    list-style: none;
+    background-color: $white;
+
+    > a {
+      padding: 1px;
+      display: block;
+
+      border-width: 1px;
+      border-style: solid;
+      border-color: transparent;
+      transition: border-color 0.20s;
+
+      color: currentColor;
+
+      &:hover {
+        border-color: $black;
+      }
+
+      > div {
+        padding: calc(1rem - 1px);
+
+        border: 1px solid $medium-gray;
+        color: currentColor;
+      }
+    }
+  }
+}
