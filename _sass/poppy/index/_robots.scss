@@ -1,15 +1,18 @@
+$creature-bg: #162b38;
+
 .creatures {
+
+  @include reverse-links;
 
   padding-top: 20px;
   padding-bottom: 20px;
 
   color: $white;
-  background-color: #162B38;
+  background-color: $creature-bg;
 
-  @include reverse-links;
 
   figure {
-    margin: 0 0 20px 0;
+    margin: 0 0 20px;
 
     img {
       border-radius: 50%;

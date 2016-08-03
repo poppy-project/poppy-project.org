@@ -48,9 +48,9 @@ $cover-height-small: 300px;
     @include breakpoint(medium only) {
       font-size: 36px;
     }
-  }
 
-  h1 + .lead {
-    margin-top: 20px;
+    + .lead {
+      margin-top: 20px;
+    }
   }
 }
