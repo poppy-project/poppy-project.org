@@ -2,5 +2,4 @@ _site
 .sass-cache
 .jekyll-metadata
 .bundle
-Gemfile.lock
 bower_components

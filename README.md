@@ -22,6 +22,12 @@ bundle install
 bundle exec jekyll serve
 ```
 
+## Run tests
+
+```bash
+bundle exec rake test
+```
+
 ## Before contributing
 
 Please take a look at the [contribution guide](CONTRIBUTING.md) to see how to get your changes merged in.

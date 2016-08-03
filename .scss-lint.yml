@@ -1,0 +1,7 @@
+linters:
+  PropertySortOrder:
+    enabled: false
+  SelectorDepth:
+    enabled: false
+  NestingDepth:
+    enabled: false
