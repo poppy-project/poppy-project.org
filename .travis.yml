@@ -15,5 +15,5 @@ deploy:
   file_glob: true
   file: htdocs.tar.gz
   on:
-    repo: poppy-project/poppy-project.org
+    repo: pollen/pollen-robotics.com
     tags: true
