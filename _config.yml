@@ -38,7 +38,7 @@ languages:
 
 # Will be overridden by github
 github:
-  repository_url: https://github.com/poppy-project/poppy-project.org
+  repository_url: https://github.com/pollen/pollen-robotics.com
 
 # HTML compression
 compress_html:

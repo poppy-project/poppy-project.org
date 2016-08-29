@@ -1,8 +1,6 @@
 # Poppy Project dot org
 
-[![Build Status](https://travis-ci.org/poppy-project/poppy-project.org.svg?branch=master)](https://travis-ci.org/poppy-project/poppy-project.org)
-
-Code for the [Poppy project website](https://www.poppy-project.org).
+Code for the [Pollen website](https://www.pollen-robotics.com).
 
 ## Installation
 
