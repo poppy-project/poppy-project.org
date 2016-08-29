@@ -38,7 +38,7 @@ languages:
 
 # Will be overridden by github
 github:
-  repository_url: https://github.com/pollen/pollen-robotics.com
+  repository_url: https://github.com/pollen/pollen.github.io
 
 # HTML compression
 compress_html:
