@@ -5,25 +5,10 @@ permalink: /en/
 role: index
 title: "Pollen Robotics"
 description: "A robotic journey"
-cover_image: "/assets/img/covers/parts.jpg"
 published: true
 ---
 
-<div class="cover" {% if page.cover_image %}style="background-image: linear-gradient(to right, rgba(0,0,0,.35) 0%, rgba(0,0,0,.35) 100%), url({{ site.baseurl }}{{ page.cover_image }});"{% endif %}>
-  <div class="row">
-    <header class="main-header tc small-centered medium-9 columns">
-      <h1>
-        Open source platform for the creation, use and sharing of interactive 3D printed robots
-      </h1>
-
-      <p class="lead">
-        Poppy is an interdisciplinary community of beginners and experts, scientists, educators, developers and artists, who all share a vision:
-        <br>
-        <strong>robots are powerful tools to learn and be creative</strong>.
-      </p>
-    </header>
-  </div>
-</div>
+{% include index/main_title.html %}
 
 <section class="audiences tc">
   <h2 class="clish">Who is Poppy for?</h2>
