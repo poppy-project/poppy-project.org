@@ -74,4 +74,34 @@ published: true
 
 {% include separator.html %}
 
+<div class="row">
+  <div class="large-9 columns large-centered">
+    <h2 class="tc">Contact</h2>
+    <form action="https://formspree.io/{{ site.data.social.email }}" method="post" class="columns">
+      <input type="text" name="_gotcha" class="nodisp">
+      <input type="text" name="_format" value="plain" class="nodisp">
+
+      <input type="hidden" name="_subject" value="New message from Poppy contact form">
+      <input type="hidden" name="_next" value="{{ site.baseurl }}/{{ page.lang }}/contact/thank-you">
+
+      <label>
+        Name
+        <input type="text" name="name">
+      </label>
+      <label>
+        Email
+        <input type="email" name="email">
+      </label>
+      <label>
+        Your message
+        <textarea name="message" rows="5"></textarea>
+      </label>
+
+      <button type="submit" class="button">Send a message</button>
+    </form>
+  </div>
+</div>
+
+{% include separator.html %}
+
 {% include sponsors.html %}
