@@ -5,7 +5,6 @@ title: "À propos"
 description: "L'histoire du projet Poppy : sa création, sa philosophie, et comment rejoindre la communauté"
 permalink: /fr/about/
 role: about
-in_nav: true
 cover_title: "L'histoire du projet Poppy"
 cover_image: "/assets/img/covers/poppy-matthieu-lapeyre.jpg"
 cover_gradient: true
