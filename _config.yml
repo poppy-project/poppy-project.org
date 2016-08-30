@@ -1,13 +1,13 @@
 # Site settings
-title: Poppy Project
+title: Pollen Robotics
 
 default_title:
-  en: "Poppy Project: collaborative ecosystem for robotics"
-  fr: "Poppy Project : écosystème collaboratif pour la robotique"
+  en: "Pollen Robotics: A robotic journey"
+  fr: "Pollen Robotics"
 
 description:
-  en: "Poppy Project description."
-  fr: "Description du Projet Poppy."
+  en: ""
+  fr: ""
 
 # Build settings
 # analytics: true

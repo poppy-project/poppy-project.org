@@ -1,4 +1,4 @@
-# Poppy Project dot org
+# Pollen Robotics;com
 
 Code for the [Pollen website](https://www.pollen-robotics.com).
 
