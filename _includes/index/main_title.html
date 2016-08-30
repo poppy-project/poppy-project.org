@@ -1,14 +1,20 @@
-<div class="creatures cover" {% if page.cover_image %}style="background-image: linear-gradient(to right, rgba(0,0,0,.35) 0%, rgba(0,0,0,.35) 100%), url({{ site.baseurl }}{{ page.cover_image }});"{% endif %}>
+<div >
   <div class="row">
     <header class="main-header tc small-centered medium-9 columns">
-      <h1>
+      <h1 class="poppy">
         We are pollen robotics
       </h1>
-      <h3>
-        We make robotics an unique journey where <strong>stories ermerge from curiosity</strong>.
-      </h3>
-      <p class="lead">
+      <br />
+      <img src="{{ site.baseurl }}/assets/img/covers/logo-unfold.png" alt="{{ site.title }}">
+      <br />
+<!--       <p class="lead">
+      We are specialized in building modular robots.
       </p>
+ --><h2 class="poppy">
+  We make robotics a unique journey where <strong>stories ermerge from curiosity</strong>.
+</h2>
     </header>
   </div>
 </div>
+
+{% include separator.html %}
