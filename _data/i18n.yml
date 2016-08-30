@@ -25,6 +25,18 @@ index:
     ergo_cta:
       en: Learn more about Ergo Jr
       fr: Découvrez Ergo Jr
+  team:
+    title:
+      en: The pollen team
+      fr: L'équipe pollen
+people:
+  jgrizou:
+    image_alt:
+      en: Jhonathan Grizou smiling
+      fr: Jhonathan Grizou souriant
+    description:
+      en: This guy rocks a lot!
+      fr: C'est un mec bien...
 
 robots:
   humanoid:

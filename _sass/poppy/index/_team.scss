@@ -1,0 +1,25 @@
+$team-bg: #162b38;
+
+.team {
+
+  @include reverse-links;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  color: $white;
+  background-color: #73BBBA;
+
+
+  figure {
+    margin: 0 0 20px;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .cta {
+    @include call-to-action(clear, hollow);
+  }
+}
