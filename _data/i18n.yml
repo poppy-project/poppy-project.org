@@ -75,6 +75,13 @@ people:
     description:
       en: Olivia has expertise in multimedia enabling her to master the user interrest.
       fr: Olivia bénéficie d'une expertise dans le domaine du multimedia lui permettant de maitriser l'interret utilisateur.
+  rkhaddhar:
+    image_alt:
+      en: Rafiaa
+      fr: Rafiaa
+    description:
+      en: Rafiaa is cultural and artistic advisor, she operate especially during exhibitions of our technologies.
+      fr: Rafiaa est conseillère culturel et artistique, elle intervient notamment lors des expositions de nos technologies.
 robots:
   humanoid:
     image_alt:
