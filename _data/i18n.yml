@@ -27,11 +27,16 @@ index:
       fr: Découvrez Ergo Jr
   team:
     title:
-      en: Our team
-      fr: Notre équipe
+      en: Who we are
+      fr: Qui nous sommes
     intro:
       en: We are an experimented and multi-disciplinary team from the research, mastering every keys aspects of a complete robotics ecosystem creation.
       fr: Nous sommes une équipe provenant du milieu de la recherche, expérimentée et inter-disciplinaire maitrisant tous les aspects clés de la création d'un écosystème robotique complet.
+  sponsors:
+    title:
+      en: We are supported by
+      fr: Nous sommes soutenus par
+
 people:
   jgrizou:
     role:
