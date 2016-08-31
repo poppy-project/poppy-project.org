@@ -10,7 +10,7 @@ cp $config $config_backup
 # Set specific build settings in jekyll config
 cat >> $config <<EOF
 analytics: true
-url: http://www.poppy-project.org
+url: http://pollen-robotics.com
 sass:
   style: compressed
 EOF
