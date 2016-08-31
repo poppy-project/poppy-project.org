@@ -61,7 +61,20 @@ people:
     description:
       en: Matthieu has a personnal secret to make innovation and design met to create unique products.
       fr: Matthieu sait comment faire rencontrer le design et l'innovation afin de créer des produits hors du commun.
-
+  jgaiotto:
+    image_alt:
+      en: Jérôme en costume
+      fr: Jérôme in siut
+    description:
+      en: A good intern
+      fr: un bon stagiaire
+  oforni:
+    image_alt:
+      en: Olivia
+      fr: Olivia
+    description:
+      en: Olivia has expertise in multimedia enabling her to master the user interrest.
+      fr: Olivia bénéficie d'une expertise dans le domaine du multimedia lui permettant de maitriser l'interret utilisateur.
 robots:
   humanoid:
     image_alt:
