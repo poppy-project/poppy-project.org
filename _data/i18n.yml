@@ -46,7 +46,7 @@ people:
       en: Jonathan smiling
       fr: Jonathan souriant
     description:
-      en: Jonathan mixes his engineering skills and his scientific experience to develop keys technologies of the futur.
+      en: Jonathan mixes his engineering skills and his scientific insight to develop keys technologies of the futur.
       fr: Jonathan mèle ses compétences techniques et son expérience scientifique afin de developper les technologies clefs du futur.
   nrabault:
     role:
@@ -56,8 +56,8 @@ people:
       en: Nicolas smiling
       fr: Nicolas souriant
     description:
-      en: For many years Nicolas is developping a technology to standardize the robotic creation.
-      fr: Depuis des années Nicolas développe une technologies visant a standardiser la création robotique.
+      en: For many years Nicolas has been developping technologies to standardize the robotic creation.
+      fr: Depuis des années Nicolas développe une technologie visant à standardiser la création robotique.
   prouanet:
     role:
       en: co-founder, head of application
@@ -66,7 +66,7 @@ people:
       en: Pierre smiling
       fr: Pierre souriant
     description:
-      en: Pierre knows how to create the human-robot interfaces who supports interactions and experiences of users.
+      en: Pierre knows how to create the human-robot interfaces that enhances interactions and experiences with the users.
       fr: Pierre sait créer l'interface homme-robot qui favorisera les interractions et le ressenti des utilisateurs.
   mlapeyre:
     role:
@@ -86,8 +86,8 @@ people:
       en: Jérôme en costume
       fr: Jérôme in siut
     description:
-      en: Jérôme studied industrial design, his purified style gives a special touch to all our ecosystem.
-      fr: Jérôme a étudié le design industriel, son style épuré donne une touche unique à tout notre écosystème.
+      en: Jérôme studied industrial design, his purified style gives a special touch to our ecosystem.
+      fr: Jérôme a étudié le design industriel, son style épuré donne une touche unique à notre écosystème.
   oforni:
     role:
       en: Consultant
@@ -96,8 +96,8 @@ people:
       en: Olivia
       fr: Olivia
     description:
-      en: Olivia has expertise in multimedia enabling her to master the user interest.
-      fr: Olivia bénéficie d'une expertise dans le domaine du multimedia lui permettant de comprendre l'intéret utilisateur.
+      en: Olivia has expertise in the video game industry, she knows how to capture user's interest.
+      fr: Olivia bénéficie d'une expertise dans le domaine du jeu vidéo lui permettant de comprendre l'intéret utilisateur.
   rkhaddhar:
     role:
       en: Consultant
@@ -106,7 +106,7 @@ people:
       en: Rafiaa
       fr: Rafiaa
     description:
-      en: Rafiaa is a cultural and artistic advisor, she operates especially during exhibitions of our technologies.
+      en: Rafiaa is a cultural and artistic advisor, she designs and operates exhibitions of our technologies.
       fr: Rafiaa est conseillère culturel et artistique, elle intervient notamment lors des expositions de nos technologies.
 robots:
   humanoid:
@@ -117,7 +117,7 @@ robots:
       en: A standing Poppy Humanoid robot
       fr: Un Poppy Humanoid debout
     description:
-      en: Poppy Humanoid is the flagship creature. It is aesthetic, modular, and parametric. From a single arm to the complete humanoid, this platform is actively used in labs, engineering schools, FabLabs, and artistic projects.
+      en: Poppy Humanoid is our flagship creature. It is aesthetic, modular, and parametric. From a single arm to the complete humanoid, this platform is actively used in labs, engineering schools, FabLabs, and artistic projects.
       fr: Poppy Humanoid est le robot phare du projet, esthétique et modulaire. Ses 25 moteurs lui offrent une capacité de mouvement unique, en faisant une plate-forme de choix dans les laboratoires, les écoles d'ingénieurs, les FabLabs et pour les projets artistiques.
   torso:
     role:
