@@ -6,7 +6,7 @@ contact_us:
   fr: Contactez la communauté
 edit_page:
   en: Contribute to this page
-  fr: Contribuer à cette page
+  fr: Contribuez à cette page
 latest_posts:
   en: Latest blog posts
   fr: Derniers posts
@@ -31,35 +31,35 @@ index:
       fr: Notre équipe
     intro:
       en: We are an experimented and multi-disciplinary team from the research, mastering every keys aspects of a complete robotics ecosystem creation.
-      fr: Nous sommes une équipe provenant du milieu de la recherche expérimenté et inter-disciplinaire maitrisant tous les aspect clé de la création d'un écosystème robotique complet.
+      fr: Nous sommes une équipe provenant du milieu de la recherche, expérimentée et inter-disciplinaire maitrisant tous les aspects clés de la création d'un écosystème robotique complet.
 people:
   jgrizou:
     image_alt:
-      en: Jhonathan smiling
-      fr: Jhonathan souriant
+      en: Jonathan smiling
+      fr: Jonathan souriant
     description:
-      en: Jhonathan mixes his skills and his scientific experiments to develop keys technologies of the futur.
-      fr: Jhonathan mèle ces compétences et son expérience scientifique afin de developper les technologies clef du futur.
+      en: Jonathan mixes his skills and his scientific experiments to develop keys technologies of the futur.
+      fr: Jonathan mèle ses compétences et son expérience scientifique afin de developper les technologies clefs du futur.
   nrabault:
     image_alt:
       en: Nicolas smiling
       fr: Nicolas souriant
     description:
-      en: From many years Nicolas develop a technology to standardize the robotic creation.
-      fr: Depuis des années Nicolas developpe une technologies visant a standardiser la création robotique.
+      en: For many years Nicolas is developping a technology to standardize the robotic creation.
+      fr: Depuis des années Nicolas développe une technologies visant a standardiser la création robotique.
   prouanet:
     image_alt:
       en: Pierre smiling
       fr: Pierre souriant
     description:
-      en: Pierre know how to create the human/robot interfaces who optimise interactions and feelings of users.
-      fr: Pierre sait créer l'interface homme/robot qui favorisera les interractions et le ressenti des utilisateurs.
+      en: Pierre knows how to create the human-robot interfaces who supports interactions and experiences of users.
+      fr: Pierre sait créer l'interface homme-robot qui favorisera les interractions et le ressenti des utilisateurs.
   mlapeyre:
     image_alt:
       en: Matthieu Lapeyre with Poppy
       fr: Matthieu Lapeyre avec Poppy
     description:
-      en: Matthieu has a personnal secret to make innovation and design met to create unique products.
+      en: Matthieu knows how to merge innovation and design to create unique products.
       fr: Matthieu sait comment faire rencontrer le design et l'innovation afin de créer des produits hors du commun.
   jgaiotto:
     image_alt:
@@ -67,20 +67,20 @@ people:
       fr: Jérôme in siut
     description:
       en: A good intern
-      fr: un bon stagiaire
+      fr: Un bon stagiaire
   oforni:
     image_alt:
       en: Olivia
       fr: Olivia
     description:
-      en: Olivia has expertise in multimedia enabling her to master the user interrest.
-      fr: Olivia bénéficie d'une expertise dans le domaine du multimedia lui permettant de maitriser l'interret utilisateur.
+      en: Olivia has expertise in multimedia enabling her to master the user interest.
+      fr: Olivia bénéficie d'une expertise dans le domaine du multimedia lui permettant de comprendre l'intéret utilisateur.
   rkhaddhar:
     image_alt:
       en: Rafiaa
       fr: Rafiaa
     description:
-      en: Rafiaa is cultural and artistic advisor, she operate especially during exhibitions of our technologies.
+      en: Rafiaa is a cultural and artistic advisor, she operates especially during exhibitions of our technologies.
       fr: Rafiaa est conseillère culturel et artistique, elle intervient notamment lors des expositions de nos technologies.
 robots:
   humanoid:
@@ -102,7 +102,7 @@ robots:
       en: An Ergo Jr on a table
       fr: Un Ergo Jr sur une table
     description:
-      en: With its six engines, Ergo Jr is the most accessible Poppy robot. It is cheap, portable and easily customizable. Perfectly suited to beginners and younger, it is a good introduction to robotics through a series of turnkey activities.
+      en: With its six motors, Ergo Jr is the most accessible Poppy robot. It is cheap, portable and easily customizable. Perfectly suited to beginners and younger, it is a good introduction to robotics through a series of turnkey activities targeting education.
       fr: Du haut de ses 6 moteurs, Ergo Jr est le robot Poppy le plus accessible. Il est peu cher, transportable et facilement customisable. Parfaitement adapté aux débutants et aux plus jeunes, il permet de s'initier à la robotique grâce à une série d'activités clef en main.
 
 archives:
