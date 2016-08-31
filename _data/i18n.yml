@@ -27,8 +27,8 @@ index:
       fr: Découvrez Ergo Jr
   team:
     title:
-      en: The pollen team
-      fr: L'équipe pollen
+      en: Our team
+      fr: Notre équipe
 people:
   jgrizou:
     image_alt:
@@ -37,6 +37,27 @@ people:
     description:
       en: This guy rocks a lot!
       fr: C'est un mec bien...
+  nrabault:
+    image_alt:
+      en: Nicolas Rabault smiling
+      fr: Nicolas Rabault souriant
+    description:
+      en: This guy rocks a lot too!
+      fr: C'est aussi un mec bien...
+  prouanet:
+    image_alt:
+      en: Pierre Rouanet smiling
+      fr: Pierre Rouanet souriant
+    description:
+      en: This guy rocks a lot too!
+      fr: C'est aussi un mec bien...
+  mlapeyre:
+    image_alt:
+      en: Matthieu Lapeyre smiling
+      fr: Matthieu Lapeyre souriant
+    description:
+      en: This guy rocks a lot too!
+      fr: C'est aussi un mec bien...
 
 robots:
   humanoid:
