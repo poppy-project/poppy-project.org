@@ -34,6 +34,9 @@ index:
       fr: Nous sommes une équipe provenant du milieu de la recherche, expérimentée et inter-disciplinaire maitrisant tous les aspects clés de la création d'un écosystème robotique complet.
 people:
   jgrizou:
+    role:
+      en: co-founder, chief science officer
+      fr: co-fondateur, chief science officer
     image_alt:
       en: Jonathan smiling
       fr: Jonathan souriant
@@ -41,6 +44,9 @@ people:
       en: Jonathan mixes his engineering skills and his scientific experience to develop keys technologies of the futur.
       fr: Jonathan mèle ses compétences techniques et son expérience scientifique afin de developper les technologies clefs du futur.
   nrabault:
+    role:
+      en: co-founder, chief technical officer
+      fr: co-fondateur, chief technical officer
     image_alt:
       en: Nicolas smiling
       fr: Nicolas souriant
@@ -48,6 +54,9 @@ people:
       en: For many years Nicolas is developping a technology to standardize the robotic creation.
       fr: Depuis des années Nicolas développe une technologies visant a standardiser la création robotique.
   prouanet:
+    role:
+      en: co-founder, head of application
+      fr: co-fondateur, responsable usages
     image_alt:
       en: Pierre smiling
       fr: Pierre souriant
@@ -55,6 +64,9 @@ people:
       en: Pierre knows how to create the human-robot interfaces who supports interactions and experiences of users.
       fr: Pierre sait créer l'interface homme-robot qui favorisera les interractions et le ressenti des utilisateurs.
   mlapeyre:
+    role:
+      en: co-founder, chief executive officer
+      fr: co-fondateur, chief executive officer
     image_alt:
       en: Matthieu Lapeyre with Poppy
       fr: Matthieu Lapeyre avec Poppy
@@ -62,13 +74,19 @@ people:
       en: Matthieu knows how to merge innovation and design to create unique products.
       fr: Matthieu sait comment faire rencontrer le design et l'innovation afin de créer des produits hors du commun.
   jgaiotto:
+    role:
+      en: Designer
+      fr: Designer
     image_alt:
       en: Jérôme en costume
       fr: Jérôme in siut
     description:
       en: Jérôme studied industrial design, his purified style gives a special touch to all our ecosystem.
-      fr: Jérôme étudie le design industriel, son style épuré donne une touche unique à tout notre écosystème.
+      fr: Jérôme a étudié le design industriel, son style épuré donne une touche unique à tout notre écosystème.
   oforni:
+    role:
+      en: Consultant
+      fr: Consultante
     image_alt:
       en: Olivia
       fr: Olivia
@@ -76,6 +94,9 @@ people:
       en: Olivia has expertise in multimedia enabling her to master the user interest.
       fr: Olivia bénéficie d'une expertise dans le domaine du multimedia lui permettant de comprendre l'intéret utilisateur.
   rkhaddhar:
+    role:
+      en: Consultant
+      fr: Consultante
     image_alt:
       en: Rafiaa
       fr: Rafiaa
@@ -84,6 +105,9 @@ people:
       fr: Rafiaa est conseillère culturel et artistique, elle intervient notamment lors des expositions de nos technologies.
 robots:
   humanoid:
+    role:
+      en: co-founder,
+      fr: co-fondateur, 
     image_alt:
       en: A standing Poppy Humanoid robot
       fr: Un Poppy Humanoid debout
@@ -91,6 +115,9 @@ robots:
       en: Poppy Humanoid is the flagship creature. It is aesthetic, modular, and parametric. From a single arm to the complete humanoid, this platform is actively used in labs, engineering schools, FabLabs, and artistic projects.
       fr: Poppy Humanoid est le robot phare du projet, esthétique et modulaire. Ses 25 moteurs lui offrent une capacité de mouvement unique, en faisant une plate-forme de choix dans les laboratoires, les écoles d'ingénieurs, les FabLabs et pour les projets artistiques.
   torso:
+    role:
+      en: co-founder,
+      fr: co-fondateur, 
     image_alt:
       en: A facing Poppy Torso
       fr: Un Poppy Torso de face
@@ -98,6 +125,9 @@ robots:
       en: Poppy Torso is a simplified version of Poppy Humanoid. Cheaper, layable on a desk, it is particularly suitable for classroom use, in fablabs or in all kinds of public events.
       fr: Poppy Torso est une version simplifiée de Poppy Humanoid. Moins cher, à poser sur son bureau, il est particulièrement adapté pour des usages en classe, dans les fablabs ou toutes sortes de manifestations publiques.
   ergo:
+    role:
+      en: co-founder,
+      fr: co-fondateur, 
     image_alt:
       en: An Ergo Jr on a table
       fr: Un Ergo Jr sur une table
