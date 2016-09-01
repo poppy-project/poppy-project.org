@@ -1,9 +1,13 @@
-<section class="creatures tc">
+<div class="row large-9 columns small-centered tc">
   <h2 class="small-centered clish">{{ site.data.i18n.index.creatures.title[page.lang] }}</h2>
+  <p class="lead">
+    We've launched the Poppy project when we were researchers at <a href="https://flowers.inria.fr/">Inria Flowers</a>. From this project have emerged two products commercialised by our distributor <a href="http://www.generationrobots.com/fr/">Génération Robots</a> and used by academics and teachers.
+  </p>
+</div>
 
-  <div class="row" data-equalizer data-equalize-on="large">
+  <div class="row large-7 columns small-centered tc" data-equalizer data-equalize-on="large">
 
-    <div class="large-4 columns creature">
+    <div class="large-6 columns ">
       <div data-equalizer-watch>
         {% include robots/humanoid.html %}
       </div>
@@ -12,16 +16,7 @@
       </div>
     </div>
 
-    <div class="large-4 columns creature">
-      <div data-equalizer-watch>
-        {% include robots/torso.html %}
-      </div>
-      <div class="cta">
-        <a href="http://poppy-project.org/{{ page.lang }}/robots/poppy-torso">{{ site.data.i18n.index.creatures.torso_cta[page.lang] }}</a>
-      </div>
-    </div>
-
-    <div class="large-4 columns creature">
+    <div class="large-6 columns ">
       <div data-equalizer-watch>
         {% include robots/ergo.html %}
       </div>
@@ -31,4 +26,4 @@
     </div>
 
   </div>
-</section>
+

@@ -14,11 +14,11 @@ latest_posts:
 index:
   creatures:
     title:
-      en: What we have built
-      fr: Ce que nous avons construit
+      en: We are the guys behind <a href="www.poppy-project.org">Poppy</a>
+      fr: Nous à l'origine de <a href="www.poppy-project.org"></a>
     humanoid_cta:
-      en: Learn more about Poppy Humanoid
-      fr: Découvrez Poppy Humanoid
+      en: Learn more about Poppy
+      fr: Découvrez Poppy
     torso_cta:
       en: Learn more about Poppy Torso
       fr: Découvrez Poppy Torso
