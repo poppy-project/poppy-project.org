@@ -14,8 +14,8 @@ latest_posts:
 index:
   creatures:
     title:
-      en: We are the guys behind <a href="www.poppy-project.org">Poppy</a>
-      fr: Nous sommes à l'origine de <a href="www.poppy-project.org">Poppy</a>
+      en: We are the guys behind <a href="http://www.poppy-project.org">Poppy</a>
+      fr: Nous sommes à l'origine de <a href="http://www.poppy-project.org">Poppy</a>
     content:
       en: We've launched the Poppy project when we were researchers at <a href="https://flowers.inria.fr/">Inria Flowers</a>.<br>From this project have emerged an <a href="https://forum.poppy-project.org/">amazing worldwide community</a> and several products commercialised by our distributor <a href="http://www.generationrobots.com/fr/279-poppy">Génération Robots</a>.
       fr: Nous avons lancé le projet Poppy alors que nous étions chercheurs dans le laboratoire <a href="https://flowers.inria.fr/">Inria Flowers</a>.<br> De ce projet a émergé une <a href="https://forum.poppy-project.org/">incroyable communauté internationnale</a> et plusieurs robots commercialisés par notre distributeur <a href="http://www.generationrobots.com/fr/279-poppy">Génération Robots</a>.
