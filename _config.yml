@@ -12,7 +12,11 @@ description:
 # Build settings
 # analytics: true
 markdown: kramdown
-highlighter: rouge
+
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+
 permalink: /:categories/posts/:title
 timezone: Europe/Paris
 

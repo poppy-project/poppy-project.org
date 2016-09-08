@@ -33,5 +33,4 @@ $baseurl: '{{ site.baseurl }}';
 
 @include foundation-everything;
 
-@import "syntax-highlighting";
 @import "layout";

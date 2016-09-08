@@ -16,6 +16,7 @@ layout: compress
       {% include footer.html %}
     </section>
 
+    <script src="{{ site.baseurl }}/assets/js/highlight.pack.js"></script>
     <script src="{{ site.baseurl }}/assets/js/svgxuse.min.js"></script>
 
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
@@ -23,6 +24,7 @@ layout: compress
     <script src="{{ site.baseurl }}/assets/js/foundation.min.js"></script>
     <script>
       $(document).foundation();
+      hljs.initHighlightingOnLoad();
     </script>
 
     {% include ga.html %}
