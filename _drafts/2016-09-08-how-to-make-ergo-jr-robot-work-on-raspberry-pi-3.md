@@ -2,8 +2,8 @@
 layout: single-column-cover
 lang: en
 title: "How to make the Ergo Jr robot work on a Raspberry pi 3"
-description: "Changes between Rpi2 and Rpi3 to the serial port management prevents the current ergo-jr code from working on a Rpi3. This post will show you how to fix this"
-cover_title: "How to make the Ergo Jr robot work on a Raspberry pi 3"
+description: "Changes between Raspberry Pi 2 and 3 to the serial port management prevents the current ergo-jr code from working on a Rpi3. This post will show you how to fix this"
+cover_title: "How to make the Ergo Jr robot work on a Raspberry Pi 3"
 cover_image: "/assets/img/covers/rpi3-lego.jpg"
 cover_size: small
 cover_gradient: true
@@ -12,13 +12,13 @@ categories:
   - en
 ---
 
-We've received feedback from users about [Raspberry Pi 3 issues](https://forum.poppy-project.org/t/factory-reset-problem/2651/3).
+We've received [feedback](https://forum.poppy-project.org/t/factory-reset-problem/2651/3) from users who had trouble using a Raspberry Pi 3 for their Ergo Jr robot.
 
-Basically, some changes between Raspberry pi 2 and 3 to the serial interface prevent the current Ergo Jr code from working on a Raspberry pi 3.
-Good news, solving this is rather easy, and we prepared a working image for the Raspberry pi 3 available for [download][rpi3-image].
+Basically, some changes between Raspberry Pi 2 and 3 to the serial interface prevent the current Ergo Jr code from working on a Raspberry Pi 3.
+Good news, solving this is rather easy, and we prepared a working image for the Raspberry Pi 3 available for [download][new-image].
 
-If you want to upgrade your existing robot or want to switch from a Raspberry pi 2 to a Raspberry pi 3, the provided instructions below show how to do this.
-You should note that depending on how one has customized their configuration, the following instructions may not work.
+If you want to upgrade your existing robot or want to switch from a Raspberry Pi 2 to a Raspberry Pi 3, the provided instructions below show how to do this.  
+You should note that depending on how one has customized their configuration, the following instructions may not work. Should that happen, please share your problem by posting in the forum under the [support category][support-link].
 
 1.  Make sure the official `raspi-config` is installed:
 
@@ -26,7 +26,7 @@ You should note that depending on how one has customized their configuration, th
     sudo apt-get update && sudo apt-get install -y raspi-config
     ```
 
-2.  Launch the utility `sudo raspi-config`, then enable the camera and disable the `Advanced Options > Disable shell and kernel messages on the serial connection` options.
+2.  Launch the utility `sudo raspi-config`, then enable the camera and disable the `Advanced Options > Disable shell and kernel messages on the serial connection` option.
 
 3.  Make sure the `/boot/config.txt` file contains the `enable_uart=1` line, or add it otherwise.
 
@@ -36,6 +36,11 @@ You should note that depending on how one has customized their configuration, th
     sed -i -- 's/ttyAMA0/ttyS0/g' /home/poppy/miniconda/lib/python2.7/site-packages/poppy_ergo_jr/configuration/poppy_ergo_jr.json
     ```
 
-5. Restart the Raspberry pi, and enjoy robotics!
+5. Restart the Raspberry Pi 3, and enjoy robotics!
 
-[rpi3-image]: https://github.com/poppy-project/poppy-ergo-jr/releases/download/1.0.0-gm/poppy-ergo-jr-2016-09-08-rpi3.img.zip
+<hr>
+
+*Photo credit: [desmodex](https://www.flickr.com/photos/desmodex/26347969306)*
+
+[new-image]: https://github.com/poppy-project/poppy-ergo-jr/releases/download/1.0.0-gm/2016-09-09-poppy-ergo-jr.img.zip
+[support-link]: https://forum.poppy-project.org/c/support
