@@ -11,6 +11,29 @@ latest_posts:
   en: Latest blog posts
   fr: Derniers posts
 
+mailchimp:
+  token:
+    en: b_17b6815514db7361fc260e0ce_f733465d88
+    fr: b_17b6815514db7361fc260e0ce_95e9e13ae2
+  title:
+    en: Sign up to receive Poppy Education newsletter
+    fr: Recevez les actus de Poppy Education
+  required:
+    en: indicates required fields
+    fr: indique les champs requis
+  email_input_label:
+    en: Email address
+    fr: Adresse e-mail
+  name_input_label:
+    en: Name
+    fr: Nom
+  organisation_input_label:
+    en: Organisation
+    fr: Organisation
+  subscribe:
+    en: Subscribe
+    fr: S'inscrire
+
 index:
   creatures:
     title:
