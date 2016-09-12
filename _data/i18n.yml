@@ -11,10 +11,7 @@ latest_posts:
   en: Latest blog posts
   fr: Derniers posts
 
-mailchimp:
-  token:
-    en: b_17b6815514db7361fc260e0ce_f733465d88
-    fr: b_17b6815514db7361fc260e0ce_95e9e13ae2
+newsletter_form:
   title:
     en: Sign up to receive Poppy Education newsletter
     fr: Recevez les actus de Poppy Education
