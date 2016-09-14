@@ -1,9 +1,9 @@
 ---
 layout: single-column-cover
 lang: fr
-title: "Comment faire fonctionner Ergo Jr sur Raspberry Pi 3"
+title: "Comment faire fonctionner le robot Ergo Jr sur Raspberry Pi 3"
 description: "Des changements entre les Raspberry Pi 2 et 3 empêchent le bon fonctionnement du code de l'Ergo Jr. Cet article vous montre comment résoudre ce problème"
-cover_title: "Comment faire fonctionner Ergo Jr sur Raspberry Pi 3"
+cover_title: "Comment faire fonctionner le robot Ergo Jr sur Raspberry Pi 3"
 cover_image: "/assets/img/covers/rpi3-lego.jpg"
 cover_gradient: true
 cover_size: small
@@ -15,7 +15,7 @@ categories:
 Des utilisateurs des forums nous [ont signalé](https://forum.poppy-project.org/t/factory-reset-problem/2651/3) qu'ils avaient rencontré des problèmes en voulant utiliser une Raspberry Pi 3 pour leur robot Ergo Jr.
 
 Des changements entre les Raspberry Pi 2 sur l'interface série empêchent le code de l'Ergo Jr de fonctionner sur une Raspberry Pi 3.
-La bonne nouvelle est que c'est quelque chose de plutôt simple à réparer, et une image prête à être utilisée avec une Raspberry Pi 3 est [téléchargeable][new-image]. N'oubliez pas de sauvegarder vos projets Snap! ainsi que vos notebooks Jupyter !
+La bonne nouvelle est que c'est quelque chose de plutôt simple à réparer, et une image prête à être utilisée avec une Raspberry Pi 3 est [téléchargeable][new-image]. N'oubliez pas de sauvegarder vos projets Snap! ainsi que vos notebooks Jupyter avant de [flasher][flash-sd] la carte SD !
 
 Si vous ne souhaitez que mettre à jour le code présent sur votre robot ou que vous ne faites qu'un changement d'une Raspberry Pi 2 vers une Raspberry Pi 3, les instructions qui suivent vous aideront à le faire.  
 Notez cependant qu'en fonction des modifications que vous avez apportées à votre robot, les instructions peuvent ne pas fonctionner correctement. Si tel était le cas, n'hésitez-pas à demander de l'aide [dans la catégorie support des forums][support-link].
@@ -43,4 +43,5 @@ Notez cependant qu'en fonction des modifications que vous avez apportées à vot
 *Crédit photo : [desmodex](https://www.flickr.com/photos/desmodex/26347969306)*
 
 [new-image]: https://github.com/poppy-project/poppy-ergo-jr/releases/download/1.0.0-gm/2016-09-09-poppy-ergo-jr.img.zip
-[support-link]: https://forum.poppy-project.org/c/support
+[support-link]: https://forum.poppy-project.org/t/making-the-ergo-jr-work-on-a-raspberry-pi-3/2688
+[flash-sd]: https://docs.poppy-project.org/en/installation/burn-an-image-file.html#write-the-operating-system-image-to-the-sd-card

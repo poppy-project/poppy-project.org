@@ -1,7 +1,7 @@
 ---
 layout: single-column-cover
 lang: en
-title: "How to make the Ergo Jr robot work on a Raspberry pi 3"
+title: "How to make the Ergo Jr robot work on a Raspberry Pi 3"
 description: "Changes between Raspberry Pi 2 and 3 to the serial port management prevents the current ergo-jr code from working on a Rpi3. This post will show you how to fix this"
 cover_title: "How to make the Ergo Jr robot work on a Raspberry Pi 3"
 cover_image: "/assets/img/covers/rpi3-lego.jpg"
@@ -15,7 +15,7 @@ categories:
 We've received [feedback](https://forum.poppy-project.org/t/factory-reset-problem/2651/3) from users who had trouble using a Raspberry Pi 3 for their Ergo Jr robot.
 
 Basically, some changes between Raspberry Pi 2 and 3 to the serial interface prevent the current Ergo Jr code from working on a Raspberry Pi 3.
-Good news, solving this is rather easy, and we prepared a working image for the Raspberry Pi 3 available for [download][new-image].
+Good news, solving this is rather easy, and we prepared a working image for the Raspberry Pi 3 available for [download][new-image]. Make sure to backup your Jupyter notebooks or Snap! projects before [flashing][flash-sd] your SD card!
 
 If you want to upgrade your existing robot or want to switch from a Raspberry Pi 2 to a Raspberry Pi 3, the provided instructions below show how to do this.  
 You should note that depending on how one has customized their configuration, the following instructions may not work. Should that happen, please share your problem by posting in the forum under the [support category][support-link].
@@ -43,4 +43,5 @@ You should note that depending on how one has customized their configuration, th
 *Photo credit: [desmodex](https://www.flickr.com/photos/desmodex/26347969306)*
 
 [new-image]: https://github.com/poppy-project/poppy-ergo-jr/releases/download/1.0.0-gm/2016-09-09-poppy-ergo-jr.img.zip
-[support-link]: https://forum.poppy-project.org/c/support
+[support-link]: https://forum.poppy-project.org/t/making-the-ergo-jr-work-on-a-raspberry-pi-3/2688
+[flash-sd]: https://docs.poppy-project.org/en/installation/burn-an-image-file.html#write-the-operating-system-image-to-the-sd-card
