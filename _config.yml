@@ -23,6 +23,7 @@ timezone: Europe/Paris
 include: [ "_pages" ]
 
 exclude: [
+  "Rakefile",
   "bower_components",
   "vendor",
   "README.md",
