@@ -13,7 +13,7 @@ categories:
 ---
 
 _Mise à jour le 3 octobre 2016  
-Après des tests plus approfondis, nous avons remarqué que le robot Ergo Jr fonctionnnait bien sur Rapberri Pi 3 mais que ses mouvements étaient très saccadés. La réponse courte est que nous utilisions le port mini uart pour la communication, mais que celui-ci repose sur la fréquence du CPU et n'est pas adapté à l'usage que nous en faisons (si le CPU ralenti, tous les mouvements ralentissent). Vous pouvez lire l'explication complète dans l'article [« Configuring The GPIO Serial Port On Raspbian Jessie Including Pi 3 »][spellfoundry] du site Spellfoundry._
+Après des tests plus approfondis, nous avons remarqué que le robot Ergo Jr fonctionnnait bien sur Rapberri Pi 3 mais que ses mouvements étaient très saccadés. La réponse courte est que nous utilisions un UART logiciel, moins performant que l’UART matériel (celui-ci étant utilisé pour le bluetooth). Vous pouvez lire l'explication complète dans l'article [« Configuring The GPIO Serial Port On Raspbian Jessie Including Pi 3 »][spellfoundry] du site Spellfoundry._
 
 Des utilisateurs des forums nous [ont signalé](https://forum.poppy-project.org/t/factory-reset-problem/2651/3) qu'ils avaient rencontré des problèmes en voulant utiliser une Raspberry Pi 3 pour leur robot Ergo Jr.
 

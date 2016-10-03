@@ -13,7 +13,7 @@ categories:
 ---
 
 _Updated on 2016, October 3rd  
-After some thorough tests, we found that the Ergo Jr robot was working fine on a Raspberry Pi 3 but was very slow when performing movements. The short answer is that we were communicating through the mini uart serial port, which relies on the CPU frequency thus not suitable for our needs (if the CPU slows down, movements slow down or become jerky). You can read the whole explanation from the article called ["Configuring The GPIO Serial Port On Raspbian Jessie Including Pi 3"][spellfoundry] on Spellfoundry._
+After some thorough tests, we found that the Ergo Jr robot was working fine on a Raspberry Pi 3 but was very slow when performing movements. The short answer: we were using a software UART, less performant than the hardware one (which is used for bluethooth by default). You can read the whole explanation from the article called ["Configuring The GPIO Serial Port On Raspbian Jessie Including Pi 3"][spellfoundry] on Spellfoundry._
 
 We've received [feedback](https://forum.poppy-project.org/t/factory-reset-problem/2651/3) from users who had trouble using a Raspberry Pi 3 for their Ergo Jr robot.
 
