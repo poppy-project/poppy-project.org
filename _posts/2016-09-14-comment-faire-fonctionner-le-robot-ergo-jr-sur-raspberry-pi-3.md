@@ -33,7 +33,8 @@ Notez cependant qu'en fonction des modifications que vous avez apportées à vot
 
 3.  Vérifiez que le fichier `/boot/config.txt` contient les lignes `enable_uart=1` **et** `dtoverlay=pi3-miniuart-bt`, ou ajoutez-les si besoin.
 
-4.  <del>Faites en sorte que la dépendance python <em>poppy_ergo_jr<em> mentionne <code>/dev/ttyS0</code> à la place de <code>/dev/ttyAMA0</code> (c'est précisément ce qui pose problème et bloque la communication):</del>
+4.  <del>Faites en sorte que la dépendance python <em>poppy_ergo_jr<em> mentionne <code>/dev/ttyS0</code> à la place de <code>/dev/ttyAMA0</code> (c'est précisément ce qui pose problème et bloque la communication): </del>
+
     Si vous avez déjà fait la modification barrée ci-dessus, il faut la défaire :
 
     ```bash
