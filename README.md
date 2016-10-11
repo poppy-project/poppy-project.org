@@ -30,8 +30,8 @@ bundle exec rake test
 
 ## Before contributing
 
-Please take a look at the [contribution guide](CONTRIBUTING.md) to see how to get your changes merged in.
+Please take a look at the [contribution guide](https://github.com/poppy-project/poppy-project.org/blob/master/CONTRIBUTING.md) to see how to get your changes merged in.
 
 ## License
 
-See [LICENSE](LICENSE.md) file.
+See [LICENSE](https://github.com/poppy-project/poppy-project.org/blob/master/LICENSE.md) file.
