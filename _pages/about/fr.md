@@ -19,7 +19,7 @@ Le projet Poppy est né en 2012 dans le [laboratoire Flowers](https://flowers.in
 
 C'était à l'origine un projet de recherche fondamentale financé par [ERC Grant Explorer](http://erc.europa.eu/) ayant pour but d'explorer le rôle de l'incarnation et des propriétés morphologiques sur la cognition et en particulier l'apprentissage de tâches sensori-motrices.
 
-Les premiers membres de l'équipe de développement d'origine étaient Matthieu Lapeyre (conception &amp; design), [Pierre Rouanet](https://github.com/pierre-rouanet) (logiciel) et [Jonathan Grizou](http://jgrizou.com/) (électronique).
+Les premiers membres de l'équipe de développement d'origine étaient Matthieu Lapeyre (conception &amp; design), [Pierre Rouanet](https://github.com/pierre-rouanet) (logiciel) et Jonathan Grizou (électronique).
 
 {% include separator.html %}
 

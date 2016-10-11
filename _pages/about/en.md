@@ -17,7 +17,7 @@ published: true
 
 The Poppy project was born in 2012 in the [Flowers laboratory](https://flowers.inria.fr/) at [Inria Bordeaux Sud-Ouest](https://www.inria.fr/en/centre/bordeaux). It was initiated during [Matthieu Lapeyre](https://github.com/matthieu-lapeyre)'s PhD Thesis surpervised by [Pierre-Yves Oudeyer](http://www.pyoudeyer.com/).
 
-At the beginning, the development team was composed by Matthieu Lapeyre (mechanics &amp; design), [Pierre Rouanet](https://github.com/pierre-rouanet) (software) and [Jonathan Grizou](http://jgrizou.com/) (electronics).
+At the beginning, the development team was composed by Matthieu Lapeyre (mechanics &amp; design), [Pierre Rouanet](https://github.com/pierre-rouanet) (software) and Jonathan Grizou (electronics).
 
 This project is initially a fundamental research project financed by [ERC Grant Explorer](http://erc.europa.eu/) to explore the role of embodiment and morphology properties on cognition and especially on the learning of sensori-motor tasks.
 
