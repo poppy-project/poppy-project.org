@@ -33,7 +33,8 @@ You should note that depending on how one has customized their configuration, th
 
 3.  Make sure the `/boot/config.txt` file contains the `enable_uart=1` **and** `dtoverlay=pi3-miniuart-bt` lines, or add these otherwise.
 
-4.  <del>Update <em>poppy_ergo_jr</em> python dependency so it looks for <code>/dev/ttyS0<code> instead of <code>/dev/ttyAMA0<code> (this is what makes communication stall):</del>  
+4.  <del>Update <em>poppy_ergo_jr</em> python dependency so it looks for <code>/dev/ttyS0</code> instead of <code>/dev/ttyAMA0</code> (this is what makes communication stall):</del>
+
     If you updated <em>poppy_ergo_jr</em> with the deleted statement above, you need to revert it:
 
     ```bash
