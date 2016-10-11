@@ -72,11 +72,3 @@ robots:
     description:
       en: With its six engines, Ergo Jr is the most accessible Poppy robot. It is cheap, portable and easily customizable. Perfectly suited to beginners and younger, it is a good introduction to robotics through a series of turnkey activities.
       fr: Du haut de ses 6 moteurs, Ergo Jr est le robot Poppy le plus accessible. Il est peu cher, transportable et facilement customisable. Parfaitement adapté aux débutants et aux plus jeunes, il permet de s'initier à la robotique grâce à une série d'activités clef en main.
-
-archives:
-  title:
-    en: Blog archives
-    fr: Archives du blog
-  read_more:
-    en: Read the article
-    fr: Lire l'article

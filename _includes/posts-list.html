@@ -1,0 +1,12 @@
+<div class="archives">
+  {% for post in site.categories[page.lang] %}
+
+  <div class="row columns post mini">
+    <h2>
+      <time datetime="post.date">{{ post.date | date_to_string }}</time>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+  </div>
+
+  {% endfor %}
+</div>
