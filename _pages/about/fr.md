@@ -40,7 +40,7 @@ Si vous souhaitez contribuer au projet Poppy, le premier pas est de s'inscrire s
 
 Il y a également de nombreuses manières d'être impliqué dans le projet, celui-ci mettant en œuvre un grand nombre de disciplines :
 
-- Ingénierie : informatique, mécanique, électronique, _machine learning_...
+- Ingénierie : informatique, mécanique, électronique, machine learning...
 - Sciences humaines : cognitique, psychologie...
 - Biologie, bio-mécanique...
 - _Community management_, mediation scientifique, communication...
@@ -48,12 +48,12 @@ Il y a également de nombreuses manières d'être impliqué dans le projet, celu
 
 Si vous cherchez des idées, vous pouvez jeter un œil au [code source](https://github.com/poppy-project/) du projet et aux [appels à contribution](https://forum.poppy-project.org/tags/call-for-contributions) sur le forum.
 
-Si vous êtes un utilisateur avancé, vous pouvez bien entendu soumettre de nouvelles requêtes ou développer de nouvelles fonctionnalités afin qu'elles les intégrer au projet.
+Si vous êtes un utilisateur avancé, vous pouvez bien entendu soumettre de nouvelles requêtes ou développer de nouvelles fonctionnalités afin de les intégrer au projet.
 
 {% include separator.html %}
 
 ## Propriété intellectuelle
 
-L'intégralité du développement technologique fait dans le cadre du projet Poppy est distribué librement et gratuitement sous licences open source. Seul l'usage du nom *Poppy* est limité par un dépôt international de la marque, permettant de protéger son identité.
+L'intégralité du développement technologique fait dans le cadre du projet Poppy est distribué librement et gratuitement sous licences open source. Seul l'usage du nom *"Poppy"* est limité par un dépôt international de la marque, permettant de protéger son identité.
 
 N'hésitez pas à [contacter]({{ site.baseurl }}/{{ page.lang }}/contact) la communauté pour obtenir plus d'informations.

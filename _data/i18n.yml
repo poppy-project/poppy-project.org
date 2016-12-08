@@ -17,8 +17,8 @@ index:
       en: We are the guys behind <a href="http://www.poppy-project.org">Poppy</a>
       fr: Nous sommes à l'origine de <a href="http://www.poppy-project.org">Poppy</a>
     content:
-      en: We've launched the Poppy project when we were researchers at <a href="https://flowers.inria.fr/">Inria Flowers</a>.<br>From this project have emerged an <a href="https://forum.poppy-project.org/">amazing worldwide community</a> and several products commercialised by our distributor <a href="http://www.generationrobots.com/fr/279-poppy">Génération Robots</a>.
-      fr: Nous avons lancé le projet Poppy alors que nous étions chercheurs dans le laboratoire <a href="https://flowers.inria.fr/">Inria Flowers</a>.<br> De ce projet a émergé une <a href="https://forum.poppy-project.org/">incroyable communauté internationnale</a> et plusieurs robots commercialisés par notre distributeur <a href="http://www.generationrobots.com/fr/279-poppy">Génération Robots</a>.
+      en: We've launched the Poppy project while being researchers at <a href="https://flowers.inria.fr/">Inria Flowers</a>.<br> An <a href="https://forum.poppy-project.org/">amazing worldwide community</a> has emerged and our creations are distributed by <a href="http://www.generationrobots.com/fr/279-poppy">Génération Robots</a>.
+      fr: Nous avons lancé le projet Poppy alors que nous étions chercheurs dans le laboratoire <a href="https://flowers.inria.fr/">Inria Flowers</a>.<br> De ce projet a émergé une <a href="https://forum.poppy-project.org/">incroyable communauté internationnale</a> et plusieurs robots sont commercialisés par notre distributeur <a href="http://www.generationrobots.com/fr/279-poppy">Génération Robots</a>.
     humanoid_cta:
       en: Learn more about Poppy
       fr: Découvrez Poppy
@@ -33,8 +33,8 @@ index:
       en: Who we are
       fr: Qui nous sommes
     intro:
-      en: We are an experimented and multi-disciplinary team from the research, mastering every keys aspects of a complete robotics ecosystem creation.
-      fr: Nous sommes une équipe provenant du milieu de la recherche, expérimentée et inter-disciplinaire maitrisant tous les aspects clés de la création d'un écosystème robotique complet.
+      en: We are an experimented and multi-disciplinary team with a strong foothold in robotics research. <br> We master all the keys aspects for the creation of robotics ecosystems.
+      fr: Nous sommes une équipe provenant du milieu de la recherche, expérimentée et inter-disciplinaire. <br> Nous maîtrisons tous les aspects clés de la création d'un écosystème robotique complet.
   sponsors:
     title:
       en: We are supported by
@@ -49,8 +49,8 @@ people:
       en: Jonathan smiling
       fr: Jonathan souriant
     description:
-      en: Jonathan mixes his engineering skills and his scientific insight to develop keys technologies of the futur.
-      fr: Jonathan mèle ses compétences techniques et son expérience scientifique afin de developper les technologies clefs du futur.
+      en: Jonathan mixes engineering skills and scientific insight to develop key technologies of the futur.
+      fr: Jonathan mèle compétences techniques et expérience scientifique afin de developper les technologies du futur.
   nrabault:
     role:
       en: Co-Founder & <br>CTO
@@ -60,7 +60,7 @@ people:
       fr: Nicolas souriant
     description:
       en: For many years Nicolas has been developping technologies to standardize the robotic creation.
-      fr: Depuis des années Nicolas développe une technologie visant à standardiser la création robotique.
+      fr: Depuis des années Nicolas développe des technologies visant à standardiser la création robotique.
   prouanet:
     role:
       en: Co-Founder & <br> Head of Application
@@ -70,7 +70,7 @@ people:
       fr: Pierre souriant
     description:
       en: Pierre knows how to create the human-robot interfaces that enhance interactions and user experiences.
-      fr: Pierre sait créer l'interface homme-robot qui favorisera les interractions et le ressenti des utilisateurs.
+      fr: Pierre sait créer l'interface homme-robot qui favorisera les interactions et le ressenti des utilisateurs.
   mlapeyre:
     role:
       en: Co-Founder & <br>CEO
@@ -124,14 +124,14 @@ robots:
       en: A facing Poppy Torso
       fr: Un Poppy Torso de face
     description:
-      en: Poppy Torso is a simplified version of Poppy Humanoid. Cheaper, layable on a desk, it is particularly suitable for classroom use, in fablabs or in all kinds of public events.
+      en: Poppy Torso is a simplified version of Poppy Humanoid. Cheaper and layable on a desk, it is particularly suitable for classroom use, in Fablabs or in any kinds of public events.
       fr: Poppy Torso est une version simplifiée de Poppy Humanoid. Moins cher, à poser sur son bureau, il est particulièrement adapté pour des usages en classe, dans les fablabs ou toutes sortes de manifestations publiques.
   ergo:
     image_alt:
       en: An Ergo Jr on a table
       fr: Un Ergo Jr sur une table
     description:
-      en: With its six motors, Ergo Jr is the most accessible Poppy robot. It is cheap, portable and easily customizable. Perfectly suited to beginners and younger, it is a good introduction to robotics through a series of turnkey activities targeting education.
+      en: With its six motors, Ergo Jr is the most accessible Poppy robot. It is cheap, portable and easily customizable. Perfectly suited for beginners and youngs, it provides a good introduction to robotics through a series of turnkey activities targeting education.
       fr: Du haut de ses 6 moteurs, Ergo Jr est le robot Poppy le plus accessible. Il est peu cher, transportable et facilement customisable. Parfaitement adapté aux débutants et aux plus jeunes, il permet de s'initier à la robotique grâce à une série d'activités clef en main.
 
 archives:
