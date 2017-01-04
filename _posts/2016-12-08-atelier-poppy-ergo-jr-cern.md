@@ -4,7 +4,7 @@ lang: fr
 title: "Atelier Poppy Ergo Jr au CERN"
 description: "Dans le cadre des journées Codez les sciences avec le Pi l'équipe Poppy Education d’Inria était au CERN pour animer un atelier autour du bras robotique Poppy Ergo Jr"
 cover_title: "Atelier Poppy Ergo Jr au CERN"
-cover_image: "/assets/img/covers/rpi3-lego.jpg"
+cover_image: "/assets/img/covers/ergo-orange-ball.jpg"
 cover_gradient: true
 cover_size: small
 published: true

@@ -4,7 +4,7 @@ lang: en
 title: "Poppy Ergo Jr Workshop at CERN"
 description: "Poppy Education team from Inria was at CERN to host a workshop on the construction and programming of the robotic arm Poppy Ergo Jr as part of the Coding Pi Science Event"
 cover_title: "Poppy Ergo Jr Workshop at CERN"
-cover_image: "/assets/img/covers/rpi3-lego.jpg"
+cover_image: "/assets/img/covers/ergo-orange-ball.jpg"
 cover_size: small
 cover_gradient: true
 published: true
