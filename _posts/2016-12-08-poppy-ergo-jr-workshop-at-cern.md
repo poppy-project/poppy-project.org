@@ -94,10 +94,6 @@ To reproduce this workshop in class or at home, you can use the resources below:
 
 Many thanks to Brice Copy (the main organizer) and all the volunteers of the event!
 
-<hr>
-
-*Photo credit: [desmodex](https://www.flickr.com/photos/desmodex/26347969306)*
-
 
 [1]: https://twitter.com/show0k_
 [2]: https://twitter.com/Sblackpowder

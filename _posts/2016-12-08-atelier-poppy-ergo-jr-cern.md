@@ -95,10 +95,6 @@ Si vous aussi vous voulez réaliser cet atelier en classe ou chez vous, n’hés
 
 Un grand merci à Brice Copy ainsi qu’à tous les volontaires !
 
-<hr>
-
-*Crédit photo : [desmodex](https://www.flickr.com/photos/desmodex/26347969306)*
-
 
 [1]: https://twitter.com/show0k_
 [2]: https://twitter.com/Sblackpowder
