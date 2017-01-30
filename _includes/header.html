@@ -6,26 +6,6 @@
     </a>
   </div>
 
-  <div id="responsive-menu">
-    <div class="top-bar-right">
-      <ul class="menu vertical medium-horizontal">
-        <!-- <li><a href="{{ site.data.links.forum[page.lang].url }}">{{ site.data.links.forum[page.lang].title }}</a></li>
-
-        <li><a href="{{ site.data.links.documentation[page.lang].url }}">{{ site.data.links.documentation[page.lang].title }}</a></li> -->
-
-        {% for site_page in site.pages %}
-          {% if site_page.lang == page.lang and site_page.in_nav %}
-        <li><a href="{{ site_page.url | prepend: site.baseurl }}"{% if site_page.date.nil? and page.role == site_page.role %} class="active"{% endif %}>{{ site_page.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-
-        <li>
-          {% include language-switch.html %}
-        </li>
-      </ul>
-    </div>
-  </div>
-
   <div class="top-bar-right">
     <a target="_blank" href="https://github.com/pollen">
       <img src="{{ site.baseurl }}/assets/img/social/github.png" width="30" height="30" alt="github">
@@ -45,6 +25,26 @@
     <a target="_blank" href="https://www.facebook.com/pollenrobotics/">
       <img src="{{ site.baseurl }}/assets/img/social/facebook.png" width="30" height="30" alt="facebook">
     </a>
+  </div>
+
+  <div id="responsive-menu">
+    <div class="top-bar-right">
+      <ul class="menu vertical medium-horizontal">
+        <!-- <li><a href="{{ site.data.links.forum[page.lang].url }}">{{ site.data.links.forum[page.lang].title }}</a></li>
+
+        <li><a href="{{ site.data.links.documentation[page.lang].url }}">{{ site.data.links.documentation[page.lang].title }}</a></li> -->
+
+        {% for site_page in site.pages %}
+          {% if site_page.lang == page.lang and site_page.in_nav %}
+        <li><a href="{{ site_page.url | prepend: site.baseurl }}"{% if site_page.date.nil? and page.role == site_page.role %} class="active"{% endif %}>{{ site_page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+
+        <li>
+          {% include language-switch.html %}
+        </li>
+      </ul>
+    </div>
   </div>
 
 </div>
