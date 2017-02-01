@@ -12,6 +12,13 @@ latest_posts:
   fr: Derniers posts
 
 index:
+  products:
+      title:
+          en: Our products and service offers
+          fr: Nos produits et offres de service
+      content:
+          en: TODO
+          fr: Vous avez un projet de robot ? Vous avez besoin d'aide pour passer <strong>de l'idée à la réalisation</strong> ? <br /> Nos <strong>offres de service</strong> sont là pour répondre à vos besoins.
   creatures:
     title:
       en: We are the guys behind <a href="http://www.poppy-project.org">Poppy</a>
@@ -117,8 +124,8 @@ robots:
       en: A standing Poppy Humanoid robot
       fr: Un Poppy Humanoid debout
     description:
-      en: Poppy Humanoid is our flagship creature. It is aesthetic, modular, and parametric. From a single arm to the complete humanoid, this platform is actively used in labs, engineering schools, FabLabs, and artistic projects.
-      fr: Poppy Humanoid est le robot phare du projet, esthétique et modulaire. Ses 25 moteurs lui offrent une capacité de mouvement unique, en faisant une plate-forme de choix dans les laboratoires, les écoles d'ingénieurs, les FabLabs et pour les projets artistiques.
+      en: Poppy Humanoid is an aesthetic, modular, and parametric robot. From a single arm to the complete humanoid, this platform is actively used in labs, engineering schools, FabLabs, and artistic projects.
+      fr: Poppy Humanoid est un robot esthétique et modulaire. Ses 25 moteurs lui offrent une capacité de mouvement unique, en faisant une plate-forme de choix dans les laboratoires, les écoles d'ingénieurs, les FabLabs et pour les projets artistiques.
   torso:
     image_alt:
       en: A facing Poppy Torso

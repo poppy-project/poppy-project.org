@@ -1,0 +1,32 @@
+<div class="row large-9 columns small-centered tc" style="padding-bottom: 0px;">
+
+  <h2 class="small-centered clish"> {{ site.data.i18n.index.products.title[page.lang] }}</h2>
+
+  <p class="lead">
+   {{ site.data.i18n.index.products.content[page.lang] }}
+  </p>
+</div>
+
+  <div class="row large-8 columns small-centered tc" style="padding-top: 0px;" data-equalizer data-equalize-on="large">
+
+    <div class="large-5 columns ">
+      <div data-equalizer-watch>
+        {% include robots/humanoid.html %}
+        <a href="{{ site.baseurl }}/{{ page.lang }}/products/poppy-humanoid">{{ site.data.i18n.index.creatures.humanoid_cta[page.lang] }}</a>
+      </div>
+    </div>
+
+    <div class="large-5 columns ">
+      <div data-equalizer-watch>
+        {% include robots/ergo.html %}
+
+        <a href="{{ site.baseurl }}/{{ page.lang }}/products/ergojr">{{ site.data.i18n.index.creatures.ergo_cta[page.lang] }}</a>
+      </div>
+    </div>
+
+  </div>
+
+  <br />
+  <div class="row tc large-12">
+      <a class="button" href=" {{ site.baseurl }}/{{ page.lang }}/services" target="_blank"> <strong> >> En savoir plus sur nos offres de service << </strong> </a>
+  </div>
