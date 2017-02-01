@@ -35,6 +35,9 @@ index:
     ergo_cta:
       en: Learn more about Ergo Jr
       fr: Découvrez Ergo Jr
+    doggy_cta:
+        en: Lear more about Doggy
+        fr: Découvrez Doggy
   team:
     title:
       en: Who we are
@@ -140,6 +143,13 @@ robots:
     description:
       en: With its six motors, Ergo Jr is the most accessible Poppy robot. It is cheap, portable and easily customizable. Perfectly suited for beginners and youngs, it provides a good introduction to robotics through a series of turnkey activities targeting education.
       fr: Du haut de ses 6 moteurs, Ergo Jr est le robot Poppy le plus accessible. Il est peu cher, transportable et facilement customisable. Parfaitement adapté aux débutants et aux plus jeunes, il permet de s'initier à la robotique grâce à une série d'activités clef en main.
+  doggy:
+      image_alt:
+          en: A Doggy on a table
+          fr: Un Doggy sur une table
+      description:
+          en: salut
+          fr: Doggy est un robot quadripède très dynamique. Conçu comme un kit de développement et facilement connectable, il peut être utilisé pour concevoir et programmer ses propres applications robotiques ludiques et sociales.
 
 archives:
   title:
