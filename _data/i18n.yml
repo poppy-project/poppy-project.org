@@ -19,6 +19,9 @@ index:
       content:
           en: TODO
           fr: Vous avez un projet de robot ? Vous avez besoin d'aide pour passer <strong>de l'idée à la réalisation</strong> ? <br /> Nos <strong>offres de service</strong> sont là pour répondre à vos besoins.
+      more:
+          en: Find out more about our service offers
+          fr: En savoir plus sur nos offres de service
   creatures:
     title:
       en: We are the guys behind <a href="http://www.poppy-project.org">Poppy</a>
@@ -36,7 +39,7 @@ index:
       en: Learn more about Ergo Jr
       fr: Découvrez Ergo Jr
     doggy_cta:
-        en: Lear more about Doggy
+        en: Learn more about Doggy
         fr: Découvrez Doggy
   team:
     title:
@@ -53,8 +56,8 @@ index:
 people:
   jgrizou:
     role:
-      en: Co-Founder & <br>Chief Science Officer
-      fr: Co-Fondateur & <br>Chief Science Officer
+      en: Co-Founder &amp; <br>Chief Science Officer
+      fr: Co-Fondateur &amp; <br>Chief Science Officer
     image_alt:
       en: Jonathan smiling
       fr: Jonathan souriant
@@ -63,8 +66,8 @@ people:
       fr: Jonathan mèle compétences techniques et expérience scientifique afin de developper les technologies du futur.
   nrabault:
     role:
-      en: Co-Founder & <br>CTO
-      fr: co-fondateur & <br>CTO
+      en: Co-Founder &amp; <br>CTO
+      fr: co-fondateur &amp; <br>CTO
     image_alt:
       en: Nicolas smiling
       fr: Nicolas souriant
@@ -73,8 +76,8 @@ people:
       fr: Depuis des années Nicolas développe des technologies visant à standardiser la création robotique.
   prouanet:
     role:
-      en: Co-Founder & <br> Head of Application
-      fr: Co-Fondateur & <br> Responsable Usages
+      en: Co-Founder &amp; <br> Head of Application
+      fr: Co-Fondateur &amp; <br> Responsable Usages
     image_alt:
       en: Pierre smiling
       fr: Pierre souriant
@@ -83,8 +86,8 @@ people:
       fr: Pierre sait créer l'interface homme-robot qui favorisera les interactions et le ressenti des utilisateurs.
   mlapeyre:
     role:
-      en: Co-Founder & <br>CEO
-      fr: Co-Fondateur & <br>CEO
+      en: Co-Founder &amp; <br>CEO
+      fr: Co-Fondateur &amp; <br>CEO
     image_alt:
       en: Matthieu Lapeyre with Poppy
       fr: Matthieu Lapeyre avec Poppy
