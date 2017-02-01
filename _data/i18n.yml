@@ -17,7 +17,7 @@ index:
           en: Our products and service offers
           fr: Nos produits et offres de service
       content:
-          en: TODO
+          en: You have an idea bout a robotic project? You need help to move from <strong>the idea to the realisation</strong>? <br /> Our <strong>service offers</strong> are there to guide you.
           fr: Vous avez un projet de robot ? Vous avez besoin d'aide pour passer <strong>de l'idée à la réalisation</strong> ? <br /> Nos <strong>offres de service</strong> sont là pour répondre à vos besoins.
       more:
           en: Find out more about our service offers
@@ -151,7 +151,7 @@ robots:
           en: A Doggy on a table
           fr: Un Doggy sur une table
       description:
-          en: salut
+          en: Doggy is a very dynamic quadriped robot. Designed as a robotic development kit, it can be easily connected. It can be used to design and program your own social and entertainment applications.
           fr: Doggy est un robot quadripède très dynamique. Conçu comme un kit de développement et facilement connectable, il peut être utilisé pour concevoir et programmer ses propres applications robotiques ludiques et sociales.
 
 archives:

@@ -1,0 +1,157 @@
+---
+layout: 9-columns-cover
+lang: en
+title: "Pollen Services"
+description: "The service offers from Pollen Robotics"
+permalink: /en/services/
+role: services
+in_nav: true
+cover_title: "Pollen Services"
+cover_image: "/assets/img/covers/parts.jpg"
+cover_gradient: true
+cover_size: small
+published: true
+order: 1
+---
+
+<div >
+  <div class="row">
+    <header class="main-header tc small-centered medium-12 columns">
+      <h2 class="poppy">
+          A robotic dream?
+      </h2>
+      <h2 class="poppy">
+          <strong>Goes from the idea to the robot!</strong>
+      </h2>
+      <br />
+
+      <img src="{{ site.baseurl }}/assets/img/covers/services-workflow.png" alt="Pollen services workflow">
+
+      <p class="lead poppy">
+          Pollen Robotics helps you quickly and efficiently go from the robotic project to its realisation by advising you and getting involved in each of the key steps of the development.
+      </p>
+    </header>
+  </div>
+</div>
+
+{% include separator.html %}
+
+
+<div class="row">
+    <div class="columns large-6 clish">
+        <h3>Your needs</h3>
+        <br />
+        <ul>
+            <li>Quickly go from the idea to the realisation?</li>
+            <li>Build a robot that really suits your needs?</li>
+            <li>Design original artistic installations?</li>
+            <li>Connect and robotize your everydays objects?</li>
+        </ul>
+    </div>
+    <div class="columns large-6 poppy">
+        <h3>Our solutions</h3>
+        <br />
+        <ul>
+            <li><strong>Technology excellency and multi-disciplinairity</strong></li>
+            <li><strong>Fast and iterative prototyping</strong></li>
+            <li><strong>Design and realisation of aesthetic, lifelike and intelligent robotic installations</strong></li>
+            <li><strong>Bring life and interactivity to your surroundings objects</strong></li>
+        </ul>
+    </div>
+</div>
+
+<div class="row">
+    <div class="columns large-6 tc">
+        <p class="lead">Arm prothesthesis</p>
+        <a href="http://forum.pollen-robotics.com"><img src="{{ site.baseurl }}/assets/img/arm-protestesis.jpg" alt="Robot arm protestesis" height="553" width="415"></a>
+        <p class="clish">INCIA Laboratory, CNRS</p>
+    </div>
+
+    <div class="columns large-6 tc">
+        <p class="lead">The Ergo Robot experiment</p>
+        <a href="https://flowers.inria.fr/robots/ergo-robots/"><img src="{{ site.baseurl }}/assets/img/expo-ergo-robot-fc.png" alt="Ergo Robot Experiment" height="553" width="415"></a>
+        <p class="clish">Fondation Cartier pour l'Art Contemporain</p>
+    </div>
+</div>
+
+{% include separator.html %}
+
+<div class="row large-12 columns small-centered tc">
+    <h2 class="poppy">
+        A team of experts
+    </h2>
+
+    <h5 class="poppy">
+        Pollen Robotics specialized in the design and fast development of custom-made robotic solutions. Our approach focuses on the user to guarantee that it will really suits your needs.
+    </h5>
+
+    <div class="row">
+        <div class="columns large-9 small-centered">
+            <img src="{{ site.baseurl }}/assets/img/team-venn.png" alt="Venn diagram of the team">
+        </div>
+    </div>
+
+    <p class="clish">
+        Our team rely on multi-disciplinary experts. It gathers <strong>specialists in mechanical design, electronics, computer sciences, product design, interaction and machine learning</strong> working together for many years.
+    </p>
+    <br />
+
+    <p class="clish">
+        The team developed an entire workflow allowing them to quickly answer specific needs relying on tested technologies.
+    </p>
+
+    <div class="large-4 columns">
+        <h4 class="poppy">Mechanical design</h4>
+        <br />
+        <ul>
+            <li>3D design and modelisation</li>
+            <li>3D printing expertise</li>
+        </ul>
+    </div>
+
+    <div class="large-4 columns">
+        <h4 class="poppy">Electronics</h4>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+    <div class="large-4 columns">
+        <h4 class="poppy">Software</h4>
+        <ul>
+            <li>Human-robot interface design</li>
+            <li>Robotic control framework (<a href="https://github.com/poppy-project/pypot">pypot</a>)</li>
+            <li>Scratch expertise: trainings, integration, IoT connection</li>
+        </ul>
+    </div>
+</div>
+
+{% include separator.html %}
+
+<div class="row">
+  <div class="large-9 columns large-centered">
+    <h2 class="tc">Contact</h2>
+    <h5>For any information or appointment request:</h5>
+    <form action="https://formspree.io/{{ site.data.social.email }}" method="post" class="columns">
+      <input type="text" name="_gotcha" class="nodisp">
+      <input type="text" name="_format" value="plain" class="nodisp">
+
+      <input type="hidden" name="_subject" value="New message from Poppy contact form">
+      <input type="hidden" name="_next" value="{{ site.baseurl }}/{{ page.lang }}/services/thank-you">
+
+      <label>
+        Name
+        <input type="text" name="name">
+      </label>
+      <label>
+        Email
+        <input type="email" name="email">
+      </label>
+      <label>
+        Your message
+        <textarea name="message" rows="5"></textarea>
+      </label>
+
+      <button type="submit" class="button">Send</button>
+    </form>
+  </div>
+</div>
