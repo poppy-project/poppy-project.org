@@ -8,6 +8,7 @@
     <p class="lead">
       {{ site.data.i18n.index.team.intro[page.lang] }}
     </p>
+
     <div class="row" data-equalizer data-equalize-on="large">
 
       <div class="large-4 columns">
@@ -32,18 +33,24 @@
 
   </div>
 
-  <div class="row large-7 columns small-centered tc" style="padding-top: 0px;">
+  <div class="row large-9 columns small-centered tc"  data-equalizer data-equalize-on="large" style="padding-top: 0px;">
 
-  <div class="large-5 columns">
-    <div data-equalizer-watch>
-      {% include team/jgrizou.html %}
+    <div class="large-2 columns">
     </div>
-  </div>
 
-    <div class="large-5 columns">
+    <div class="large-4 columns">
+      <div data-equalizer-watch>
+        {% include team/jgrizou.html %}
+      </div>
+    </div>
+
+    <div class="large-4 columns">
       <div data-equalizer-watch>
         {% include team/jgaiotto.html %}
       </div>
+    </div>
+
+    <div class="large-2 columns">
     </div>
 
   </div>

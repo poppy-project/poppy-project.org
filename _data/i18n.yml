@@ -14,10 +14,10 @@ latest_posts:
 index:
   products:
       title:
-          en: Our products and service offers
+          en: Our products and services
           fr: Nos produits et offres de service
       content:
-          en: You have an idea bout a robotic project? You need help to move from <strong>the idea to the realisation</strong>? <br /> Our <strong>service offers</strong> are there to guide you.
+          en: You have a robotic idea? You need help to move from <strong>the idea to the realisation</strong>? <br /> Our <strong>service offers</strong> are there to guide you.
           fr: Vous avez un projet de robot ? Vous avez besoin d'aide pour passer <strong>de l'idée à la réalisation</strong> ? <br /> Nos <strong>offres de service</strong> sont là pour répondre à vos besoins.
       more:
           en: Find out more about our service offers
@@ -43,7 +43,7 @@ index:
         fr: Découvrez Doggy
   team:
     title:
-      en: Who we are
+      en: Our team
       fr: Qui nous sommes
     intro:
       en: We are an experimented and multi-disciplinary team with a strong foothold in robotics research. <br> We master all the keys aspects for the creation of robotics ecosystems.
@@ -56,18 +56,18 @@ index:
 people:
   jgrizou:
     role:
-      en: Co-Founder &amp; <br>Chief Science Officer
-      fr: Co-Fondateur &amp; <br>Chief Science Officer
+      en: Co-Founder &amp; <br>COO
+      fr: Co-Fondateur &amp; <br>COO
     image_alt:
       en: Jonathan smiling
       fr: Jonathan souriant
     description:
-      en: Jonathan mixes engineering skills and scientific insight to develop key technologies of the futur.
+      en: Jonathan mixes engineering skills and scientific insight to develop key technologies of the future.
       fr: Jonathan mèle compétences techniques et expérience scientifique afin de developper les technologies du futur.
   nrabault:
     role:
       en: Co-Founder &amp; <br>CTO
-      fr: co-fondateur &amp; <br>CTO
+      fr: Co-fondateur &amp; <br>CTO
     image_alt:
       en: Nicolas smiling
       fr: Nicolas souriant
