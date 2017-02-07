@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.2.4
+
+sudo: false
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+script:
+    - bundle exec jekyll build
+    - bundle exec rake test
