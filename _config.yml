@@ -60,8 +60,22 @@ prose:
     - _config.yml
     - /_layouts
     - /_includes
-    - /_scripts
+    - /_script
     - /_sass
+    - .gitignore
+    - .scss-lint.yml
+    - .travis.yml
+    - CONTRIBUTING.yml
+    - 404.md
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE.md
+    - README.md
+    - Rakefile
+    - feed.en.xml
+    - feed.fr.xml
+    - robots.txt
+    - index.html
   metadata:
     _posts:
       - name: layout
