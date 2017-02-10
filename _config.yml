@@ -49,3 +49,78 @@ github:
 compress_html:
   endings: []
   startings: []
+
+# prose.io
+prose:
+  rooturl: _posts
+  siteurl: https://www.poppy-project.org/
+  relativeLinks: http://prose.github.io/starter/links.jsonp
+  media: assets
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /_scripts
+    - /_sass
+  metadata:
+    _posts:
+      - name: layout
+        field:
+          element: hidden
+          value: single-column-cover
+      - name: lang
+        field:
+          element: select
+          label: Post Language
+          options:
+            - name: Français
+              value: fr
+            - name: English
+              value: en
+      - name: title
+        field:
+          element: text
+          label: Set post title
+          help: A post title that should not exceed 60 characters
+      - name: description
+        field:
+          element: text
+          label: Set Post description
+          help: A post description should be a good summary of the content. Its length should be around 155 characters to be displayed properly in SERP.
+      - name: cover_title
+        field:
+          element: text
+          label: Set Cover Title
+          help: This text is the main title of the post and is displayed over the cover image
+      - name: cover_image
+        field:
+          element: text
+          label: Set Cover Image path
+          placeholder: /assets/img/covers/rpi3-lego.jpg
+      - name: cover_gradient
+        field:
+          element: checkbox
+          label: Add cover gradient
+          help: Adds a dark background to improve cover title readability
+          value: false
+      - name: cover_size
+        field:
+          element: select
+          label: Cover size
+          options:
+            - name: Normal
+              value: normal
+            - name: Small
+              value: small
+
+    _pages:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
