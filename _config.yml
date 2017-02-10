@@ -55,29 +55,6 @@ prose:
   siteurl: https://www.poppy-project.org/
   relativeLinks: http://prose.github.io/starter/links.jsonp
   media: assets
-  ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /_script
-    - /_sass
-    - /css
-    - /_posts/.gitkeep
-    - .gitignore
-    - .scss-lint.yml
-    - .travis.yml
-    - CONTRIBUTING.yml
-    - 404.md
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE.md
-    - README.md
-    - Rakefile
-    - feed.en.xml
-    - feed.fr.xml
-    - robots.txt
-    - index.html
   metadata:
     _posts:
       - name: layout
