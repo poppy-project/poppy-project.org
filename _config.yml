@@ -62,6 +62,8 @@ prose:
     - /_includes
     - /_script
     - /_sass
+    - /css
+    - /_posts/.gitkeep
     - .gitignore
     - .scss-lint.yml
     - .travis.yml
