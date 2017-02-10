@@ -52,7 +52,6 @@ compress_html:
 
 # prose.io
 prose:
-  rooturl: _posts
   siteurl: https://www.poppy-project.org/
   relativeLinks: http://prose.github.io/starter/links.jsonp
   media: assets
