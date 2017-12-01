@@ -20,7 +20,7 @@ This educational event was organized by the CERN Micro Club, and CERN IdeaSquare
 
 In addition to the [Poppy Ergo Jr][7] robotic arm, participants could also discover 2 other scientific kits:
 
-* The [Muon Hunter Cosmic Ray Detector kit][8], designed as a partnership between Mr Mihaly Vadai and members of the CERN Micro Club (to know more: [a blog article “Muon Hunter preparation meeting”][9])
+* The [Muon Hunter Cosmic Ray Detector kit][8], designed as a partnership between Mr Mihaly Vadai and members of the CERN Micro Club.
 
 * The Programmable Wifi car [GianoP][10], invented in partnership with the campus La Chataîgneraie, for the International School of Geneva.
 
@@ -95,15 +95,14 @@ To reproduce this workshop in class or at home, you can use the resources below:
 Many thanks to Brice Copy (the main organizer) and all the volunteers of the event!
 
 
-[1]: https://twitter.com/show0k_
+[1]: https://twitter.com/theosegonds
 [2]: https://twitter.com/Sblackpowder
 [3]: https://flowers.inria.fr/
-[4]: http://home.cern/fr/about
-[5]: http://coding-pi-science-day.web.cern.ch/coding-pi-science-day/
+[4]: https://home.cern/fr/about
+[5]: https://codezlascience.web.cern.ch/csd/
 [6]: https://www.raspberrypi.org/
 [7]: https://www.poppy-project.org/en/robots/poppy-ergo-jr
 [8]: http://www.muonhunter.com/
-[9]: https://coding-pi-science-day.web.cern.ch/coding-pi-science-day/blog/posts/muon-hunter-preparation-meeting/
 [10]: https://github.com/cmcrobotics/drivar
 [11]: https://twitter.com/WilliamHBell
 [12]: https://www.raspberrypi.org/blog/cern-coding-pi-science-event/
