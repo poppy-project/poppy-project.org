@@ -1,7 +1,7 @@
 ---
 layout: 9-columns-cover
 lang: en
-permalink: /en/projects/marionnettes-electriques
+permalink: /en/projects/marionnettes-electriques/
 role: marionnettes-electriques-project
 title: "Marionnettes électriques project, made with Poppy"
 description: "The Marionnettes électriques project is a Toulous'up labeled creation of Thomas Peyruse"

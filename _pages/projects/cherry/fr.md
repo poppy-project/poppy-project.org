@@ -1,7 +1,7 @@
 ---
 layout: 9-columns-cover
 lang: fr
-permalink: /fr/projects/cherry
+permalink: /fr/projects/cherry/
 role: cherry-project
 title: "Projet Cherry avec Poppy Torso"
 description: "Le projet Cherry est un projet communautaire visant à développer les usages en milieu hospitalier permettant de rompre l'isolement des enfants"
