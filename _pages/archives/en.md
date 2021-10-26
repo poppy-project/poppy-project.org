@@ -5,12 +5,12 @@ title: "Blog"
 description: "Poppy project blog posts"
 permalink: /en/archives/
 role: archives
-in_nav: true
+in_nav: false
 cover_title: "Blog archives"
 cover_image: "/assets/img/covers/library.jpg"
 cover_gradient: true
 cover_size: small
-published: true
+published: false
 ---
 
 {% include posts-list.html %}

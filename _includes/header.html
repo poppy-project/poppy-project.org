@@ -18,8 +18,12 @@
 
         <li><a href="{{ site.data.links.documentation[page.lang].url }}">{{ site.data.links.documentation[page.lang].title }}</a></li>
 
-        <li><a href="/{{ page.lang }}/about">{{ site.pages.about.title }}</a></li>
-        
+        {% for site_page in site.pages %}
+          {% if site_page.lang == page.lang and site_page.in_nav %}
+        <li><a href="{{ site_page.url | prepend: site.baseurl }}"{% if site_page.date.nil? and page.role == site_page.role %} class="active"{% endif %}>{{ site_page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+
         <li>
           {% include language-switch.html %}
         </li>
