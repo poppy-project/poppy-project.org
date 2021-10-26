@@ -27,7 +27,11 @@ Il agit également sur un plan pédagogique, afin d’inciter l'enfant à intera
 Un dernier axe exploité consiste à assister le personnel hospitalier dans l’éducation thérapeutique. En effet, un message est parfois mieux accepté par l'enfant s’il est délivré par le robot plutôt que par un adulte en blouse blanche.
 
 <div class="flex-video ratio-16-9">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/URB1kDDScfM?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/hzl1Cw724hw?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+</div>
+
+<div class="flex-video ratio-16-9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/3gDn_v3_neg?rel=0&amp;showinfo=0" allowfullscreen></iframe>
 </div>
 
 {% include separator.html %}
