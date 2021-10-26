@@ -10,14 +10,14 @@ cover_title: "Robot d'assistance pour les enfants hospitalisés"
 published: true
 ---
 
-<p class="tc"><img src="https://forum.poppy-project.org/uploads/default/original/2X/3/33984972217cd45f473246b130f0001df33ffcfc.png" alt="Projet Cherry" width="400"></p>
+<p class="tc"><img src="/assets/img/projects/poppy-cherry.png" alt="Cherry Project" width="400"></p>
 
 {% include separator.html %}
 
 ## Le projet
 
 <p class="lead tc">
-  Le projet Cherry est un projet communautaire visant à développer les usages en milieu hospitalier permettant de rompre l'isolement des enfants.
+  Le projet Cherry est un projet communautaire démarré par des étudiants <a href="https://www.bordeaux-inp.fr/fr" >Bordeaux INP</a> visant à développer les usages de Poppy en milieu hospitalier pour rompre l'isolement des enfants.
 </p>
 
 Cherry utilise le robot Poppy Torso comme compagnon pour les enfants de maternelle/primaire hospitalisés. Il est là pour compenser une rupture sociale lors de l’hospitalisation. Il sert aussi d'intermédiaire entre l'enfant, ses amis, sa famille et son enseignant et peut ainsi discuter avec lui ou encore lui proposer des jeux.
@@ -44,10 +44,6 @@ Un dernier axe exploité consiste à assister le personnel hospitalier dans l’
 - [github @Cherry-project](https://github.com/Cherry-project) ([wiki](https://github.com/Cherry-project/cherry-software/wiki) du fonctionnement)
 
 {% include separator.html %}
-
-## Partenaires
-
-<p class="tc"><img src="https://forum.poppy-project.org/uploads/default/original/2X/8/823785d5178763ddffb46d078c32b8d05d902be8.png" alt="Logos des partenaires du projet Cherry" width="600"></p>
 
 <div class="follow-incentive cta">
   <a href="https://forum.poppy-project.org/t/cherry-presentation/1866" class="button large">En savoir plus à propos du <em>projet Cherry</em></a>

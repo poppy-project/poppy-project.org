@@ -10,14 +10,14 @@ cover_title: "Assistive robotic companion for hospitalized children"
 published: true
 ---
 
-<p class="tc"><img src="https://forum.poppy-project.org/uploads/default/original/2X/3/33984972217cd45f473246b130f0001df33ffcfc.png" alt="Project Cherry" width="400"></p>
+<p class="tc"><img src="/assets/img/projects/poppy-cherry.png" alt="Cherry Project" width="400"></p>
 
 {% include separator.html %}
 
 ## Project
 
 <p class="lead tc">
-  The Cherry project is a community project to develop scenarios regarding breaking isolation of children at the hospital.
+  The Cherry project is a community project started by students from <a href="https://www.bordeaux-inp.fr/en" >Bordeaux INP</a> aiming at developping scenarios breaking isolation of children at the hospital.
 </p>
 
 Cherry uses Poppy Torso robot as a companion for hospitalized children in primary school. Cherry can compensate a social rupture during hospitalization. It mediates between the child, his friends, his family and teachers and can talk to him or play some games.
@@ -43,11 +43,6 @@ One last prospect is to assist the hospital staff in the therapeutic education. 
 - [blog](https://projetcherry.wordpress.com/)
 - [github @Cherry-project](https://github.com/Cherry-project) (and its [wiki](https://github.com/Cherry-project/cherry-software/wiki))
 
-{% include separator.html %}
-
-## Partners
-
-<p class="tc"><img src="https://forum.poppy-project.org/uploads/default/original/2X/8/823785d5178763ddffb46d078c32b8d05d902be8.png" alt="Projet Cherry partners logos" width="600"></p>
 
 <div class="follow-incentive cta">
   <a href="https://forum.poppy-project.org/t/cherry-presentation/1866" class="button large">Learn more about the <em>Cherry project</em></a>
