@@ -4,10 +4,6 @@ forum_artists: https://forum.poppy-project.org/c/art
 activities_booklet: https://drive.google.com/uc?export=download&id=0B2jV8VX-lQHwTUxXZjF3OGxHVGM
 poppy_education: https://www.poppy-education.org/
 
-bom:
-  humanoid: https://github.com/poppy-project/poppy-humanoid/blob/master/hardware/doc/BOM.md
-  torso: https://github.com/poppy-project/poppy-torso/blob/master/hardware/doc/BOM.md
-
 documentation:
   en:
     url: http://docs.poppy-project.org/en/
