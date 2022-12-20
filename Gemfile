@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~>3.9.2'
+gem 'jekyll', '~>4.3.1'
 gem 'rake'
 gem 'scss_lint'
 
